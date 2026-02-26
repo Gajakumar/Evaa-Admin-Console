@@ -34,22 +34,22 @@ TableDataHelper helper = new TableDataHelper()
 // ======================
 // MAXIMEYES LOGIN
 // ======================
-//WebUI.callTestCase(
-//    findTestCase('Test Cases/Common/Maximeyes Login'),
-//    [:],
-//    FailureHandling.STOP_ON_FAILURE
-//)
-
-
-WebUI.navigateToUrl("https://thomasmoorevm.maximeyes.com/")
-
-WebUI.setText(findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/UserName'), "ChelseaN")
-
-WebUI.setText(findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/Password'), "Test@123")
-
-WebUI.click(
-	findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/Login Button')
+WebUI.callTestCase(
+    findTestCase('Test Cases/Common/Maximeyes Login'),
+    [:],
+    FailureHandling.STOP_ON_FAILURE
 )
+
+
+//WebUI.navigateToUrl("https://thomasmoorevm.maximeyes.com/")
+//
+//WebUI.setText(findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/UserName'), "ChelseaN")
+//
+//WebUI.setText(findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/Password'), "Test@123")
+//
+//WebUI.click(
+//	findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/Login Button')
+//)
 
 WebUI.click(findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/Office Admin Button'))
 WebUI.click(findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/a_Business Administration'))
@@ -108,35 +108,35 @@ WebUI.callTestCase(
 WebUI.click(findTestObject('Object Repository/Maximeyes Evaa Login/Page_Unified Admin/button_Login'))
 WebUI.click(findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes Identity/button_MaximEyes'))
 
+WebUI.setText(
+    findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes Identity/input_Sign In With MaximEyes_Username'),
+    'GajakumarA'
+)
+
+WebUI.setEncryptedText(
+    findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes Identity/input_Sign In With MaximEyes_Password'),
+    'cvW8qx4B2o1WegCEDy41Xg=='
+)
+
+WebUI.setText(
+    findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes Identity/input_https_MaximEyeURL'),
+    'qa10evaa'
+)
+
 //WebUI.setText(
-//    findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes Identity/input_Sign In With MaximEyes_Username'),
-//    'GajakumarA'
+//	findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes Identity/input_Sign In With MaximEyes_Username'),
+//	'ChelseaN'
 //)
 //
-//WebUI.setEncryptedText(
-//    findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes Identity/input_Sign In With MaximEyes_Password'),
-//    'cvW8qx4B2o1WegCEDy41Xg=='
+//WebUI.setText(
+//	findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes Identity/input_Sign In With MaximEyes_Password'),
+//	'Test@123'
 //)
 //
 //WebUI.setText(
-//    findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes Identity/input_https_MaximEyeURL'),
-//    'qa10evaa'
+//	findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes Identity/input_https_MaximEyeURL'),
+//	'thomasmoorevm'
 //)
-
-WebUI.setText(
-	findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes Identity/input_Sign In With MaximEyes_Username'),
-	'ChelseaN'
-)
-
-WebUI.setText(
-	findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes Identity/input_Sign In With MaximEyes_Password'),
-	'Test@123'
-)
-
-WebUI.setText(
-	findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes Identity/input_https_MaximEyeURL'),
-	'thomasmoorevm'
-)
 
 WebUI.click(
     findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes Identity/button_Login')

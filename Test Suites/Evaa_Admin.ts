@@ -19,10 +19,10 @@
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>fe96048b-4018-4c9f-89bc-4fbe7d036d9d</guid>
+      <guid>f8169be3-cfb2-40cf-b01b-87359d45d966</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Evaa Admin/Evaa_Admin_Console_SignUp_Revolution</testCaseId>
+      <testCaseId>Test Cases/Evaa Admin/Evaa_Admin_Console_SignUp_for_Maximeyes</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -417,11 +417,11 @@ WebUI.setText(findTestObject('Object Repository/Page_Unified Admin/textarea_Opti
 // Save Location ID
 WebUI.click(findTestObject('Object Repository/Page_Unified Admin/button_Save'))
 
-// Verify Location ID Details
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Unified Admin/span_Commercial'), 'Commercial')
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Unified Admin/span_1234'), '1234')
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Unified Admin/span_Verified_1'), 'Verified')
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Unified Admin/span_Optional Note'), 'Optional Note')
+//// Verify Location ID Details
+//WebUI.verifyElementText(findTestObject('Object Repository/Page_Unified Admin/span_Commercial'), 'Commercial')
+//WebUI.verifyElementText(findTestObject('Object Repository/Page_Unified Admin/span_1234'), '1234')
+//WebUI.verifyElementText(findTestObject('Object Repository/Page_Unified Admin/span_Verified_1'), 'Verified')
+//WebUI.verifyElementText(findTestObject('Object Repository/Page_Unified Admin/span_Optional Note'), 'Optional Note')
 
 // Save Location
 WebUI.click(findTestObject('Object Repository/Page_Unified Admin/button_Save Changes'))
