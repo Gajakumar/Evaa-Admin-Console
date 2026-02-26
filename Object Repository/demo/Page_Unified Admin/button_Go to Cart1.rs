@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Go to Cart1</name>
+   <tag></tag>
+   <elementGuidId>cf441453-a2fc-424c-9c4d-02902d59fd17</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/main/div/div/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.floating-cart-button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Go to Cart&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>78022eed-2c3b-419c-b8af-404657bdce27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>floating-cart-button</value>
+      <webElementGuid>0d903a17-341d-46c0-886b-183b51cd17db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Go to Cart</value>
+      <webElementGuid>a37f2c87-fa3f-46a4-a9d6-bf89cc1d431b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Go to Cart</value>
+      <webElementGuid>83477609-061c-40bf-830f-a3ff160b4181</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Go to Cart1</value>
+      <webElementGuid>6f64e29a-5859-4562-9317-206119abd4af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;route-fade-in&quot;]/div[@class=&quot;layout layout-container&quot;]/main[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;home-page&quot;]/div[@class=&quot;products-grid-component&quot;]/button[@class=&quot;floating-cart-button&quot;]</value>
+      <webElementGuid>a016c968-2635-4e9c-adf8-194ee4d12dc3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/demo/Page_Unified Admin/iframe</value>
+      <webElementGuid>b751ee12-b77b-489d-afc3-b085b0f7d49e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/div/button</value>
+      <webElementGuid>9d7d79ed-33ab-4f67-96ba-a33f219ab1df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add To Cart'])[8]/following::button[1]</value>
+      <webElementGuid>9d8d0a16-2da3-489c-8ec8-b88a4ab58c2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='per provider/month'])[8]/following::button[2]</value>
+      <webElementGuid>3a62f1c3-cb74-41e2-bdf2-a4fbd676f1c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact Support'])[1]/preceding::button[1]</value>
+      <webElementGuid>6b69bbce-2a10-41e2-b09c-71cdd0009e61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/button</value>
+      <webElementGuid>5ad82a64-e0a3-408a-bf76-afe2a5cf8d98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@title = 'Go to Cart' and (text() = 'Go to Cart1' or . = 'Go to Cart1')]</value>
+      <webElementGuid>930b8a20-e0ee-415b-8c44-c754d3f45b9e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

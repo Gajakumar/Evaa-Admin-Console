@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_MaximEyes</name>
+   <tag></tag>
+   <elementGuidId>a70d5cf6-2195-494f-863b-ed6b48d77cb2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@onclick='loginwithmaximeyesClick()']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Maximize Icon MaximEyes&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2e943cfc-720f-467a-9c47-fb6a38a52d11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-outline-secondary</value>
+      <webElementGuid>695966a3-77b0-4081-aca4-cd423289959d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>loginwithmaximeyesClick()</value>
+      <webElementGuid>5af5fe4d-4e97-4772-85ce-d49ffe55155e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  MaximEyes</value>
+      <webElementGuid>0669b6c0-f459-4898-bdbe-b6aafdacd1c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;mainPageLogin&quot;]/div[@class=&quot;container-fluid h-100&quot;]/div[@class=&quot;row h-100&quot;]/div[@class=&quot;right-area col-md-6&quot;]/div[@class=&quot;form-container&quot;]/div[@class=&quot;d-flex justify-content-around  social-btns&quot;]/button[@class=&quot;btn btn-outline-secondary&quot;]</value>
+      <webElementGuid>5589b18d-fec3-4056-9b1d-cc7d9e0c0741</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@onclick='loginwithmaximeyesClick()']</value>
+      <webElementGuid>2ea43e3d-e12d-49d3-965d-7307dc1c4ee3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OR Login With'])[1]/following::button[2]</value>
+      <webElementGuid>9669eba5-8119-435b-a40c-8b9c8157e3bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='MaximEyes']/parent::*</value>
+      <webElementGuid>d9cbcb89-a676-4102-902c-eef8687f891b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>527b903b-9bfe-4581-8b79-815f37127cad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = '  MaximEyes' or . = '  MaximEyes')]</value>
+      <webElementGuid>974d84d5-356c-4fc8-8c6f-7a47af980e31</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

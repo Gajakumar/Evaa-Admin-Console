@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Username-error</name>
+   <tag></tag>
+   <elementGuidId>fec2f5fb-4990-45d5-82ff-4ab2594b91ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'Username-error']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Username-error</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;The Username field is required.&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>87003498-1669-4d92-8fb4-46a97365d94e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Username-error</value>
+      <webElementGuid>77ea1f7e-f6e2-4e80-8360-81c5ace21be1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>The Username field is required.</value>
+      <webElementGuid>e82034de-3c0c-48e1-9ee4-965eccb29d70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-66baf57455291fa34e842c275c6e6263</value>
+      <webElementGuid>6af1dc2f-84a2-49b7-9c5f-e4bf70e392d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'Username-error']</value>
+      <webElementGuid>9e5aa1d7-ad8a-4e84-a10c-e8f57e1861cb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'Username-error']</value>
+      <webElementGuid>45db3753-262c-4c54-80e1-210ac5fe6ab3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'Username-error' and (text() = 'The Username field is required.' or . = 'The Username field is required.')]</value>
+      <webElementGuid>a6baa9bd-99b4-49b8-801c-234bc22d9cb2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

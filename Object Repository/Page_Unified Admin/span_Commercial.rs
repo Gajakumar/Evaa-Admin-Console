@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Commercial</name>
+   <tag></tag>
+   <elementGuidId>ed580d35-6a4e-4d00-b97f-c618e0eb8382</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'Commercial' or . = 'Commercial')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.text-dark.small</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Commercial&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5be37e50-a63a-4f8d-800c-fc907dddf501</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-dark small</value>
+      <webElementGuid>d14dcec3-bd2c-4481-bbf7-39b21a64d662</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Commercial</value>
+      <webElementGuid>88f1fa02-8117-433e-9c70-29dadd2580a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;min-vh-100 d-flex flex-column&quot;]/div[@class=&quot;d-flex flex-grow-1&quot;]/main[@class=&quot;flex-grow-1 p-4 overflow-auto&quot;]/div[@class=&quot;container-fluid p-0&quot;]/div[@class=&quot;modal show d-block&quot;]/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;mb-4&quot;]/div[@class=&quot;p-4 border rounded&quot;]/div[@class=&quot;table-responsive border rounded&quot;]/table[@class=&quot;table mb-0 align-middle&quot;]/tbody[1]/tr[1]/td[@class=&quot;ps-3 py-3&quot;]/span[@class=&quot;text-dark small&quot;]</value>
+      <webElementGuid>4462668f-1d59-421f-9ccc-49579cee1aad</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Actions'])[2]/following::span[1]</value>
+      <webElementGuid>46de62d5-a47c-411e-8e58-cd3d73577a13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notes'])[1]/following::span[1]</value>
+      <webElementGuid>d1867fc0-37c6-4448-a09a-33169e3a3688</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Verified'])[1]/preceding::span[2]</value>
+      <webElementGuid>807da1f0-a704-4cc5-9732-be9a0981ccbb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Optional Note'])[1]/preceding::span[3]</value>
+      <webElementGuid>fddfe2b4-8686-41e8-a603-70c675809920</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Commercial']/parent::*</value>
+      <webElementGuid>2cb77b50-ee66-41f5-879d-d05bb6bd3b86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/span</value>
+      <webElementGuid>ce76e32e-d3b1-4e28-a808-28ca156445cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Commercial' or . = 'Commercial')]</value>
+      <webElementGuid>1b528011-4829-4f64-af41-d4532e7a5f0d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

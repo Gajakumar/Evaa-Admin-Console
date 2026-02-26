@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Enhance Your Practice with Premium Modules Text</name>
+   <tag></tag>
+   <elementGuidId>25479d1f-e333-4669-8bcd-f9a9c601fdb3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1.hero-title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/main/div/div/section/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Enhance Your Practice with Premium Modules&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>d0076508-0dd1-4158-a84b-3a5a709c67e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hero-title</value>
+      <webElementGuid>4fdb72ec-0013-4758-91e5-5ca08d20b77d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Enhance Your Practice with Premium Modules</value>
+      <webElementGuid>615bc0c3-4d3f-43d1-8769-6c320d68137c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;route-fade-in&quot;]/div[@class=&quot;layout layout-container&quot;]/main[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;home-page&quot;]/section[@class=&quot;hero-section&quot;]/div[@class=&quot;hero-text&quot;]/h1[@class=&quot;hero-title&quot;]</value>
+      <webElementGuid>d86ed217-94ca-4b65-9d75-5d75c555d0ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Browse Product Page/iframe</value>
+      <webElementGuid>64a2e540-a46a-48b1-94d7-e945363935dc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/section/div/h1</value>
+      <webElementGuid>a95c4319-e253-4b28-98b5-12af5da5d0af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go to Cart'])[1]/following::h1[1]</value>
+      <webElementGuid>66d3fbda-4118-4667-afec-cc6959b0b29d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EVAA Intelliscan'])[1]/preceding::h1[1]</value>
+      <webElementGuid>9d3585c5-3233-433e-8303-44af5908620e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Enhance Your Practice with']/parent::*</value>
+      <webElementGuid>895024d3-e5ab-452e-aec7-8d390efe1655</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>a69d1d14-b7d8-41bc-aa35-527589c1efbb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Enhance Your Practice with Premium Modules' or . = 'Enhance Your Practice with Premium Modules')]</value>
+      <webElementGuid>b351ab90-2424-4c1f-a03e-2e8ed21cef09</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

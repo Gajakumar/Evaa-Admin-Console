@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Users</name>
+   <tag></tag>
+   <elementGuidId>9defa8ce-0fcc-4f97-8136-f36d9765cdfb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/aside/nav/button[8]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Users Users&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5fd5cd3a-dbb3-42ae-afd6-7ca1fb12ff08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-link d-flex align-items-center gap-2 rounded-0 position-relative mb-2 text-muted</value>
+      <webElementGuid>3aaf779c-f69d-43f3-8c11-beb170cfb2fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Users</value>
+      <webElementGuid>bf92fd2f-7ea9-410b-bf63-e1da439267c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;min-vh-100 d-flex flex-column&quot;]/div[@class=&quot;d-flex flex-grow-1&quot;]/aside[1]/nav[@class=&quot;nav nav-pills flex-column p-2&quot;]/button[@class=&quot;nav-link d-flex align-items-center gap-2 rounded-0 position-relative mb-2 text-muted&quot;]</value>
+      <webElementGuid>cc3ce82c-4f55-46de-9227-2cb6476747d5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/aside/nav/button[8]</value>
+      <webElementGuid>e617109a-5f9a-4f58-9347-cbc330dbe967</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Insurances'])[2]/following::button[1]</value>
+      <webElementGuid>22da47c5-0e4e-46a2-9007-2e55dc006079</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Providers'])[2]/following::button[2]</value>
+      <webElementGuid>6ca5a9ba-7209-4929-acf7-9fe76eebb655</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Licenses &amp; Billing'])[1]/preceding::button[1]</value>
+      <webElementGuid>3f7538ef-c58a-4068-a2c6-dbab9c857a4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[8]</value>
+      <webElementGuid>fbf74118-4419-4f13-8342-ec3b4a637fd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Users' or . = 'Users')]</value>
+      <webElementGuid>193ff97f-5bbd-400c-9689-1c81774b57fc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

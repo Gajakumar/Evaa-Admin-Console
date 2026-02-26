@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Sp Type Ophthalmology</name>
+   <tag></tag>
+   <elementGuidId>2ca5c84e-7335-4a3f-a1f4-b013f3ada55b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Cardiology'])[2]/following::span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>span >> internal:has-text=&quot;Ophthalmology&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a0e1fcef-4135-458d-95d1-25e2e4f35dd3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>custom-option</value>
+      <webElementGuid>63dbee23-00ba-41aa-bfba-e684a79e627b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-value</name>
+      <type>Main</type>
+      <value>Ophthalmology</value>
+      <webElementGuid>a32d4f86-5b8d-4e35-b371-1b0386b4fdd0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ophthalmology</value>
+      <webElementGuid>592b09eb-b36d-4eef-9101-16916d21aba4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;business-info-page&quot;]/main[@class=&quot;ui-wrap&quot;]/section[@class=&quot;card&quot;]/form[1]/div[@class=&quot;grid&quot;]/div[@class=&quot;full&quot;]/div[@class=&quot;custom-select-wrapper open&quot;]/div[@class=&quot;custom-options&quot;]/span[@class=&quot;custom-option&quot;]</value>
+      <webElementGuid>388ff0c2-0659-43cd-9666-5e4a6b1ad3d6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cardiology'])[2]/following::span[1]</value>
+      <webElementGuid>538c1e03-ff83-42ad-8500-ee35ed6174e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Primary Care'])[2]/following::span[2]</value>
+      <webElementGuid>43603a53-436c-4bad-940b-df0bd3c808aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dermatology'])[2]/preceding::span[1]</value>
+      <webElementGuid>54c77cb1-af41-4bf1-8453-2d236d0022c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Other'])[2]/preceding::span[2]</value>
+      <webElementGuid>c4ef7993-e8cc-486b-9045-51e31e60a696</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/div/div[2]/span[3]</value>
+      <webElementGuid>ec3c382e-0096-4942-b447-e50ec9c3a1ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Ophthalmology' or . = 'Ophthalmology')]</value>
+      <webElementGuid>f3de6250-92d4-4541-a538-e7868f2f9e80</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

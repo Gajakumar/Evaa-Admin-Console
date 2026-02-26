@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Sign Agreement  Continue</name>
+   <tag></tag>
+   <elementGuidId>b874e21a-1f6b-466f-9eb4-a5ba09293330</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.btn-md</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Sign Agreement &amp; Continue&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6dfa061a-4abc-4383-b3e6-13571404698b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e1b03d2d-5df3-4ba0-906f-6b5d46c84e43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary btn-md  </value>
+      <webElementGuid>537769ca-c349-4661-b2fd-6595c3f8822d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sign Agreement &amp; Continue</value>
+      <webElementGuid>e4e56336-6828-4ead-9119-613f302e8037</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;route-fade-in&quot;]/div[@class=&quot;layout layout-container&quot;]/main[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;service-agreement-page&quot;]/div[@class=&quot;agreement-container&quot;]/div[@class=&quot;agreement-content&quot;]/div[@class=&quot;agreement-actions&quot;]/button[@class=&quot;btn btn-primary btn-md&quot;]</value>
+      <webElementGuid>3cba191c-faf4-4606-b97d-c8fc4371d76b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Unified Admin/iframe</value>
+      <webElementGuid>3eda4d47-e124-4d3d-af96-3dd7856bd668</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>0014ce25-cb6a-47f6-91ed-ee9fd51064db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/div/div[2]/div[5]/button[2]</value>
+      <webElementGuid>dd935ac3-c7bf-4c9b-85e2-ed2c34c46fa6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]</value>
+      <webElementGuid>16ba9415-14c4-42ec-a7ee-45c00494ea7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='I have read and agree to the terms of this Service Agreement'])[1]/following::button[2]</value>
+      <webElementGuid>5071e342-a919-4227-a2ca-d97718019645</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='legal@evaa.ai'])[1]/preceding::button[1]</value>
+      <webElementGuid>61e468a8-31d4-4e2d-8a5a-f426c2d433c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact Support'])[1]/preceding::button[1]</value>
+      <webElementGuid>9e5a3f50-413d-4a8b-aab0-a362a0e48a05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sign Agreement &amp; Continue']/parent::*</value>
+      <webElementGuid>c75df6e0-1350-419e-93a4-e240cb20e88d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>1c6e1c15-d05f-4aca-a632-32599a6afe3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Sign Agreement &amp; Continue' or . = 'Sign Agreement &amp; Continue')]</value>
+      <webElementGuid>f8c1d6db-3e75-4ddd-bf79-58e9c0f9d271</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

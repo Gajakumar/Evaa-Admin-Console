@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Field-numberError</name>
+   <tag></tag>
+   <elementGuidId>d32ea201-b21c-4597-bb75-92e417267803</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'Field-numberError']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Field-numberError</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Your card number is incomplete.&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>7d2f3f90-aa35-4e3b-851e-2278e05b5f5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Field-numberError</value>
+      <webElementGuid>73a123bd-aea9-42d3-8506-332555b965cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-FieldError Error</value>
+      <webElementGuid>18ccf20c-3bc3-4525-abbd-73198b0fbcfe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>alert</value>
+      <webElementGuid>ab8b2330-dcca-4db3-9e8a-f17f4d3fd614</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-live</name>
+      <type>Main</type>
+      <value>polite</value>
+      <webElementGuid>265e59ea-436c-42d1-82ea-e8db671e023b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Your card number is incomplete.</value>
+      <webElementGuid>0c4281a4-c8f4-4240-a281-12ed3337f3d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-6619a753d86b4907c89ec481f48bb60b</value>
+      <webElementGuid>d92eb5bb-3bfd-4ed3-85a7-a5e121d9677a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'Field-numberError']</value>
+      <webElementGuid>e689b79f-3d08-4603-a2d9-dda6bdac85f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Unified Admin/iframe__privateStripeFrame7493</value>
+      <webElementGuid>bb198d42-b42c-41a1-bdae-f77ee3433ff2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'Field-numberError']</value>
+      <webElementGuid>de30487a-8b85-4f2f-bb01-2000fa2b510f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@id = 'Field-numberError' and (text() = 'Your card number is incomplete.' or . = 'Your card number is incomplete.')]</value>
+      <webElementGuid>f51124e6-77ec-47f8-8ded-de00d028bd14</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

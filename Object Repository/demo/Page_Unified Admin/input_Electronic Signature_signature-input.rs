@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Electronic Signature_signature-input</name>
+   <tag></tag>
+   <elementGuidId>94c58489-3409-49d8-8efa-8544831746b9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.signature-input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Enter your name&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>c0005ff2-cc4c-4b60-b3f0-a56cdcee537a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>signature-input</value>
+      <webElementGuid>f9ac218f-8787-4daf-99d3-5c3d1f5b468c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Enter your name</value>
+      <webElementGuid>ff4400c4-238d-447b-a320-470c2940ee6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>554aa54d-07aa-429d-9adb-396836d3e3f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;route-fade-in&quot;]/div[@class=&quot;layout layout-container&quot;]/main[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;service-agreement-page&quot;]/div[@class=&quot;agreement-container&quot;]/div[@class=&quot;agreement-content&quot;]/div[@class=&quot;signature-section&quot;]/input[@class=&quot;signature-input&quot;]</value>
+      <webElementGuid>60e5f947-9efc-4c10-a401-ce60de7e5ff9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/demo/Page_Unified Admin/iframe</value>
+      <webElementGuid>19475999-b372-4afe-9c6f-2dad9c5a8007</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='']</value>
+      <webElementGuid>2d48e7bd-f0b7-4950-9db1-401ae3db79a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/div/div[2]/div[4]/input</value>
+      <webElementGuid>63b5f6d4-3f57-4312-97ca-aa5ed5c30b72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>480f295f-b853-4991-9840-d33be7f80179</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Enter your name' and @type = 'text']</value>
+      <webElementGuid>c112c9a7-5c00-497d-a36b-c8c5e368861b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

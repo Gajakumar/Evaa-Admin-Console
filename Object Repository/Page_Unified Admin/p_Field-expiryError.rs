@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Field-expiryError</name>
+   <tag></tag>
+   <elementGuidId>1f8a76ba-a6bf-4e65-bf1f-db639d94943b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'Field-expiryError']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Field-expiryError</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Your card’s expiry date is incomplete.&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>ce5e8c7a-fa9b-4573-8d09-634b335ed1f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Field-expiryError</value>
+      <webElementGuid>b90d2d0f-2618-4274-9323-f74981fcdb8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-FieldError Error</value>
+      <webElementGuid>67f9b4b4-87f1-4b28-8095-fb1cc1909fe8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>alert</value>
+      <webElementGuid>04d093b7-f5de-4afc-bf3a-fe6adccb0d32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-live</name>
+      <type>Main</type>
+      <value>polite</value>
+      <webElementGuid>d102e266-a98c-4d40-a0e2-9955d772426c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Your card’s expiry date is incomplete.</value>
+      <webElementGuid>c44a7631-174a-42c6-8b6f-3bbd86286f21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-0033055df93aa71bee74f84f42a00b1a</value>
+      <webElementGuid>bc7841b8-95b2-4ae8-9982-a1a8d98b8f11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'Field-expiryError']</value>
+      <webElementGuid>7564092a-b293-4d22-8ef6-1c821c4779f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Unified Admin/iframe__privateStripeFrame7493</value>
+      <webElementGuid>dc56e2cc-ef23-4fab-8916-898c30960851</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'Field-expiryError']</value>
+      <webElementGuid>e675673c-d943-45f1-a574-4e5e24755ff2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@id = 'Field-expiryError' and (text() = 'Your card’s expiry date is incomplete.' or . = 'Your card’s expiry date is incomplete.')]</value>
+      <webElementGuid>93983edd-6753-4b62-9099-517ab05d1ecd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

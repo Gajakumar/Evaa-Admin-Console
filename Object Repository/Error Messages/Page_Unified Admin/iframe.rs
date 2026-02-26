@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>iframe</name>
+   <tag></tag>
+   <elementGuidId>2dba9d9d-7fc0-4341-a6c1-bac59feed0fb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//iframe[contains(@name,'__privateStripeFrame')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>iframe[title=&quot;EVAA Payment&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>iframe[title=&quot;EVAA Payment&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>iframe</value>
+      <webElementGuid>56dbf5b6-992e-404e-b291-712c519d5b58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://pay.evaa.ai/?guid=92531ca7-e75f-4cf6-a00b-7c3a56303f6b</value>
+      <webElementGuid>b5bce1d8-44f6-4acc-985f-37e2d2e32ed2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>EVAA Payment</value>
+      <webElementGuid>6313b628-1889-4138-8d49-cad7b806d62d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[1]/iframe[1]</value>
+      <webElementGuid>4cd699e3-83d7-408f-910d-033367934a99</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/iframe</value>
+      <webElementGuid>7e3afd75-f6ac-4a38-a5a9-4281592e9fc5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//iframe</value>
+      <webElementGuid>6043757a-8c65-4212-b887-5450f06599de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//iframe[@src = 'https://pay.evaa.ai/?guid=92531ca7-e75f-4cf6-a00b-7c3a56303f6b' and @title = 'EVAA Payment']</value>
+      <webElementGuid>13929b50-5bf7-4e93-abe5-4b38f6c8c578</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

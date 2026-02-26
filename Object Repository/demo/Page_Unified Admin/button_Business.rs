@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Business</name>
+   <tag></tag>
+   <elementGuidId>107c44a6-4ba0-4037-825c-cd45fd9fa16c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/header/div/div[2]/div[2]/ul/li[3]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.dropdown-menu.dropdown-menu-end.show > li:nth-of-type(3) > button.dropdown-item.d-flex.align-items-center.gap-2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Business&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>696015d6-a47e-46bc-9317-63209c6eb176</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-item d-flex align-items-center gap-2</value>
+      <webElementGuid>f50eb42b-e695-4beb-82dd-e4cf28cbc10c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Business</value>
+      <webElementGuid>297d4dcc-0733-4a54-a5fe-23bacbbbce2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;min-vh-100 d-flex flex-column&quot;]/header[@class=&quot;navbar navbar-expand-lg bg-white shadow-sm&quot;]/div[@class=&quot;container-fluid px-4&quot;]/div[@class=&quot;d-flex align-items-center gap-2&quot;]/div[@class=&quot;dropdown&quot;]/ul[@class=&quot;dropdown-menu dropdown-menu-end show&quot;]/li[3]/button[@class=&quot;dropdown-item d-flex align-items-center gap-2&quot;]</value>
+      <webElementGuid>4a0f9f4b-4d0c-4044-aa9b-c0ff190e66e8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/header/div/div[2]/div[2]/ul/li[3]/button</value>
+      <webElementGuid>a115e241-28b6-471e-88b1-ce5cdcb3f68b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization/Business'])[1]/following::button[1]</value>
+      <webElementGuid>c33bf686-75d4-4dd8-8671-6a39ef795d05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Admin Dashboard'])[1]/following::button[2]</value>
+      <webElementGuid>731f984c-cf9c-49e2-a5bc-c5d7fe87eeba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Locations'])[1]/preceding::button[1]</value>
+      <webElementGuid>41e9df03-ec6b-44c0-aedc-54216330fb46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Providers'])[1]/preceding::button[2]</value>
+      <webElementGuid>daf121c3-0d59-4073-9e0e-4ad610d9d41d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Business']/parent::*</value>
+      <webElementGuid>7ad8e261-9432-4096-8b5b-3dec12fcc673</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ul/li[3]/button</value>
+      <webElementGuid>10497a76-c18c-4abd-8934-f32bf3660dbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Business' or . = 'Business')]</value>
+      <webElementGuid>8debc059-0bf4-49bf-abcd-666566078555</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

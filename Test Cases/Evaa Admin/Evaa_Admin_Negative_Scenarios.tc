@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Evaa_Admin_Negative_Scenarios</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ff6f65e7-4235-419a-b37d-d5c5e2d6f8c6</testCaseGuid>
+</TestCaseEntity>

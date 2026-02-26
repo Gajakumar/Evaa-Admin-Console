@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Monday-ClosedTuesday-ClosedWednesday-Cl_dcf99a</name>
+   <tag></tag>
+   <elementGuidId>4546ec51-e150-4052-ba7a-aa5320b49df2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/main/div/div[4]/div/div/div[2]/div/div/div[16]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-md-12 > div.d-flex.flex-column</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Monday-ClosedTuesday-ClosedWednesday-ClosedThursday-ClosedFriday-ClosedSaturday-&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6b70e75d-8bbf-443f-a5e3-13d54e377eaf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-flex flex-column</value>
+      <webElementGuid>ff1048af-cfad-4e82-9443-0e4e864c38c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Monday-ClosedTuesday-ClosedWednesday-ClosedThursday-ClosedFriday-ClosedSaturday-ClosedSunday-Closed</value>
+      <webElementGuid>4f7ab948-86c3-489c-9caa-4d89fd12ffc0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;min-vh-100 d-flex flex-column&quot;]/div[@class=&quot;d-flex flex-grow-1&quot;]/main[@class=&quot;flex-grow-1 p-4 overflow-auto&quot;]/div[@class=&quot;container-fluid p-0&quot;]/div[@class=&quot;modal show d-block&quot;]/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;mb-4&quot;]/div[@class=&quot;row g-3&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;d-flex flex-column&quot;]</value>
+      <webElementGuid>b530b14d-a63b-47bc-b355-fd8b84fd9e8a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div[4]/div/div/div[2]/div/div/div[16]/div</value>
+      <webElementGuid>cba9477a-d700-4c37-86b7-84592c5773c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Location Hours'])[1]/following::div[1]</value>
+      <webElementGuid>725beadc-93f9-453b-9546-6d952f6dbc70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[1]/following::div[3]</value>
+      <webElementGuid>195a6972-cba8-4050-8119-9a73786b4cd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[16]/div</value>
+      <webElementGuid>5d2e7796-18d3-4d09-a8d7-b8e7414365cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Monday-ClosedTuesday-ClosedWednesday-ClosedThursday-ClosedFriday-ClosedSaturday-ClosedSunday-Closed' or . = 'Monday-ClosedTuesday-ClosedWednesday-ClosedThursday-ClosedFriday-ClosedSaturday-ClosedSunday-Closed')]</value>
+      <webElementGuid>a078ec72-8e4b-4b24-ba1f-68033fb023bc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

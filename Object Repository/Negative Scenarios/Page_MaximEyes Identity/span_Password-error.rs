@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Password-error</name>
+   <tag></tag>
+   <elementGuidId>47a6f8a3-6c68-44e4-a81c-bdfcfef233c4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'Password-error']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Password-error</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;The Password field is required.&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d234db9f-1034-4a0e-82a9-513880bb0d87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Password-error</value>
+      <webElementGuid>aaef7278-2a55-4b02-905a-be372507dbe0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>The Password field is required.</value>
+      <webElementGuid>5e81cd05-bb85-414b-91d7-88fb747f8c14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-0df0d3eafa3858f72f8af403d3be1dad</value>
+      <webElementGuid>dce50886-1dfa-4ee3-bf7b-93f7f805425c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'Password-error']</value>
+      <webElementGuid>862e61a5-9db3-4a4d-8a81-dfd0db451e0b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'Password-error']</value>
+      <webElementGuid>306d85c1-e5bc-4223-a8a6-079f30c8c25a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'Password-error' and (text() = 'The Password field is required.' or . = 'The Password field is required.')]</value>
+      <webElementGuid>e207e031-bb00-4e49-914b-755c251ea301</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

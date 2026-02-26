@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Business Administration</name>
+   <tag></tag>
+   <elementGuidId>e45eaa5e-d507-4ce1-a26a-df359743fa8d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@onclick='SavePatientGeneralNotificationOfficeAdmin();SaveMaximeyesPatientPortalData(this);'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Business Administration&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>fa01ed22-9496-4823-b642-2637de45925a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>17c44ee2-f354-4b5e-8df1-e6e9d51fdbb9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-officeadminelementtitle</name>
+      <type>Main</type>
+      <value>Business Details</value>
+      <webElementGuid>8eddae08-3c68-4802-a737-521d261b203a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>SavePatientGeneralNotificationOfficeAdmin();SaveMaximeyesPatientPortalData(this);</value>
+      <webElementGuid>efc9fd76-ca18-48ad-a278-6e3b485e6168</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-officeadminmainurl</name>
+      <type>Main</type>
+      <value>Business_Details_menu/Home</value>
+      <webElementGuid>ee27bab1-38bf-4a27-956b-87c1dae76860</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Office Admin > Business Details</value>
+      <webElementGuid>91ccae2f-665f-4142-b75d-711dc2400533</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Business Administration</value>
+      <webElementGuid>41c54c4f-60cc-46b8-954c-e89aac4d7bd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navMenuOfficeAdmin&quot;)/ul[@class=&quot;app-bar-menu&quot;]/li[7]/a[@class=&quot;Office Admin > Business Details&quot;]</value>
+      <webElementGuid>79f0ab37-2dec-422a-8b3d-b16cde992c11</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//a[@onclick='SavePatientGeneralNotificationOfficeAdmin();SaveMaximeyesPatientPortalData(this);'])[2]</value>
+      <webElementGuid>9d1946e3-fa53-4d06-8f82-438e4b048d4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navMenuOfficeAdmin']/ul/li[7]/a</value>
+      <webElementGuid>ba8936bd-7441-43bf-88b9-d690f84b1f48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Business Administration')]</value>
+      <webElementGuid>48a1ddb6-11bb-43db-877f-0e78cc5aca09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Office Admin'])[1]/following::a[2]</value>
+      <webElementGuid>c9ca36b7-eb28-4ca6-a16d-491ff5e81731</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='First Insight Agreements'])[1]/following::a[6]</value>
+      <webElementGuid>aa8142f4-79a3-4dc5-850a-9b5aa3c11cca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get Help'])[2]/preceding::a[8]</value>
+      <webElementGuid>49ef5d4b-ff7e-40c8-808c-a9f68d993f63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Business Administration']/parent::*</value>
+      <webElementGuid>565cbfbd-5b63-47c3-bae1-b51c1e6cfe7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[107]</value>
+      <webElementGuid>057b4ffb-c5f4-4f49-8329-ca2aba96458a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/ul/li[7]/a</value>
+      <webElementGuid>168767a7-0021-43e6-8f51-fe778a155361</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'Business Administration' or . = 'Business Administration')]</value>
+      <webElementGuid>22bc3bac-b3e8-4613-a21a-c610fd834950</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Evaa_Admin_Console_SignUp_NextGen</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7256c0b4-7781-47e0-8a7c-cf1a34c1daff</testCaseGuid>
+</TestCaseEntity>

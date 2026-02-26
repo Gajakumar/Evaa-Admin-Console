@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Edit Provider - Test ProviderUpdate pro_42627c</name>
+   <tag></tag>
+   <elementGuidId>25538d36-24d5-4830-afb6-6cf9e6cf96be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/main/div/div[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.modal.fade.show</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=main >> div >> internal:has-text=&quot;Edit Provider - Test ProviderUpdate provider information and agent-specific sett&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1d01b9b1-3025-4349-b006-3ce66e4b9336</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>modal fade show</value>
+      <webElementGuid>2a72b6e3-0e72-4ff3-be57-2dd732f25f1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>6e6c2497-91ef-4f71-b144-9418a5388d28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Edit Provider - Test ProviderUpdate provider information and agent-specific settingsProvider InformationFirst Name *Middle NameLast Name *SuffixCredentialsSpecialtyNPI Number *Email *PhoneStatus ActiveProvider ID'sManage provider identifiers and credentialsAdd IDIDValueStatusNotesActionsNPI4444444444VerifiedAdditional NotesEdit🗑Practice Locations *Select the locations where this provider practicesRevolutionTest LocationTest Location EditLicensed ProductsProducts this provider has access toVirtual AssistantScribeBilling AssistantPatient EngagementCancelUpdate Provider</value>
+      <webElementGuid>8916fe06-352a-40c4-872e-a69487571f6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;min-vh-100 d-flex flex-column&quot;]/div[@class=&quot;d-flex flex-grow-1&quot;]/main[@class=&quot;flex-grow-1 p-4 overflow-auto&quot;]/div[@class=&quot;container-fluid p-0&quot;]/div[@class=&quot;modal fade show&quot;]</value>
+      <webElementGuid>dd8bf47f-22c2-4787-bb1d-7998a65361a4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div[4]</value>
+      <webElementGuid>b6acc2cc-5199-4a84-8a5c-0b19c6366464</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/following::div[1]</value>
+      <webElementGuid>d373aab0-82f0-4bc2-8720-ccaa3651c06a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[1]/following::div[1]</value>
+      <webElementGuid>fd766816-2281-4270-b468-823af59dd01e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]</value>
+      <webElementGuid>c2ce6795-dd74-4b23-b914-ff9b003f82be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;Edit Provider - Test ProviderUpdate provider information and agent-specific settingsProvider InformationFirst Name *Middle NameLast Name *SuffixCredentialsSpecialtyNPI Number *Email *PhoneStatus ActiveProvider ID&quot; , &quot;'&quot; , &quot;sManage provider identifiers and credentialsAdd IDIDValueStatusNotesActionsNPI4444444444VerifiedAdditional NotesEdit🗑Practice Locations *Select the locations where this provider practicesRevolutionTest LocationTest Location EditLicensed ProductsProducts this provider has access toVirtual AssistantScribeBilling AssistantPatient EngagementCancelUpdate Provider&quot;) or . = concat(&quot;Edit Provider - Test ProviderUpdate provider information and agent-specific settingsProvider InformationFirst Name *Middle NameLast Name *SuffixCredentialsSpecialtyNPI Number *Email *PhoneStatus ActiveProvider ID&quot; , &quot;'&quot; , &quot;sManage provider identifiers and credentialsAdd IDIDValueStatusNotesActionsNPI4444444444VerifiedAdditional NotesEdit🗑Practice Locations *Select the locations where this provider practicesRevolutionTest LocationTest Location EditLicensed ProductsProducts this provider has access toVirtual AssistantScribeBilling AssistantPatient EngagementCancelUpdate Provider&quot;))]</value>
+      <webElementGuid>aa62bfa8-1549-4740-a368-45efb80ced86</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

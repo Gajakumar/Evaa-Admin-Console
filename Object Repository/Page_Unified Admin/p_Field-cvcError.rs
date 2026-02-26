@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Field-cvcError</name>
+   <tag></tag>
+   <elementGuidId>add9445e-2b13-4ead-bdfe-eee441fbd3e2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'Field-cvcError']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Field-cvcError</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Your card’s security code is incomplete.&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>83b148a6-b331-4971-bbe0-69164da61e51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Field-cvcError</value>
+      <webElementGuid>459e0a09-1c11-4a54-a619-9a795b77587a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-FieldError Error</value>
+      <webElementGuid>b92658c9-82c6-4985-a19a-e44b558f9e5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>alert</value>
+      <webElementGuid>9d108dd0-22fa-4e1b-b3ab-09e62575176d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-live</name>
+      <type>Main</type>
+      <value>polite</value>
+      <webElementGuid>4aea1dc3-d94b-4f8a-9c5b-cf771b5cd07c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Your card’s security code is incomplete.</value>
+      <webElementGuid>258ea8ed-3804-43d1-8a49-66bed9989063</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-1d5ea649dcd8517607cad1046a114d2b</value>
+      <webElementGuid>cb17f600-eddb-4b1f-8895-e6de3fee02f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'Field-cvcError']</value>
+      <webElementGuid>18e44d88-8f8c-469a-899a-5f9da14a0002</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Unified Admin/iframe__privateStripeFrame7493</value>
+      <webElementGuid>95001174-7730-4ac0-a620-484ee14f9966</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'Field-cvcError']</value>
+      <webElementGuid>2e6ca145-740d-421d-87b2-1559c8f24489</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@id = 'Field-cvcError' and (text() = 'Your card’s security code is incomplete.' or . = 'Your card’s security code is incomplete.')]</value>
+      <webElementGuid>945d8ffc-6c41-4493-ba23-aefdcd48af89</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

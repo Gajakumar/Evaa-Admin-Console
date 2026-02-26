@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_English</name>
+   <tag></tag>
+   <elementGuidId>95cc2886-8303-4e85-a0b5-e889c2f416dd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Language'])[2]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.custom-select-wrapper.open > div.custom-options > span.custom-option</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>span >> internal:has-text=&quot;English&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>13757c8a-f8ac-43e5-a222-2e55390181e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>custom-option</value>
+      <webElementGuid>4222d847-3af8-4317-a604-a37badaf46fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-value</name>
+      <type>Main</type>
+      <value>English</value>
+      <webElementGuid>05f245b3-cd42-4c59-808b-12ac2915235c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>English</value>
+      <webElementGuid>cabed6c7-bf52-41a3-8cec-c6927ca67b2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;business-info-page&quot;]/main[@class=&quot;ui-wrap&quot;]/section[@class=&quot;card&quot;]/form[1]/div[@class=&quot;grid&quot;]/div[@class=&quot;grid-2 full&quot;]/div[1]/div[2]/div[@class=&quot;custom-select-wrapper open&quot;]/div[@class=&quot;custom-options&quot;]/span[@class=&quot;custom-option&quot;]</value>
+      <webElementGuid>d7442935-087e-4ade-b975-dbf4582888dc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Language'])[2]/following::span[1]</value>
+      <webElementGuid>bcfff443-b6d1-42cd-a3f2-0b59116f7d81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Language'])[1]/following::span[2]</value>
+      <webElementGuid>c32b0b8d-08d5-4cf6-b702-a7e7fb81800f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Spanish'])[2]/preceding::span[1]</value>
+      <webElementGuid>18da99d9-60b9-4d81-8802-ffed3c831099</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='French'])[2]/preceding::span[2]</value>
+      <webElementGuid>ebc0bd47-fc53-40c7-b7cb-87a811cc30aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/span</value>
+      <webElementGuid>41e94223-bc7f-489c-88c7-941f01e08c72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'English' or . = 'English')]</value>
+      <webElementGuid>ac3318a5-5097-429d-8972-6fab37ec93c5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

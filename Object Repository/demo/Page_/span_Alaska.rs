@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Alaska</name>
+   <tag></tag>
+   <elementGuidId>b2aa019b-3274-4411-8835-656eaaead0f0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Alabama'])[2]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>span >> internal:has-text=&quot;Alaska&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>74198384-c821-4b4c-aed4-719f1ba63513</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>custom-option</value>
+      <webElementGuid>86bd76d6-3050-47bb-aa26-c1d39575190c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-value</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>2b8b9a26-6d35-4b8d-be13-34f0eceecf92</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Alaska</value>
+      <webElementGuid>bf7c2772-0e50-4000-9e0f-7412bf1f0144</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;business-info-page&quot;]/main[@class=&quot;ui-wrap&quot;]/section[@class=&quot;card&quot;]/form[1]/div[@class=&quot;grid&quot;]/div[@class=&quot;grid-3 full&quot;]/div[2]/div[@class=&quot;custom-select-wrapper open&quot;]/div[@class=&quot;custom-options&quot;]/span[@class=&quot;custom-option&quot;]</value>
+      <webElementGuid>90ae368c-d22c-4e51-9a1c-b39bf1b36702</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alabama'])[2]/following::span[1]</value>
+      <webElementGuid>ab1a4aa8-847e-4da6-beb9-142f0f57fd18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select state'])[2]/following::span[2]</value>
+      <webElementGuid>f6be1938-5bfb-42c7-af90-ba520a8cd2d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Arizona'])[2]/preceding::span[1]</value>
+      <webElementGuid>3e009b1e-f2c8-4bbf-9b45-f2fc6d83b501</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Arkansas'])[2]/preceding::span[2]</value>
+      <webElementGuid>a17ddf57-a5c9-479d-a047-8fb5080c12c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div[2]/div/div[2]/span[2]</value>
+      <webElementGuid>414fbf5e-a5e0-48a7-a820-b861b31d6fdc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Alaska' or . = 'Alaska')]</value>
+      <webElementGuid>f540dffc-a8a7-4ecd-899a-3bae7dd936d3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

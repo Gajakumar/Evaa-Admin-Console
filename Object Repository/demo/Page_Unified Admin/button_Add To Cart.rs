@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Add To Cart</name>
+   <tag></tag>
+   <elementGuidId>6d7a3b54-bb27-4912-927f-5519b90210bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.btn-md</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^\$24\.00per location/yearAdd To Cart$/ >> internal:role=button</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>445616c1-ed75-42c1-bad8-c65da02b1121</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2a83ef0f-10f4-4e1d-a394-f3098b69b6c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary btn-md  </value>
+      <webElementGuid>c32d6fad-3642-4912-b094-586cc8ca8805</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add To Cart</value>
+      <webElementGuid>1f6448e0-0024-4e41-a6a0-8094d9632471</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;route-fade-in&quot;]/div[@class=&quot;layout layout-container&quot;]/main[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;home-page&quot;]/div[@class=&quot;products-grid-component&quot;]/section[@class=&quot;products-grid-section&quot;]/div[@class=&quot;products-grid&quot;]/div[@class=&quot;product-container&quot;]/div[@class=&quot;product-group-container&quot;]/div[@class=&quot;sub-products-grid&quot;]/div[@class=&quot;sub-product-card&quot;]/div[@class=&quot;sub-product-card-content&quot;]/div[@class=&quot;add-to-cart-container&quot;]/div[@class=&quot;total-price-display&quot;]/button[@class=&quot;btn btn-primary btn-md&quot;]</value>
+      <webElementGuid>6cb8be83-caf2-408d-9d3f-1c3c55184004</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/demo/Page_Unified Admin/iframe</value>
+      <webElementGuid>954658c5-6f68-4558-9f69-38eac4eebcfc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>ca5a1531-8c00-43ff-82d3-bed69521b742</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/div/section/div/div/div/div[2]/div/div/div[2]/div[2]/button</value>
+      <webElementGuid>85d0fb9c-b28d-4319-971d-9defa81fde55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='per location/year'])[1]/following::button[1]</value>
+      <webElementGuid>60165a8c-464e-459e-a052-f42d275c5073</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$24.00'])[2]/following::button[1]</value>
+      <webElementGuid>19bf4286-edc7-4cd3-a0c7-f9a5c81e7462</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EVAA Billing Assistant'])[1]/preceding::button[1]</value>
+      <webElementGuid>3559ba23-44bb-4820-84bb-145580595873</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='◆'])[1]/preceding::button[1]</value>
+      <webElementGuid>0ed9a184-4a7d-4c9e-bc40-200884340198</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add To Cart']/parent::*</value>
+      <webElementGuid>ca33b9f9-5d03-4c4c-a2d1-889b08e6e8d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>83a5d2bc-3f7e-4c58-ba6d-122614fed892</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Add To Cart' or . = 'Add To Cart')]</value>
+      <webElementGuid>fb061534-8873-4fa7-8dea-9f143f6a8338</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
