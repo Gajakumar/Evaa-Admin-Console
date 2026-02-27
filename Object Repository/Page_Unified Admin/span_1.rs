@@ -6,12 +6,12 @@
    <elementGuidId>681032c4-5c60-4d3e-8bbf-c479a560b9ab</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.cart-badge</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Go to Cart'])[1]/following::span[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/header/div/nav/a/span[2]</value>
+         <key>CSS</key>
+         <value>span.cart-badge</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>f0481db3-0cc4-46db-8144-86184f279d76</webElementGuid>
+      <webElementGuid>0a21895e-899d-4d2b-a955-c232829a2f8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>cart-badge</value>
-      <webElementGuid>a35716f4-fd3e-488e-a615-4a4c07df1449</webElementGuid>
+      <webElementGuid>064635fe-27de-46e3-bd8a-03d14c976fcc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>43848e98-bdf0-44de-b184-aa3dd864c300</webElementGuid>
+      <webElementGuid>5b316545-464b-4714-9918-b7250693b480</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;route-fade-in&quot;]/div[@class=&quot;layout layout-container&quot;]/header[@class=&quot;navbar navbar-sso&quot;]/div[@class=&quot;navbar-container&quot;]/nav[@class=&quot;navbar-content&quot;]/a[@class=&quot;cart-link-sso&quot;]/span[@class=&quot;cart-badge&quot;]</value>
-      <webElementGuid>820c10a1-bb7b-441c-a3da-28c245378213</webElementGuid>
+      <webElementGuid>f4220b4a-56c1-4acc-a77c-2de1e1c3dc32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,15 +61,15 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Page_Unified Admin/iframe</value>
-      <webElementGuid>992dbbed-0034-4d1d-8881-a1e8b7409f83</webElementGuid>
+      <webElementGuid>42e48468-1e7c-4086-89ca-de2074b28702</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/header/div/nav/a/span[2]</value>
-      <webElementGuid>26cfcc1a-29a7-4e84-8a45-b228a22e9330</webElementGuid>
+      <webElementGuid>15efeaac-903a-4931-933f-f1b2777d03a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Go to Cart'])[1]/following::span[1]</value>
-      <webElementGuid>98bdfbaf-13ce-4d4f-8617-9cb390599f71</webElementGuid>
+      <webElementGuid>72d95bcc-e0f4-4c4a-8fcd-bebe6b9cb539</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Premium Modules'])[1]/preceding::span[1]</value>
-      <webElementGuid>5fe5af43-aafa-49cc-842f-1cbf2403e5a7</webElementGuid>
+      <webElementGuid>d666f892-b1b0-4c8a-aba0-f46dbb455c6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='1']/parent::*</value>
-      <webElementGuid>36f31868-bed5-4f83-94ee-d6774ea1a763</webElementGuid>
+      <webElementGuid>3bb4102f-8bb2-4324-b837-6ec11f5289c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[2]</value>
-      <webElementGuid>3b0b360d-284c-46d2-9570-dd6563cbf86c</webElementGuid>
+      <webElementGuid>95fa635c-0368-468c-b4c3-c5172eff2084</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '1' or . = '1')]</value>
-      <webElementGuid>41fd1b24-6248-4ed7-8057-9e7b8b2d5221</webElementGuid>
+      <webElementGuid>fa64225a-2c38-4111-b8ea-7d38713acc1b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

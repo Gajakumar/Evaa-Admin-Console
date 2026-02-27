@@ -202,6 +202,12 @@ WebUI.setText(
 	"333"
 )
 
+WebUI.selectOptionByValue(
+    findTestObject('Object Repository/Payment Page/Page_Unified Admin/select_Select Country'),
+    'IN',
+    false
+)
+
 WebUI.click(findTestObject("Object Repository/Page_Unified Admin/button_Pay Now"))
 
 // ===================== LOGIN AFTER PAYMENT =====================

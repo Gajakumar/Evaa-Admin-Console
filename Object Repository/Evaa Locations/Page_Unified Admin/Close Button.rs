@@ -6,12 +6,12 @@
    <elementGuidId>e89aedf7-d5fd-4c8f-bb3e-ca793e8327c4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.btn-close</value>
+         <key>XPATH</key>
+         <value>//button[@aria-label='Close']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[5]</value>
+         <key>CSS</key>
+         <value>button.btn-close</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>07b0f663-4899-4715-8f8c-ffd020622e32</webElementGuid>
+      <webElementGuid>8eff8d75-00cf-43eb-aaec-cf5139fae645</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>10ac70cf-e6f8-4e17-a125-52e186557b4e</webElementGuid>
+      <webElementGuid>740d36ef-6932-4b21-87d8-9b71b1e7d283</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn-close</value>
-      <webElementGuid>77aea7f7-e857-4cee-ac3e-e932769bee12</webElementGuid>
+      <webElementGuid>6344b71a-71c7-4230-b95f-8aab4022f90e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Close</value>
-      <webElementGuid>df9bee41-777d-45cf-8e60-29f181dc78fe</webElementGuid>
+      <webElementGuid>a3ca8a43-a7a1-475a-b2c8-2c850377f062</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,23 +61,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;min-vh-100 d-flex flex-column&quot;]/div[@class=&quot;d-flex flex-grow-1&quot;]/main[@class=&quot;flex-grow-1 p-4 overflow-auto&quot;]/div[@class=&quot;container-fluid p-0&quot;]/div[@class=&quot;modal show d-block&quot;]/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-header border-0 pb-0&quot;]/button[@class=&quot;btn-close&quot;]</value>
-      <webElementGuid>c84c467a-c530-4b9f-949d-2b67d91ef28d</webElementGuid>
+      <webElementGuid>2fed9672-994c-4e75-96ab-ac775c3f5295</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//button[@type='button'])[5]</value>
-      <webElementGuid>f200456a-8543-4563-8f0c-56f91160d4a5</webElementGuid>
-   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/main/div/div[4]/div/div/div/button</value>
-      <webElementGuid>ffee0234-0a3e-4688-ba79-08851deb7062</webElementGuid>
+      <webElementGuid>3b4b9969-684b-45e1-9487-e0d367e89de9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +77,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div/button</value>
-      <webElementGuid>999be990-7be6-48da-885a-35a5d733116f</webElementGuid>
+      <webElementGuid>9d83e6ee-5119-4add-9831-06f5346a0634</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +85,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button']</value>
-      <webElementGuid>261d39e0-6b97-4785-8720-44468edae07d</webElementGuid>
+      <webElementGuid>d75fb7ec-1379-449a-ba43-a395f9d9178f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

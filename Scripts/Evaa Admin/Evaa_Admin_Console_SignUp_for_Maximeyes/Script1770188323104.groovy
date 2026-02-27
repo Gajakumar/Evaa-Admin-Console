@@ -85,11 +85,13 @@ helper.readAndStore(
 // ======================
 WebUI.click(findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/a_Providers'))
 
-helper.readAndStore(
-    "providers",
-    findTestObject('Object Repository/Maximeyes Evaa Login/Page_Unified Admin/Provider Table'),
-    0
-)
+//helper.readAndStore(
+//    "providers",
+//    findTestObject('Object Repository/Maximeyes Evaa Login/Page_Unified Admin/Provider Table'),
+//    0
+//)
+
+helper.readAndStoreProviders("providers", findTestObject('Object Repository/Maximeyes Evaa Login/Page_Unified Admin/Provider Table'))
 
 // ======================
 // LOGOUT MAXIMEYES

@@ -108,37 +108,92 @@ public class TableDataHelper {
         KeywordUtil.logInfo("✅ Read-only validation finished")
     }
 
-    // ==========================
-    // READ & STORE TABLE DATA
-    // ==========================
-    @Keyword
-    def readAndStore(String key, TestObject tableObj, int columnIndex) {
+   // ==========================
+// READ & STORE TABLE DATA
+// ==========================
+@Keyword
+def readAndStore(String key, TestObject tableObj, int lastNameColumnIndex, Integer firstNameColumnIndex = null) {
 
-        WebElement table =
-            WebUiCommonHelper.findWebElement(tableObj, 20)
+    WebElement table =
+        WebUiCommonHelper.findWebElement(tableObj, 20)
 
-        List<WebElement> rows =
-            table.findElements(By.xpath(".//tbody/tr"))
+    List<WebElement> rows =
+        table.findElements(By.xpath(".//tbody/tr"))
 
-        List<String> values = rows.collect {
-            def cells = it.findElements(By.tagName("td"))
-            if (cells.size() > columnIndex) {
-                def txt = cells[columnIndex].getText().trim()
-                if (
-    txt.equalsIgnoreCase("Location Name") ||
-    txt.equalsIgnoreCase("Business Name") ||
-    txt.equalsIgnoreCase("Last Name")
-) {
-    return null
-}
-return txt
+    List<String> values = rows.collect { row ->
+
+        def cells = row.findElements(By.tagName("td"))
+
+        if (cells.size() > lastNameColumnIndex) {
+
+            def lastName = cells[lastNameColumnIndex].getText().trim()
+
+            // Skip headers
+            if (
+                lastName.equalsIgnoreCase("Location Name") ||
+                lastName.equalsIgnoreCase("Business Name") ||
+                lastName.equalsIgnoreCase("Last Name")
+            ) {
+                return null
             }
-            return null
-        }.findAll { it != null }.unique()
 
-        store[key] = values
-        KeywordUtil.logInfo("📥 STORED ${key}: ${values}")
-    }
+            // 👉 Provider table case
+            if (firstNameColumnIndex != null && cells.size() > firstNameColumnIndex) {
+
+                def firstName = cells[firstNameColumnIndex].getText().trim()
+                return firstName + " " + lastName
+            }
+
+            // 👉 Normal table case
+            return lastName
+        }
+
+        return null
+    }.findAll { it != null }.unique()
+
+    store[key] = values
+    KeywordUtil.logInfo("📥 STORED ${key}: ${values}")
+}
+@Keyword
+def readAndStoreProviders(String key, TestObject tableObj) {
+
+	WebElement table =
+		WebUiCommonHelper.findWebElement(tableObj, 20)
+
+	List<WebElement> rows =
+		table.findElements(By.xpath(".//tbody/tr"))
+
+	List<String> values = rows.collect { row ->
+
+		def cells = row.findElements(By.tagName("td"))
+
+		// Ensure both columns exist
+		if (cells.size() >= 2) {
+
+			def lastName  = cells[0].getText().trim()
+			def firstName = cells[1].getText().trim()
+
+			// Skip header or empty rows
+			if (
+				lastName.equalsIgnoreCase("Last Name") ||
+				firstName.equalsIgnoreCase("First Name") ||
+				lastName.isEmpty() ||
+				firstName.isEmpty()
+			) {
+				return null
+			}
+
+			return firstName + " " + lastName
+		}
+
+		return null
+	}
+	.findAll { it != null }
+	.unique()
+
+	store[key] = values
+	KeywordUtil.logInfo("📥 STORED ${key}: ${values}")
+}
 
     // ==========================
     // COMPARE + CLICK VIEW
