@@ -15,6 +15,35 @@ class FailureScreenshotListener {
 	def beforeTestCase(TestCaseContext testCaseContext) {
 		println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseVariables()
+		
+		// ---------------------------
+		// Chrome Arguments
+		// ---------------------------
+		List<String> args = new ArrayList<>()
+
+		args.add("--start-maximized")
+		args.add("--disable-notifications")
+		args.add("--disable-infobars")
+		args.add("--disable-popup-blocking")
+		args.add("--no-sandbox")
+		args.add("--disable-dev-shm-usage")
+		args.add("--disable-gpu")
+		args.add("--remote-allow-origins=*")
+
+		RunConfiguration.setWebDriverPreferencesProperty("args", args)
+
+		// ---------------------------
+		// Chrome Preferences
+		// ---------------------------
+		Map<String, Object> prefs = new HashMap<>()
+
+		prefs.put("credentials_enable_service", false)
+		prefs.put("profile.password_manager_enabled", false)
+		prefs.put("autofill.profile_enabled", false)
+		prefs.put("autofill.credit_card_enabled", false)
+		prefs.put("profile.default_content_setting_values.notifications", 2)
+
+		RunConfiguration.setWebDriverPreferencesProperty("prefs", prefs)
 
 		WebUI.openBrowser('')
 

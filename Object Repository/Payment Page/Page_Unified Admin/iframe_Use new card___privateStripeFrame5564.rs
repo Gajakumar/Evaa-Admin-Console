@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//iframe[@name='__privateStripeFrame5564']</value>
+         <value>//div[@id='payment-element']/div/iframe</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

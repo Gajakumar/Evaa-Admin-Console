@@ -48,14 +48,20 @@ import java.util.UUID
 
 // ===================== TEST DATA =====================
 String urlevva = RandomStringUtils.randomAlphanumeric(5) + ".evaa.ai"
-GlobalVariable.randomEmail = "user_${UUID.randomUUID().toString().substring(0,8)}@testmail.com"
-println("Generated Email: " + GlobalVariable.randomEmail)
+//GlobalVariable.randomEmail = "user_${UUID.randomUUID().toString().substring(0,8)}@testmail.com"
+//println("Generated Email: " + GlobalVariable.randomEmail)
 //String randomEmail ="gajakumara@first-insight.com"
-println(GlobalVariable.randomEmail)
+//println(GlobalVariable.randomEmail)
 
 String random9Digit = String.valueOf((long)(Math.random() * 900000000) + 100000000)
 println random9Digit
 
+int randomNum = new Random().nextInt(1000)
+String threeDigit = String.format("%03d", randomNum)
+
+GlobalVariable.randomEmail = "gajakumara+" + threeDigit + "@first-insight.com"
+
+println(GlobalVariable.randomEmail)
 // ===================== LOGIN TO EVAA ADMIN =====================
 WebUI.callTestCase(findTestCase('Test Cases/Common/Navigate to Evaa Admin'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -267,10 +273,10 @@ WebUI.verifyMatch(actualProductPurchased, "Intelliscan1Providers", false)
 
 String expUrl = urlevva.replace(".", "")
 
-//WebUI.verifyElementText(
-//	findTestObject("Object Repository/demo/Page_Unified Admin/span_Account qaevaaai  Organization FIC"),
-//	"Account: " + expUrl + " • Organization: FIC"
-//)
+WebUI.verifyElementText(
+	findTestObject("Object Repository/demo/Page_Unified Admin/span_Account qaevaaai  Organization FIC"),
+	"Account: " + expUrl + " • Organization: FIC", FailureHandling.CONTINUE_ON_FAILURE
+)
 
 WebUI.executeJavaScript(
 	"document.body.style.zoom='80%'",
@@ -322,8 +328,15 @@ WebUI.verifyElementAttributeValue(
 	10
 )
 
+//WebUI.setText(findTestObject("Object Repository/demo/Page_Unified Admin/input__taxId"), "123456789")
+
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/demo/Page_Unified Admin/input__taxId'),'value',
+	random9Digit,
+	10,FailureHandling.CONTINUE_ON_FAILURE
+)
+
 // ===================== ADD BUSINESS =====================
-WebUI.setText(findTestObject("Object Repository/demo/Page_Unified Admin/input__taxId"), "123456789")
+
 
 TestObject businessLeftPane = findTestObject("Object Repository/Practice Login/Page_Unified Admin/span_Business")
 
@@ -383,8 +396,8 @@ WebUI.setText(findTestObject('Object Repository/Page_Unified Admin/input_Fax Num
 WebUI.verifyElementAttributeValue(
 	findTestObject('Object Repository/Page_Unified Admin/input_Tax ID_taxId'),
 	'value',
-	'123456789',
-	10
+	random9Digit,
+	10,FailureHandling.CONTINUE_ON_FAILURE
 )
 
 WebUI.verifyElementAttributeValue(
