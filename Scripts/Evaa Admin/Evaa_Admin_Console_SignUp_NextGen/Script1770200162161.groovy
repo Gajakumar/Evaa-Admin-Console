@@ -177,6 +177,8 @@ WebUI.click(findTestObject("Object Repository/Page_Unified Admin/input_Electroni
 
 WebUI.click(findTestObject("Object Repository/Page_Unified Admin/button_Sign Agreement  Continue"))
 
+WebUI.waitForElementVisible(findTestObject("Object Repository/Page_Unified Admin/span_Agreement signed successfully. You wil_1bf869_1"), 0)
+
 WebUI.verifyElementText(
 	findTestObject("Object Repository/Page_Unified Admin/span_Agreement signed successfully. You wil_1bf869_1"),
 	"Agreement signed successfully. You will receive a copy via email after payment confirmation."
