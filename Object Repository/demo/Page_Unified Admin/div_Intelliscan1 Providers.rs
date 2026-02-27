@@ -6,12 +6,12 @@
    <elementGuidId>e33d6152-1da8-42a3-8dee-b16c90843da2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Purchased Products'])[1]/following::div[3]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.border.rounded-3.p-3.d-flex.justify-content-between.align-items-center</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/main/div/div/div/div/div/div[2]/div/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

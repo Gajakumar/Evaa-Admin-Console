@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//h3[@class='product-name' and contains(normalize-space(.), '${productName}')]/ancestor::div[contains(@class,'sub-product-card-content')]//button[contains(@class,'pricing-action-btn') and normalize-space(.)='Add To Cart']</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='per location/year'])[1]/following::button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

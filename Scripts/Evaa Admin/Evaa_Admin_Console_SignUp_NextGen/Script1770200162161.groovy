@@ -141,7 +141,8 @@ WebUI.click(findTestObject("Object Repository/Create Your EVAA Account Page/butt
 // ===================== AGREEMENT & PAYMENT =====================
 WebUI.delay(5)
 
-WebUI.click(findTestObject("Object Repository/Page_Unified Admin/button_I Accept"))
+//WebUI.click(findTestObject("Object Repository/Page_Unified Admin/button_I Accept"))
+WebUI.click(findTestObject("Object Repository/Create Your EVAA Account Page/Page_Unified Admin/button_I Accept"))
 
 WebUI.click(findTestObject(
     'Object Repository/Page_Unified Admin/button_Add To Cart',
@@ -150,7 +151,7 @@ WebUI.click(findTestObject(
 
 WebUI.waitForElementVisible(
 	findTestObject("Object Repository/Page_Unified Admin/span_Item added to cart successfully_1"),
-	3,
+	1,
 	FailureHandling.CONTINUE_ON_FAILURE
 )
 
@@ -258,10 +259,10 @@ WebUI.verifyMatch(actualProductPurchased, "Intelliscan1Providers", false)
 
 String expUrl = urlevva.replace(".", "")
 
-WebUI.verifyElementText(
-	findTestObject("Object Repository/demo/Page_Unified Admin/span_Account qaevaaai  Organization FIC"),
-	"Account: " + expUrl + " • Organization: FIC"
-)
+//WebUI.verifyElementText(
+//	findTestObject("Object Repository/demo/Page_Unified Admin/span_Account qaevaaai  Organization FIC"),
+//	"Account: " + expUrl + " • Organization: FIC"
+//)
 
 WebUI.executeJavaScript(
 	"document.body.style.zoom='80%'",

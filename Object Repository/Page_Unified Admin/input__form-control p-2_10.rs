@@ -6,12 +6,12 @@
    <elementGuidId>57c8f30d-fccb-4b5e-ace8-a35ff9f7efb3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/main/div/div[4]/div/div/div[2]/form/div[4]/div/div/div/div[2]/div[3]/input</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.mb-3 > input.form-control.p-2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div[3]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -96,7 +96,7 @@
       <webElementGuid>3d05bdae-bac8-4817-a83d-8b39409b1937</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>

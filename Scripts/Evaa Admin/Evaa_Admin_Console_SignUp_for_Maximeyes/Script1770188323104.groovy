@@ -94,7 +94,7 @@ helper.readAndStore(
 // ======================
 // LOGOUT MAXIMEYES
 // ======================
-WebUI.click(findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/a_Logout'))
+//WebUI.click(findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/a_Logout'))
 
 // ======================
 // EVAA LOGIN
