@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Evaa_Admin_Console_SignUp_FoxFire</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>72b516f9-7c8f-4a75-8089-b6821bfbb85a</testCaseGuid>
+</TestCaseEntity>

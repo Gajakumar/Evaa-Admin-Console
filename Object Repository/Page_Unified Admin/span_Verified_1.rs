@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/main/div/div[4]/div/div/div[2]/div[2]/div/div[2]/table/tbody/tr/td[3]/span</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Commercial'])[1]/following::span[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>fe5a5fd5-5637-4b2c-b1cb-cfdfb2ff287d</webElementGuid>
+      <webElementGuid>36999b88-03e3-4001-9b22-222a7386e606</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>badge rounded-pill px-3 py-1 fw-normal</value>
-      <webElementGuid>a4f1775d-5206-49df-89be-7455e2f0baaa</webElementGuid>
+      <webElementGuid>ec968cee-16ec-469e-a7f1-a2f86d9a38f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Verified</value>
-      <webElementGuid>419310f7-756c-4c0f-8a8d-81a76debb640</webElementGuid>
+      <webElementGuid>cd99e586-b255-4637-a76f-e389a344739a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,23 +53,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;min-vh-100 d-flex flex-column&quot;]/div[@class=&quot;d-flex flex-grow-1&quot;]/main[@class=&quot;flex-grow-1 p-4 overflow-auto&quot;]/div[@class=&quot;container-fluid p-0&quot;]/div[@class=&quot;modal show d-block&quot;]/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;mb-4&quot;]/div[@class=&quot;p-4 border rounded&quot;]/div[@class=&quot;table-responsive border rounded&quot;]/table[@class=&quot;table mb-0 align-middle&quot;]/tbody[1]/tr[1]/td[@class=&quot;py-3&quot;]/span[@class=&quot;badge rounded-pill px-3 py-1 fw-normal&quot;]</value>
-      <webElementGuid>cf285200-84a1-43fe-a189-d014b889d53d</webElementGuid>
+      <webElementGuid>9bbf5db9-c58a-41be-ba19-90a874b84a8a</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='root']/div/div/main/div/div[4]/div/div/div[2]/div[2]/div/div[2]/table/tbody/tr/td[3]/span</value>
-      <webElementGuid>4c9fc67b-ef7d-40c0-8065-880a93811f32</webElementGuid>
-   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Commercial'])[1]/following::span[2]</value>
-      <webElementGuid>6479f538-8c11-46fe-9e02-1c3df981dfb3</webElementGuid>
+      <webElementGuid>ae7f5de2-2e0d-4a88-b086-535fde555ac6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Actions'])[2]/following::span[3]</value>
-      <webElementGuid>9a6e8424-abb3-4cae-8443-7aa40e540ae7</webElementGuid>
+      <webElementGuid>d9aa5054-754a-43e3-a7fe-6959b3e9c240</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Optional Note'])[1]/preceding::span[1]</value>
-      <webElementGuid>82a204ba-4e75-4bbe-820e-3c00bd53e02b</webElementGuid>
+      <webElementGuid>375adf0f-a215-48fa-9e2f-ddfdfe7d4c33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::span[2]</value>
-      <webElementGuid>5a2f9012-7f12-4746-ba0e-4c3817913ee8</webElementGuid>
+      <webElementGuid>8702d43a-697b-4c93-b76c-2135916c9a15</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Verified']/parent::*</value>
-      <webElementGuid>5c62c68b-418f-489d-9975-4d0238c00d06</webElementGuid>
+      <webElementGuid>266d1599-b15c-4bc5-8646-2da90bcc5d8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/span</value>
-      <webElementGuid>f659d79f-c19e-44ef-b54e-708412e38fcd</webElementGuid>
+      <webElementGuid>88e0ca2c-afa0-4dc6-b491-0e292d9c1106</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Verified' or . = 'Verified')]</value>
-      <webElementGuid>7d7feded-559a-4c15-abb5-1634217bca3d</webElementGuid>
+      <webElementGuid>c2a87888-ae41-4c4b-ac47-6590dd55d306</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

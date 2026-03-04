@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Evaa_Admin_Console_SignUp_Officemate</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7139c8e8-773c-408b-9b00-492b579966f4</testCaseGuid>
+</TestCaseEntity>

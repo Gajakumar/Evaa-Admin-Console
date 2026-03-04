@@ -79,7 +79,7 @@ WebUI.verifyElementText(
 
 // ===================== PRODUCT SELECTION =====================
 
-CustomKeywords.'common.ProductSelection.selectProductByName'('NextGen')
+CustomKeywords.'common.ProductSelection.selectProductByName'(practiceName)
 
 // ===================== ACCOUNT SIGN UP =====================
 WebUI.setText(
@@ -91,13 +91,17 @@ WebUI.click(findTestObject("Object Repository/Account Sign Up Page/button_Next")
 
 
 // ===================== ORGANIZATION DETAILS =====================
-
+String randomPhone = String.format("(%03d) %03d-%04d",
+    new Random().nextInt(900)+100,
+    new Random().nextInt(900)+100,
+    new Random().nextInt(9000)+1000
+)
 WebUI.callTestCase(
 	findTestCase('Test Cases/Common/Enter Organisation Details'),
 	[
 		orgName   : 'FIC',
 		taxId     :  random9Digit,
-		phone     : '(123) 456-7899',
+		phone     :  randomPhone,
 		email     : GlobalVariable.randomEmail,
 		address   : '2433 Wimbledon Drive',
 		city      : 'Zionsville',
@@ -335,6 +339,13 @@ WebUI.verifyElementAttributeValue(findTestObject('Object Repository/demo/Page_Un
 	10,FailureHandling.CONTINUE_ON_FAILURE
 )
 
+WebUI.verifyElementAttributeValue(
+	findTestObject("Object Repository/Organization Details Page/input_Phone_phone"),
+	"value",
+	randomPhone,
+	10,FailureHandling.CONTINUE_ON_FAILURE
+)
+
 // ===================== ADD BUSINESS =====================
 
 
@@ -418,8 +429,23 @@ WebUI.click(findTestObject('Object Repository/Page_Unified Admin/button_Alaska')
 WebUI.setText(findTestObject('Object Repository/Page_Unified Admin/input_ZIP Code_zip'), '46077')
 
 // Set Closed Days
-WebUI.click(findTestObject('Object Repository/Page_Unified Admin/input_-_closed-Saturday'))
-WebUI.click(findTestObject('Object Repository/Page_Unified Admin/input_-_closed-Sunday'))
+
+CustomKeywords.'common.LocationHours.setWeeklySchedule'(
+
+    [
+        "Monday"    : [start: "09:00", end: "18:00"],
+        "Tuesday"   : [start: "09:00", end: "18:00"],
+        "Wednesday" : [start: "09:30", end: "17:30"],
+        "Thursday"  : [start: "09:00", end: "18:00"],
+        "Friday"    : [start: "09:00", end: "16:00"],
+        "Saturday"  : [closed: true],
+        "Sunday"    : [closed: true]
+    ]
+)
+
+//// Set Closed Days
+//WebUI.click(findTestObject('Object Repository/Page_Unified Admin/input_-_closed-Saturday'))
+//WebUI.click(findTestObject('Object Repository/Page_Unified Admin/input_-_closed-Sunday'))
 
 // ----------------------------------------------------
 // Add Location ID
@@ -439,11 +465,11 @@ WebUI.setText(findTestObject('Object Repository/Page_Unified Admin/textarea_Opti
 // Save Location ID
 WebUI.click(findTestObject('Object Repository/Page_Unified Admin/button_Save'))
 
-//// Verify Location ID Details
-//WebUI.verifyElementText(findTestObject('Object Repository/Page_Unified Admin/span_Commercial'), 'Commercial')
-//WebUI.verifyElementText(findTestObject('Object Repository/Page_Unified Admin/span_1234'), '1234')
-//WebUI.verifyElementText(findTestObject('Object Repository/Page_Unified Admin/span_Verified_1'), 'Verified')
-//WebUI.verifyElementText(findTestObject('Object Repository/Page_Unified Admin/span_Optional Note'), 'Optional Note')
+// Verify Location ID Details
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Unified Admin/span_Commercial'), 'Commercial')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Unified Admin/span_1234'), '1234')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Unified Admin/span_Verified_1'), 'Verified')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Unified Admin/span_Optional Note'), 'Optional Note')
 
 // Save Location
 WebUI.click(findTestObject('Object Repository/Page_Unified Admin/button_Save Changes'))
