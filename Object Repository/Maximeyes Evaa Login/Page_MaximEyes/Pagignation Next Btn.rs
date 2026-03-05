@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Pagignation Next Btn</name>
+   <tag></tag>
+   <elementGuidId>5d5a90c4-9c99-47e9-8ab3-895a954cfcb9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#userGridContainer > div.dx-datagrid.dx-gridbase-container.dx-datagrid-borders > div.dx-datagrid-pager.dx-pager > div.dx-pages > div.dx-navigate-button.dx-next-button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='userGridContainer']/div/div[10]/div/div[6]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Next page&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fde3b790-1aa0-49f6-b639-f62e6f417495</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dx-navigate-button dx-next-button</value>
+      <webElementGuid>e3efbfa9-9bb4-42bf-b1e0-4dabf3231df1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>27d4cd40-017f-41e4-8702-381267b2fe44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value> Next page</value>
+      <webElementGuid>eedd04c8-4636-4ff6-8f71-e9e8dff4a33f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;userGridContainer&quot;)/div[@class=&quot;dx-datagrid dx-gridbase-container dx-datagrid-borders&quot;]/div[@class=&quot;dx-datagrid-pager dx-pager&quot;]/div[@class=&quot;dx-pages&quot;]/div[@class=&quot;dx-navigate-button dx-next-button&quot;]</value>
+      <webElementGuid>78beb1ea-5783-4b9e-8ef1-7fb4d1984963</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='userGridContainer']/div/div[10]/div/div[6]</value>
+      <webElementGuid>4328c02c-c21e-4268-813c-9f2fa384e633</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/div/div[6]</value>
+      <webElementGuid>98947a30-fec5-49a3-b7d0-24bce9e81317</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

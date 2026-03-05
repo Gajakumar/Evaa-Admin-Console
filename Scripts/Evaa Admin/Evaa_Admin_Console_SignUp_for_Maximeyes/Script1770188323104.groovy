@@ -94,6 +94,32 @@ WebUI.click(findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/a_Prov
 helper.readAndStoreProviders("providers", findTestObject('Object Repository/Maximeyes Evaa Login/Page_Unified Admin/Provider Table'))
 
 // ======================
+// READ USERS
+// ======================
+//WebUI.click(findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes/Users and Permissions'))
+
+//helper.storeUsersWithPagination(findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes/User table'),
+//    findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes/Pagignation Next Btn'))
+
+
+//// Store Maximeyes users
+//helper.readAndStoreMaxUsers(
+//	"Users",
+//	findTestObject("Object Repository/Maximeyes Evaa Login/Page_MaximEyes/User table"),
+//	2, // First Name column
+//	3, // Last Name column
+//	1,  // Login column
+//	findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes/Pagignation Next Btn')
+//)
+
+//// MAXIMEYES PAGE (Pagination)
+//helper.readMaximeyesUsers(
+//	"MaxUsers",
+//	findTestObject("Object Repository/Maximeyes Evaa Login/Page_MaximEyes/User table"),
+//	findTestObject("Object Repository/Maximeyes Evaa Login/Page_MaximEyes/Pagignation Next Btn")
+//)
+
+// ======================
 // LOGOUT MAXIMEYES
 // ======================
 //WebUI.click(findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/a_Logout'))
@@ -144,11 +170,11 @@ WebUI.click(
     findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes Identity/button_Login')
 )
 
-// ======================
-// LOCATIONS – COMPARE + VIEW (EDITABLE → NO READ-ONLY CHECK)
-// ======================
-
-
+//// ======================
+//// LOCATIONS – COMPARE + VIEW (EDITABLE → NO READ-ONLY CHECK)
+//// ======================
+//
+//
 TestObject settingBtn = findTestObject("Object Repository/Maximeyes Evaa Login/Page_Unified Admin/button_Refer a Colleague_btn px-2 d-flex ga_038e76")
 
 WebUI.waitForElementClickable(settingBtn, 5)
@@ -195,6 +221,37 @@ helper.compareAndClickView(
     true
 )
 
+
+
+//// ======================
+//// USER – COMPARE 
+//// ======================
+//WebUI.click(findTestObject('Object Repository/Users/Page_Unified Admin/button_Users'))
+//WebUI.delay(3)
+
+
+
+//helper.compareUsers(findTestObject('Object Repository/Users/Page_Unified Admin/User Table Evaa'))
+
+//// Compare with EVAA
+//helper.compareUsers(
+//	"Users",
+//	findTestObject("Object Repository/Users/Page_Unified Admin/User Table Evaa"),
+//	1, // Name column in EVAA
+//	2  // Email column in EVAA
+//)
+
+//// EVAA PAGE (Single Page)
+//helper.readEvaaUsers(
+//	"EvaaUsers",
+//	findTestObject("Object Repository/Users/Page_Unified Admin/User Table Evaa")
+//)
+//
+//// Compare
+//helper.compareUsers(
+//	TableDataHelper.store["MaxUsers"],
+//	TableDataHelper.store["EvaaUsers"]
+//)
 
 CustomKeywords.'common.TableDataHelper.assertAll'()
 
