@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>53240cb0-380e-4c96-befc-bc3d1827adfa</webElementGuid>
+      <webElementGuid>d626536e-1eb7-4161-b527-d38488546750</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>selectorForGoogleAnalytics NevProviders ui-tabs-anchor</value>
-      <webElementGuid>95343ba7-72fc-4577-ba5b-fae31a5cc2f2</webElementGuid>
+      <webElementGuid>421b6502-07a9-4caa-99d7-51225145e5ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#Providers</value>
-      <webElementGuid>c3b628e3-172f-4c39-bd99-17746e3f6280</webElementGuid>
+      <webElementGuid>3205249c-89f2-4a84-a7b6-ff00cb11e7f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-url</name>
       <type>Main</type>
       <value>../Providers/GetAllProviders</value>
-      <webElementGuid>ef91202f-8667-422c-9b33-a57b8362f5c9</webElementGuid>
+      <webElementGuid>b3f82200-f271-488c-b405-dc5fa6fa3f4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>ShowOfficeAdminEncounterElement(this);</value>
-      <webElementGuid>b0148da2-f8b5-4b5a-8a19-09d052740095</webElementGuid>
+      <webElementGuid>a6caa763-ef05-4eeb-9894-26800c4f4f3f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>52e95121-21de-4ffc-934a-1bad4e95e7ef</webElementGuid>
+      <webElementGuid>a27efcef-2ace-4fc5-90bf-d3802c1d7467</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>d5ba3e4d-95cc-4da0-802f-206318acce0d</webElementGuid>
+      <webElementGuid>d6f5c18e-4bfc-4ff2-ab72-4880d6d633ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>id</name>
       <type>Main</type>
       <value>ui-id-20</value>
-      <webElementGuid>688a7ab4-0702-47e4-926a-fe35adfa207f</webElementGuid>
+      <webElementGuid>f03e1b9b-28c9-46bd-9682-e62af15097d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Providers</value>
-      <webElementGuid>7de6caf9-56c0-4f00-a51c-b542c96aeb15</webElementGuid>
+      <webElementGuid>ab6797bf-d1af-4688-8837-b82a35baa71e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,23 +101,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ui-id-20&quot;)</value>
-      <webElementGuid>1aa72f57-34f4-4cfc-8875-020118f16a37</webElementGuid>
+      <webElementGuid>02eb9049-f17a-4ff7-8acb-a7aebaea226a</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//a[@id='ui-id-20']</value>
-      <webElementGuid>fb668ec0-01f0-4965-b219-3cd752e5d418</webElementGuid>
-   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Business_Details_menu']/ul/li[4]/a</value>
-      <webElementGuid>8fdd92bf-f4ec-4514-8311-aaa66c384abf</webElementGuid>
+      <webElementGuid>f077c275-c4c8-45b9-b1fd-d25b3f007f0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +117,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Providers')])[2]</value>
-      <webElementGuid>975af6f2-a6a0-4594-a3f7-a4dff8ee618d</webElementGuid>
+      <webElementGuid>26bb67d9-e72e-4222-b95e-2421435bbd9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Facilities'])[1]/following::a[1]</value>
-      <webElementGuid>9e7eece1-c7cb-4472-bc09-2b7942347ea7</webElementGuid>
+      <webElementGuid>97e69681-cc95-443e-afef-f306759a4a58</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Locations'])[1]/following::a[2]</value>
-      <webElementGuid>c8fd8f76-7aa5-41ec-91ef-41fe008deb76</webElementGuid>
+      <webElementGuid>b9acf6c6-26d6-407b-985b-30b06fd455e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Users &amp; permissions'])[1]/preceding::a[1]</value>
-      <webElementGuid>12e1179b-e303-4bde-8688-010679f0c080</webElementGuid>
+      <webElementGuid>d081dbdb-0f7e-46e1-872b-379ac81d9ede</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +149,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fees Management'])[1]/preceding::a[2]</value>
-      <webElementGuid>f30d8ff3-7a94-438e-90aa-a840af6cf18b</webElementGuid>
+      <webElementGuid>a9848fd4-8770-4527-ba60-47e386233372</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,7 +157,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#Providers')]</value>
-      <webElementGuid>0f750e6a-e1bd-463e-ac10-c2d086e717d5</webElementGuid>
+      <webElementGuid>92d710cb-fbe1-4da9-9763-84ac592baa2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -173,7 +165,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/ul/li[4]/a</value>
-      <webElementGuid>ba4d5b95-4969-48d4-bd08-5b25defd240e</webElementGuid>
+      <webElementGuid>9b894180-8b59-4842-9b4e-13066fe6a72e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -181,6 +173,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#Providers' and @id = 'ui-id-20' and (text() = 'Providers' or . = 'Providers')]</value>
-      <webElementGuid>6dbf4d1d-da92-4450-a825-e98d28701468</webElementGuid>
+      <webElementGuid>a755db64-fe28-4856-8ce0-9f0db9c642df</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

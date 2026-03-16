@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='ui-id-17']</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Office Admin > General > Documents.'])[2]/following::a[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>bdea4c5b-6d18-4e5e-ada6-f3ee55d5d57d</webElementGuid>
+      <webElementGuid>24b193b1-de3c-4cdd-a5a6-1b6da15ef3f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>selectorForGoogleAnalytics NevBusinesses ui-tabs-anchor</value>
-      <webElementGuid>79d928f3-3b1a-4630-a2bf-89e5f2164be6</webElementGuid>
+      <webElementGuid>1db3c7d0-bd49-4fc7-9943-32403eeb0c1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#Companies</value>
-      <webElementGuid>c1e84490-0c8d-4c50-ab6a-e7c4cb0f6ebc</webElementGuid>
+      <webElementGuid>62b9e927-075b-478f-81fd-bb2652122596</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-url</name>
       <type>Main</type>
       <value>../PracticeBusiness/GetAllPracticeBusiness</value>
-      <webElementGuid>070d7ed2-2fe7-4844-9970-2084895a9c1e</webElementGuid>
+      <webElementGuid>0d7212ec-5c22-4731-b39d-06efbd2d289b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>ShowOfficeAdminEncounterElement(this);</value>
-      <webElementGuid>73ffc7c9-fc67-4e6c-9628-743915f4cfc3</webElementGuid>
+      <webElementGuid>f09a4710-283f-4eff-810e-e1f2ba4bd562</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>688082e2-b42b-424f-8ee4-391ee835c29c</webElementGuid>
+      <webElementGuid>eedff498-9efa-4ce0-803b-6a8474906564</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>fdbaf9eb-8d4a-4ec6-9457-1c62e6bc69a0</webElementGuid>
+      <webElementGuid>8cd772e4-8484-406d-81b5-f7d07e9e3355</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>id</name>
       <type>Main</type>
       <value>ui-id-17</value>
-      <webElementGuid>2c7db2f8-25ad-4df8-872e-f998adc87def</webElementGuid>
+      <webElementGuid>268d7fff-e547-411c-a62c-d475bc41b62a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Businesses</value>
-      <webElementGuid>8a4e7221-3247-4215-9237-367c99c3d553</webElementGuid>
+      <webElementGuid>da83db9e-b8ff-49ff-87da-518322e4d75d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,31 +101,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ui-id-17&quot;)</value>
-      <webElementGuid>bf57674b-0d8a-4690-a4b4-7e55d2c57734</webElementGuid>
+      <webElementGuid>6dfdcd65-b100-467d-a89e-ce0a440fa9cd</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//a[@id='ui-id-17']</value>
-      <webElementGuid>063dfef2-8bfc-455f-8e5d-d5a40ebb5553</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='Business_Details_menu']/ul/li/a</value>
-      <webElementGuid>030b2213-6d49-4741-9676-e83959e5f622</webElementGuid>
-   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Businesses')]</value>
-      <webElementGuid>31a757fc-086d-433e-b934-08b3aaf4d8f1</webElementGuid>
+      <webElementGuid>4f6e282b-bedf-439d-8352-136a1c39b943</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Office Admin > General > Documents.'])[2]/following::a[1]</value>
-      <webElementGuid>166cd232-947f-4414-a026-16ee83598468</webElementGuid>
+      <webElementGuid>909f0411-9650-478f-af35-222e05826cea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Locations'])[1]/preceding::a[1]</value>
-      <webElementGuid>5ea02f7c-8b06-479a-9e4c-e9975a4129e0</webElementGuid>
+      <webElementGuid>63d10ffb-39ba-4655-bd18-967baa6d3f88</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Facilities'])[1]/preceding::a[2]</value>
-      <webElementGuid>2a37dfb7-995e-4eb0-9bce-5443579c6358</webElementGuid>
+      <webElementGuid>09357b17-cbb6-424f-ba5d-20b1b86fd995</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Businesses']/parent::*</value>
-      <webElementGuid>e5fd5162-906c-4cf1-9e91-3ba200cd0357</webElementGuid>
+      <webElementGuid>3976e7ea-8696-48cc-8b16-16d14cf7424c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,7 +149,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#Companies')]</value>
-      <webElementGuid>dfe34967-585c-402a-b10f-a6f9540fcff2</webElementGuid>
+      <webElementGuid>38f2b0f2-498e-4da0-9f7e-d8b4ae349788</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -173,7 +157,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/ul/li/a</value>
-      <webElementGuid>6ba5b099-066c-4b16-b8c8-daced6471b5c</webElementGuid>
+      <webElementGuid>20e726a3-3619-483e-9b40-3681a8c212bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -181,6 +165,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#Companies' and @id = 'ui-id-17' and (text() = 'Businesses' or . = 'Businesses')]</value>
-      <webElementGuid>29ce3db0-da73-4e39-b671-829a3c936415</webElementGuid>
+      <webElementGuid>3f8b4571-7e8b-47ee-998a-07d976b269c5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

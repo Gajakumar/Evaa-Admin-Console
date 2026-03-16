@@ -20,4 +20,6 @@ import browser.BrowserFactory
 
 //BrowserFactory.startCleanChrome(false)
 
-WebUI.navigateToUrl('https://account.evaa.ai')
+WebUI.navigateToUrl('https://evaa-admin-scribe-complete-code.onrender.com/')
+
+//WebUI.navigateToUrl('https://account.evaa.ai/')

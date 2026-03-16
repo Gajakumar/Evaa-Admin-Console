@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>country</name>
+   <tag></tag>
+   <elementGuidId>77726f43-0ab0-4686-b84d-cd1f87e1532e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='PL_Main_CountryId_04194cde']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#PL_Main_CountryId_04194cde</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#PL_Main_CountryId_04194cde</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>e572300c-c4e5-41cd-9c71-ad377a2e6d0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>PL_Main_CountryId_04194cde</value>
+      <webElementGuid>1023446c-230f-4c2d-9b0d-03abb8f81d74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Addresses[0].CountryID</value>
+      <webElementGuid>f2e599f5-533a-48a0-bc89-467775703e77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>clearCountryPracticeLocation('PL_Main_CountryId_04194cde', 'Main','04194cde',this);plCountryChangeEvents('04194cde', 'Main', this);</value>
+      <webElementGuid>f7ec1762-4d25-4004-828e-203156763a9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ATG
+BHS
+CAN
+DMA
+LCA
+TTO
+USA
+</value>
+      <webElementGuid>e1d927c3-a868-49ad-9ab1-fc720b9c2c08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;PL_Main_CountryId_04194cde&quot;)</value>
+      <webElementGuid>13a4d48e-1b2a-459a-868a-64b15dad919f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='PL_Main_CountryId_04194cde']</value>
+      <webElementGuid>65e9a24f-5920-4586-9e95-aa6d1d09939e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Main']/div[3]/div[2]/div/div/select</value>
+      <webElementGuid>200d4864-63ae-409a-964f-cc0fc10bad55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Country'])[1]/following::select[1]</value>
+      <webElementGuid>04fbe392-8b32-423e-8e66-514bbdbf6216</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Zip Code'])[1]/following::select[1]</value>
+      <webElementGuid>5261d5b5-870e-4bbc-a08f-7631fe420067</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/preceding::select[1]</value>
+      <webElementGuid>e2090c06-6f3b-4817-add6-dbe0d2a32281</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ext.'])[1]/preceding::select[1]</value>
+      <webElementGuid>51600586-1e71-41db-9167-4dc8698632c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/div/select</value>
+      <webElementGuid>53db01b6-040b-4323-8cb2-10c56c83bbeb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'PL_Main_CountryId_04194cde' and @name = 'Addresses[0].CountryID' and (text() = 'ATG
+BHS
+CAN
+DMA
+LCA
+TTO
+USA
+' or . = 'ATG
+BHS
+CAN
+DMA
+LCA
+TTO
+USA
+')]</value>
+      <webElementGuid>80ff4028-545b-4854-966b-2be0d6f7bd45</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

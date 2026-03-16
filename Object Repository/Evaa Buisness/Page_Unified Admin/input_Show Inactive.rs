@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Show Inactive</name>
+   <tag></tag>
+   <elementGuidId>b364d2b1-6852-4971-90a4-6d0cf0e974c4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#showInactiveBusinessesSwitch</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'showInactiveBusinessesSwitch']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Show Inactive&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>6f8b958a-71f4-425b-8a57-0d94628c3310</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-check-input</value>
+      <webElementGuid>53be0418-22de-4be0-b93e-13a0409f3e2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>5453d89c-34d9-4748-a19e-dbcf37f6fddd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>showInactiveBusinessesSwitch</value>
+      <webElementGuid>c84fb655-5695-4c81-add8-c9cc5b008512</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-426197e66c4c570febc9a51175312914</value>
+      <webElementGuid>e4cec11b-cdb5-4174-b44f-6b4a5053586d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'showInactiveBusinessesSwitch']</value>
+      <webElementGuid>4d4d16b6-e418-4a9c-bec1-0943cff63f65</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'showInactiveBusinessesSwitch']</value>
+      <webElementGuid>0347d2a5-bbbf-46c9-827f-465b696d18b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'checkbox' and @id = 'showInactiveBusinessesSwitch']</value>
+      <webElementGuid>2a1cba32-7ae0-495b-9fd0-ca15fc2d8024</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

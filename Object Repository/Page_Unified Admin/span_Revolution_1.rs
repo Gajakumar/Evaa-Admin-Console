@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/main/div/div[3]/div/div[4]/table/tbody/tr/td[2]/span</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Location'])[1]/following::span[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>266ac6dd-348c-41ed-8cc5-fe5c56f0c42e</webElementGuid>
+      <webElementGuid>2d7c5dd7-17ed-4d63-9e9e-c6faf4ab088c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-dark</value>
-      <webElementGuid>2a53184d-4a28-489b-9586-5098c8cbf383</webElementGuid>
+      <webElementGuid>c173f79e-4e59-457b-8e74-a3f67114e581</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Revolution</value>
-      <webElementGuid>562d3b30-b3e7-4638-8064-dff6b835ae46</webElementGuid>
+      <webElementGuid>ceaa5861-83d7-4857-aa4f-07e782c3f22d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,23 +52,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;min-vh-100 d-flex flex-column&quot;]/div[@class=&quot;d-flex flex-grow-1&quot;]/main[@class=&quot;flex-grow-1 p-4 overflow-auto&quot;]/div[@class=&quot;container-fluid p-0&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body p-4&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-hover mb-0&quot;]/tbody[1]/tr[1]/td[@class=&quot;py-3&quot;]/span[@class=&quot;text-dark&quot;]</value>
-      <webElementGuid>1510ad89-4319-4d59-8a28-c0567f6a1806</webElementGuid>
+      <webElementGuid>cfef3ded-9b0e-4ef3-b72c-ca859c7158be</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='root']/div/div/main/div/div[3]/div/div[4]/table/tbody/tr/td[2]/span</value>
-      <webElementGuid>0093476f-3051-4461-b1f9-87ec0b70fb6e</webElementGuid>
-   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Location'])[1]/following::span[1]</value>
-      <webElementGuid>a4d7baaa-b52c-4440-baf3-0404a1c2da80</webElementGuid>
+      <webElementGuid>48ad1a70-bebb-4eb4-91d2-e133824203cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Actions'])[1]/following::span[2]</value>
-      <webElementGuid>729c631a-ee26-4297-ada8-90916ba209c1</webElementGuid>
+      <webElementGuid>5b06abd9-997b-485f-9473-e5d9905409e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Street 01'])[1]/preceding::span[1]</value>
-      <webElementGuid>ff026238-e2e1-42b2-a282-7523b83ab81b</webElementGuid>
+      <webElementGuid>b9335941-5817-4a8d-ad2d-49e81d3494a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(123) 456-7899'])[1]/preceding::span[2]</value>
-      <webElementGuid>b3eab397-7289-44e6-94b3-587546de47be</webElementGuid>
+      <webElementGuid>99ec45ec-f530-44d1-bc9d-75b422d58be4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Revolution']/parent::*</value>
-      <webElementGuid>e621aeda-1cd7-4d2b-898e-d0078d763735</webElementGuid>
+      <webElementGuid>9ecace9d-afd9-4ece-8c4a-5bd252eb8fd1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +100,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/span</value>
-      <webElementGuid>08d16815-8c16-4b2b-bf77-6530f2116258</webElementGuid>
+      <webElementGuid>3dbf37ea-dd19-4c2b-9d81-642e7ab2b3d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +108,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Revolution' or . = 'Revolution')]</value>
-      <webElementGuid>4fe6bb0a-3f9e-40da-ae5f-850b01012829</webElementGuid>
+      <webElementGuid>85795cb2-9789-4ac2-9119-dc69957937ce</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

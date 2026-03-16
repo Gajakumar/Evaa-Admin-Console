@@ -12,45 +12,46 @@ class FailureScreenshotListener {
 	 * @param testCaseContext related information of the executed test case.
 	 */
 	@BeforeTestCase
-	def beforeTestCase(TestCaseContext testCaseContext) {
-		println testCaseContext.getTestCaseId()
-		println testCaseContext.getTestCaseVariables()
-		
-		// ---------------------------
-		// Chrome Arguments
-		// ---------------------------
-		List<String> args = new ArrayList<>()
+def beforeTestCase(TestCaseContext testCaseContext) {
 
-		args.add("--start-maximized")
-		args.add("--disable-notifications")
-		args.add("--disable-infobars")
-		args.add("--disable-popup-blocking")
-		args.add("--no-sandbox")
-		args.add("--disable-dev-shm-usage")
-		args.add("--disable-gpu")
-		args.add("--remote-allow-origins=*")
+    println testCaseContext.getTestCaseId()
+    println testCaseContext.getTestCaseVariables()
 
-		RunConfiguration.setWebDriverPreferencesProperty("args", args)
+    // ---------------------------
+    // Chrome Arguments
+    // ---------------------------
+    List<String> args = new ArrayList<>()
 
-		// ---------------------------
-		// Chrome Preferences
-		// ---------------------------
-		Map<String, Object> prefs = new HashMap<>()
+    args.add("--start-maximized")
+    args.add("--disable-notifications")
+    args.add("--disable-infobars")
+    args.add("--disable-popup-blocking")
+    args.add("--no-sandbox")
+    args.add("--disable-dev-shm-usage")
+    args.add("--disable-gpu")
+    args.add("--disable-save-password-bubble")
+    args.add("--disable-features=AutofillAddressProfileSavePrompt")
+    args.add("--remote-allow-origins=*")
+	args.add("--disable-features=AutofillServerCommunication,AutofillAddressProfileSavePrompt")
 
-		prefs.put("credentials_enable_service", false)
-		prefs.put("profile.password_manager_enabled", false)
-		prefs.put("autofill.profile_enabled", false)
-		prefs.put("autofill.credit_card_enabled", false)
-		prefs.put("profile.default_content_setting_values.notifications", 2)
+    RunConfiguration.setWebDriverPreferencesProperty("args", args)
 
-		RunConfiguration.setWebDriverPreferencesProperty("prefs", prefs)
+    // ---------------------------
+    // Chrome Preferences
+    // ---------------------------
+    Map<String, Object> prefs = new HashMap<>()
 
-		WebUI.openBrowser('')
+    prefs.put("credentials_enable_service", false)
+    prefs.put("profile.password_manager_enabled", false)
+    prefs.put("autofill.profile_enabled", false)
+    prefs.put("autofill.credit_card_enabled", false)
+    prefs.put("profile.default_content_setting_values.notifications", 2)
 
-		'Maximize the window'
-		WebUI.maximizeWindow()
+    RunConfiguration.setWebDriverPreferencesProperty("prefs", prefs)
 
-	}
+    WebUI.openBrowser('')
+    WebUI.maximizeWindow()
+}
     /**
      * Runs AFTER every test case
      */

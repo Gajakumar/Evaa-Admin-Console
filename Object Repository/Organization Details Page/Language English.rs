@@ -6,12 +6,12 @@
    <elementGuidId>cfcb5c0b-f6d3-464c-9380-512bc7eaf74b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.custom-select-wrapper.open > div.custom-options > span.custom-option</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Language'])[1]/following::span[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Language'])[2]/following::span[1]</value>
+         <key>CSS</key>
+         <value>div.custom-select-wrapper.open > div.custom-options > span.custom-option</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -64,7 +64,7 @@
       <webElementGuid>95014663-e4c5-4b84-a870-2bfdf2bfe5fc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Address Line 2_addressLineTwo</name>
+   <tag></tag>
+   <elementGuidId>4913fa26-5701-4104-bffe-d07003fd5997</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='addressLineTwo']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;addressLineTwo&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Apartment, suite, unit, etc. (optional)&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>483b5611-95c0-42d8-8d75-5ee2f02590c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control p-2</value>
+      <webElementGuid>8c5481c8-e5c8-4a30-98f5-2c31220334c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>addressLineTwo</value>
+      <webElementGuid>38581383-61a6-4801-813c-4a1ece33d044</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Apartment, suite, unit, etc. (optional)</value>
+      <webElementGuid>bf3ea71b-08c4-463d-b5f0-7eb142161b1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;vh-100 d-flex flex-column overflow-hidden&quot;]/div[@class=&quot;d-flex flex-grow-1&quot;]/main[@class=&quot;flex-grow-1 p-4 overflow-auto&quot;]/div[@class=&quot;container-fluid p-0&quot;]/div[@class=&quot;card p-4&quot;]/div[2]/div[@class=&quot;modal show d-block&quot;]/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/form[@class=&quot;modal-body pt-2 p-4&quot;]/fieldset[1]/div[1]/div[5]/div[2]/input[@class=&quot;form-control p-2&quot;]</value>
+      <webElementGuid>cf449cb9-048f-425b-a657-f635479176de</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='addressLineTwo']</value>
+      <webElementGuid>00092b4e-12c8-4794-8752-56dd582893b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div[2]/div[2]/div[3]/div/div/form/fieldset/div/div[5]/div[2]/input</value>
+      <webElementGuid>e6879699-b930-4a10-b123-3d03fa067259</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[2]/input</value>
+      <webElementGuid>47747852-8350-4ce0-aa75-fc4770b39e7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'addressLineTwo' and @placeholder = 'Apartment, suite, unit, etc. (optional)']</value>
+      <webElementGuid>6cc797cf-4e34-43ab-ae89-3b3e9e5f01c1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[13]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1eacf3c1-3677-4022-8c10-57a284a0a755</webElementGuid>
+      <webElementGuid>d78843a0-d49a-475b-9380-a0eceb56576b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +36,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6d49c0f1-0af6-4d13-a730-83dc7315c783</webElementGuid>
+      <webElementGuid>ec6f08e9-13b3-4f18-87d4-b4d32399dbce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +44,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn</value>
-      <webElementGuid>fe721cb4-a275-4d11-abb4-fe456c1e0424</webElementGuid>
+      <webElementGuid>121929ed-c853-4c98-ac4f-6d36b07c0951</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +52,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Yes</value>
-      <webElementGuid>5a039220-115e-40cc-86aa-5377fa8498ce</webElementGuid>
+      <webElementGuid>086ae5af-1982-494d-a610-23cea60a8d93</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,23 +60,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;min-vh-100 d-flex flex-column&quot;]/div[@class=&quot;d-flex flex-grow-1&quot;]/main[@class=&quot;flex-grow-1 p-4 overflow-auto&quot;]/div[@class=&quot;container-fluid p-0&quot;]/div[@class=&quot;modal show d-block&quot;]/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer border-0 pt-0&quot;]/button[@class=&quot;btn&quot;]</value>
-      <webElementGuid>df6cb894-2d92-44a4-b271-b96fc76c44f9</webElementGuid>
+      <webElementGuid>5f710674-6194-4b5a-989d-8a26279487c1</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//button[@type='button'])[13]</value>
-      <webElementGuid>c334020f-4b80-4367-8c0f-af602cc6c3e9</webElementGuid>
-   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/main/div/div[5]/div/div/div[3]/button[2]</value>
-      <webElementGuid>62c45ddc-2e42-45b7-be31-c8aaef31ffed</webElementGuid>
+      <webElementGuid>65daedc3-c10a-4fce-8361-bda67488182c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::button[1]</value>
-      <webElementGuid>b4365651-8505-4839-b881-9a2c7207d149</webElementGuid>
+      <webElementGuid>5d689315-b978-4150-b10b-17d8c41b4437</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Discard Changes?'])[1]/following::button[3]</value>
-      <webElementGuid>f11e33a1-5fe1-4106-9399-5dde2522727f</webElementGuid>
+      <webElementGuid>afb6d187-8892-4bc4-afbb-bb9fbd37e5f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Yes']/parent::*</value>
-      <webElementGuid>cbb749df-fca0-4dbf-968d-374246cfd481</webElementGuid>
+      <webElementGuid>dbc12ac3-e9af-4ead-934c-9d09bd50cad7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +100,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button[2]</value>
-      <webElementGuid>265248ab-8f1c-447c-8810-40b48a332db6</webElementGuid>
+      <webElementGuid>4c143fc8-98c5-43fe-b92d-163be3e4ccd0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +108,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Yes' or . = 'Yes')]</value>
-      <webElementGuid>570212e9-d287-437b-a227-39eae523af43</webElementGuid>
+      <webElementGuid>0627df03-ac73-4976-a87a-9d1b90a5dd28</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

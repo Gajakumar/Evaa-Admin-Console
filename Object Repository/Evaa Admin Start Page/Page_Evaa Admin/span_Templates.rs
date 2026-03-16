@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Templates</name>
+   <tag></tag>
+   <elementGuidId>c17db4c6-2f77-4794-86c9-3bbd94a46386</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[href=&quot;\/scribe\/templates&quot;] span.align-items-center span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@href = '/scribe/templates']//span[@class and contains(concat(' ', normalize-space(@class), ' '), ' align-items-center ')]//span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Templates&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>35671e17-5634-4106-a717-e64bf73319f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Templates</value>
+      <webElementGuid>0e86fc20-2550-437c-965a-67aace405373</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-684a999e9e67ad31337c9d96b016a44c</value>
+      <webElementGuid>3b721a7a-5a71-4f80-9e71-dc2e9f43ad71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@href = '/scribe/templates']//span[@class and contains(concat(' ', normalize-space(@class), ' '), ' align-items-center ')]//span</value>
+      <webElementGuid>8745bbe9-6e66-4eb7-83ac-c6f664923d80</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@href = '/scribe/templates']//span[@class and contains(concat(' ', normalize-space(@class), ' '), ' align-items-center ')]//span</value>
+      <webElementGuid>673dc29d-8efb-4f2c-a96c-82e9feea1e7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Templates' or . = 'Templates')]</value>
+      <webElementGuid>1afdaec5-4770-41e1-a274-7850f5ae5a4a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

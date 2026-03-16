@@ -6,11 +6,11 @@
    <elementGuidId>6c3e18d1-a688-4039-85fb-e297e7cdd5ec</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;root&quot;]/div/div/main/div/div[3]/div/div[4]/table</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//table[contains(@class,'table table-hover mb-')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

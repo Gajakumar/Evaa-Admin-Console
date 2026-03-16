@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/main/div/div[3]/div/div[4]/table/tbody/tr/td[3]/span</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Ophthalmology Edit'])[1]/following::span[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>7a948022-dbbb-45b4-9ab0-136d31964d7b</webElementGuid>
+      <webElementGuid>e51b7dfa-db4a-4fe7-97ea-dbc3a0a778c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-dark</value>
-      <webElementGuid>3a771952-cc1e-4dd2-86ab-385ec57108e6</webElementGuid>
+      <webElementGuid>e61a8370-8eea-428c-bc45-b73ae828cd17</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>4444444444</value>
-      <webElementGuid>cb110519-0598-4f9a-bd48-6971f85e578a</webElementGuid>
+      <webElementGuid>8b1c8b34-04e6-4c96-b6a2-08fe951bd0d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,23 +53,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;min-vh-100 d-flex flex-column&quot;]/div[@class=&quot;d-flex flex-grow-1&quot;]/main[@class=&quot;flex-grow-1 p-4 overflow-auto&quot;]/div[@class=&quot;container-fluid p-0&quot;]/div[@class=&quot;card shadow-sm border-0 mb-4&quot;]/div[@class=&quot;card-body p-4&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-hover mb-0&quot;]/tbody[1]/tr[@class=&quot;border-bottom&quot;]/td[@class=&quot;py-3&quot;]/span[@class=&quot;text-dark&quot;]</value>
-      <webElementGuid>56934599-98be-42a9-94b1-7dbc9b551906</webElementGuid>
+      <webElementGuid>d37a8922-899d-4fc2-9c0d-f06ecdf284cc</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='root']/div/div/main/div/div[3]/div/div[4]/table/tbody/tr/td[3]/span</value>
-      <webElementGuid>3f7a7056-8bf1-4a07-8a54-5f1e214d2feb</webElementGuid>
-   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ophthalmology Edit'])[1]/following::span[1]</value>
-      <webElementGuid>3a912981-ead0-456e-8d8e-5f2c7c2ac0ec</webElementGuid>
+      <webElementGuid>052bb6f0-f33d-4b4e-9104-d585c5220eb0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sr. Test Edit Provider Edit'])[1]/following::span[2]</value>
-      <webElementGuid>7beacf04-984a-42b0-8f22-aa05fd6231cb</webElementGuid>
+      <webElementGuid>421c6768-497e-40c1-93bf-ff9dc02f2a5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[1]/preceding::span[1]</value>
-      <webElementGuid>542836e5-fb0b-4bf7-bd05-0dd713ef7629</webElementGuid>
+      <webElementGuid>294103e8-2669-4077-b36d-3cbf00e2843d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::span[2]</value>
-      <webElementGuid>d762b884-7f21-4341-92fe-3cd45f5463ed</webElementGuid>
+      <webElementGuid>645b1cc3-7103-46aa-b8c8-37c159323d91</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='4444444444']/parent::*</value>
-      <webElementGuid>3a555749-7da4-4f20-82be-955f260ffd44</webElementGuid>
+      <webElementGuid>e77ff605-1939-4112-abe9-f2c8b446012d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/span</value>
-      <webElementGuid>363b8557-221d-47fa-b977-c5b749262b2e</webElementGuid>
+      <webElementGuid>f14b1129-c66e-4c43-8cdf-81563a7033fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '4444444444' or . = '4444444444')]</value>
-      <webElementGuid>2a2a331e-c182-4509-8f69-2b2815001c26</webElementGuid>
+      <webElementGuid>3e4148ad-bac1-48df-963b-b8defcb9df5c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

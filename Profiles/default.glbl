@@ -41,7 +41,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
-      <name>page1Users</name>
+      <name>Users</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>

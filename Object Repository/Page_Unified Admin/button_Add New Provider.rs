@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/main/div/div[3]/div/div[2]/button</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Show Inactive'])[1]/following::button[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a9f0dca8-054a-4993-9913-35790bd555c2</webElementGuid>
+      <webElementGuid>6fc6cc26-f713-411e-8bd5-01f8233837f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>px-3 py-2</value>
-      <webElementGuid>55e71c8c-bf56-4dc4-a32f-e3f8751d4dea</webElementGuid>
+      <webElementGuid>43c00372-e36d-4b52-b34f-89782ee8eac5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Add New Provider</value>
-      <webElementGuid>76710917-2d2b-408c-909e-ba42af08337c</webElementGuid>
+      <webElementGuid>621a3713-1d60-45bb-9221-5d8c4cf1b2dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,23 +53,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;min-vh-100 d-flex flex-column&quot;]/div[@class=&quot;d-flex flex-grow-1&quot;]/main[@class=&quot;flex-grow-1 p-4 overflow-auto&quot;]/div[@class=&quot;container-fluid p-0&quot;]/div[@class=&quot;card shadow-sm border-0 mb-4&quot;]/div[@class=&quot;card-body p-4&quot;]/div[2]/button[@class=&quot;px-3 py-2&quot;]</value>
-      <webElementGuid>1e2eed62-a6ea-466b-8be3-151a5c07be3d</webElementGuid>
+      <webElementGuid>5ec20742-c6a6-4c05-88ac-82be8c09686d</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='root']/div/div/main/div/div[3]/div/div[2]/button</value>
-      <webElementGuid>476397ce-67d1-46ea-9a28-26367546e2d2</webElementGuid>
-   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Show Inactive'])[1]/following::button[1]</value>
-      <webElementGuid>00ae656c-0a93-4ed7-a885-9983bd47aec7</webElementGuid>
+      <webElementGuid>ce195449-8450-4e3c-8e32-590afaf07560</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Providers'])[3]/following::button[1]</value>
-      <webElementGuid>ce8b44ca-75ef-4f10-bcf4-4df145d2f379</webElementGuid>
+      <webElementGuid>70f139da-a7a0-4a8a-b213-3fc7330bd173</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Provider Name'])[1]/preceding::button[1]</value>
-      <webElementGuid>8b492560-f27a-4b55-ae3c-aa42308141b8</webElementGuid>
+      <webElementGuid>3767f6df-17ba-48f7-ac22-4ce50293eb92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Add New Provider']/parent::*</value>
-      <webElementGuid>43f00983-53bb-4a5d-b569-bba5175ccdd0</webElementGuid>
+      <webElementGuid>9a140248-b264-4eb0-9a03-b84ecb424a03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div[2]/button</value>
-      <webElementGuid>16dbc39c-1d54-4495-8518-bcba5a6da864</webElementGuid>
+      <webElementGuid>766752b3-7a00-4e55-883e-73162c2243fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Add New Provider' or . = 'Add New Provider')]</value>
-      <webElementGuid>31f1c47b-fd2c-4da1-96b6-ae9440cedc9c</webElementGuid>
+      <webElementGuid>5fab5a74-30b8-4243-b2ec-a58c9cb7cc54</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

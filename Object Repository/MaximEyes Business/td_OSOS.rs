@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_OSOS</name>
+   <tag></tag>
+   <elementGuidId>cd880d46-6e24-4dac-84c7-a5bb43c95058</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='tblViewPracticeLocation_5']/tbody/tr[2]/td</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr.fixedGridTR.even > td.sorting_1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=gridcell[name=&quot;OSOS&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>5555b093-8257-4625-9d2e-4fca04d90141</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-modalpopuptype</name>
+      <type>Main</type>
+      <value>popup-100</value>
+      <webElementGuid>e7e21a79-a2bc-40be-94d9-0708e5c3a7a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-modalpopuptitle</name>
+      <type>Main</type>
+      <value>OSOS</value>
+      <webElementGuid>1b0b5cce-f1b4-441b-9f05-bc450e8ba1d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-showmodalpopup</name>
+      <type>Main</type>
+      <value>GetPracticeLocation/PracticeLocation/33</value>
+      <webElementGuid>0238666a-4d5e-4b34-9c14-3eaf16288963</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sorting_1</value>
+      <webElementGuid>39a9cda1-5432-4fb9-bc2b-3e7c586b83dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+
+                                                  OSOS 
+                                            </value>
+      <webElementGuid>1d0a5b55-ca95-4107-9d4a-2e737612886a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tblViewPracticeLocation_5&quot;)/tbody[@class=&quot;fixedGridTbody&quot;]/tr[@class=&quot;fixedGridTR even&quot;]/td[@class=&quot;sorting_1&quot;]</value>
+      <webElementGuid>c14d0c3b-29df-4eb5-82c0-b3ad378fa935</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='tblViewPracticeLocation_5']/tbody/tr[2]/td</value>
+      <webElementGuid>4ba0f479-de69-4211-a541-e38480b839b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::td[2]</value>
+      <webElementGuid>1832fd1f-d8fc-49d8-a540-accd5bb4d9fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Albany'])[1]/following::td[4]</value>
+      <webElementGuid>9764ab6c-6920-4d07-851e-0768a28c4a9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aurora'])[1]/preceding::td[1]</value>
+      <webElementGuid>8c1af23c-2d58-4d68-b101-85f7464eb6b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(234) 567-8905'])[1]/preceding::td[2]</value>
+      <webElementGuid>7511ecae-69dd-4a45-9f33-8e6cb428df39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/table/tbody/tr[2]/td</value>
+      <webElementGuid>715c9b5a-791e-4f02-8d70-b1fd085741e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '
+
+                                                  OSOS 
+                                            ' or . = '
+
+                                                  OSOS 
+                                            ')]</value>
+      <webElementGuid>91c5c48a-d8b0-4648-97d4-0bff1138a979</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

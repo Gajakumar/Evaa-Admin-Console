@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='ui-id-18']</value>
+         <value>//a[contains(text(),'Locations')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>6d2ee890-245c-46f7-a4b7-e69613827bbc</webElementGuid>
+      <webElementGuid>21aeeeb6-2f14-4e1d-8dba-7bc0be6fea62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>selectorForGoogleAnalytics NevLocations ui-tabs-anchor</value>
-      <webElementGuid>786b83f4-34f1-4725-8b22-5b95c66cba37</webElementGuid>
+      <webElementGuid>ef5638c9-c6a7-44fb-a4d0-a0017ab97020</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#Locations</value>
-      <webElementGuid>7f5df390-138f-4d75-81de-0eea25dcb1ff</webElementGuid>
+      <webElementGuid>f24c4d4c-9a2f-4bf1-869f-220b0dda425f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-url</name>
       <type>Main</type>
       <value>../PracticeLocation/GetAllPracticeLocations</value>
-      <webElementGuid>58769f9c-3505-4877-9fe5-974233e8f508</webElementGuid>
+      <webElementGuid>306890e4-372f-478b-8300-151314f99034</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>ShowOfficeAdminEncounterElement(this);</value>
-      <webElementGuid>999fd2d2-3361-4893-9ad7-f4aa99704101</webElementGuid>
+      <webElementGuid>7627d73c-01fe-49c9-9b1c-5ec751608ba3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>46b0f0f0-e1ce-4e3c-a43a-f80723440f80</webElementGuid>
+      <webElementGuid>07508e6b-f5b2-49ce-a577-91352a8af5e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>cb20af21-4c5f-498f-aa7d-efadae7c6e25</webElementGuid>
+      <webElementGuid>092fe87a-c6d6-4676-813a-38eb1d14f5b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>id</name>
       <type>Main</type>
       <value>ui-id-18</value>
-      <webElementGuid>226f9240-c058-4ad7-89f8-ae1c10afa52e</webElementGuid>
+      <webElementGuid>064c0e19-da76-4bf0-ac2b-54cac5d4ed79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Locations</value>
-      <webElementGuid>60b32df2-0d5d-498e-84b7-fe4ac775cb6b</webElementGuid>
+      <webElementGuid>fc30ca66-f336-4e16-b9f1-d19cb2801257</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,31 +101,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ui-id-18&quot;)</value>
-      <webElementGuid>f5b19cff-5ccf-4cfe-8be5-80f3d05f3770</webElementGuid>
+      <webElementGuid>d8270b24-f79d-4b79-8b6c-3c06f75467b4</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//a[@id='ui-id-18']</value>
-      <webElementGuid>861803e3-47f8-4703-a4b5-f225bc41c2cc</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='Business_Details_menu']/ul/li[2]/a</value>
-      <webElementGuid>b0cd4b18-1d01-4293-a755-b5bca4df60cb</webElementGuid>
-   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Locations')]</value>
-      <webElementGuid>af50a8ce-f09e-4c5b-8029-d6b22555231c</webElementGuid>
+      <webElementGuid>4fa97004-5371-41ff-851d-996771e1a561</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Businesses'])[1]/following::a[1]</value>
-      <webElementGuid>09cade84-a2af-4c0e-b037-6c3ee96cd297</webElementGuid>
+      <webElementGuid>52343373-f901-4dde-b41a-8e43d83212b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Office Admin > General > Documents.'])[2]/following::a[2]</value>
-      <webElementGuid>22b3f0f0-b783-4595-9d89-dadc9977af1c</webElementGuid>
+      <webElementGuid>d5fc9030-c073-4752-9637-98b6d97677b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Facilities'])[1]/preceding::a[1]</value>
-      <webElementGuid>109375eb-19fa-41d7-8a69-174551415120</webElementGuid>
+      <webElementGuid>4e0a2b02-8f9d-4174-96b7-ceb78a7b2b55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Providers'])[2]/preceding::a[2]</value>
-      <webElementGuid>2c773133-91f4-4928-86d0-1265f4ae7b00</webElementGuid>
+      <webElementGuid>92603f18-8d6c-47df-ae1e-a322b8ac0c23</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,7 +149,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Locations']/parent::*</value>
-      <webElementGuid>e46b4c89-18c8-4c59-94a2-bdc0bd4592f2</webElementGuid>
+      <webElementGuid>fe81f3c9-97d0-41f5-8925-b7bbd06dbfdb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -173,7 +157,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#Locations')]</value>
-      <webElementGuid>de08a7b4-1981-449f-b47b-c768be994400</webElementGuid>
+      <webElementGuid>d3dbf405-a02b-44ce-907a-a954484d826d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -181,7 +165,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/ul/li[2]/a</value>
-      <webElementGuid>55101d5f-e74c-44c8-a187-1c66844455fd</webElementGuid>
+      <webElementGuid>0fa80cc4-354c-4b16-8e98-de9e5ac60a2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -189,6 +173,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#Locations' and @id = 'ui-id-18' and (text() = 'Locations' or . = 'Locations')]</value>
-      <webElementGuid>f60105b4-ed90-40b4-8bdb-70723122759d</webElementGuid>
+      <webElementGuid>f4af9240-dba0-4292-941c-6389c3c06312</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

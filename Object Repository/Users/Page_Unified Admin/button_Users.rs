@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/aside/nav/button[8]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Insurances'])[2]/following::button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>9a6f2a95-af0f-4438-a4f1-e68a01e94d2b</webElementGuid>
+      <webElementGuid>d10c90cc-b0c9-4c31-8fd9-481addaa15b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link d-flex align-items-center gap-2 rounded-0 position-relative mb-2 active fw-medium text-dark</value>
-      <webElementGuid>2810145d-2074-48fc-aab3-fa65adc8fa1c</webElementGuid>
+      <webElementGuid>3a414925-eb36-4f4d-8591-8e7f276f0047</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Users</value>
-      <webElementGuid>1453f8c9-a937-4f76-aba2-eb4e1832b1cd</webElementGuid>
+      <webElementGuid>c11e1bd0-4ecc-48c6-b678-6d6136fff7ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,23 +53,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;min-vh-100 d-flex flex-column&quot;]/div[@class=&quot;d-flex flex-grow-1&quot;]/aside[1]/nav[@class=&quot;nav nav-pills flex-column p-2&quot;]/button[@class=&quot;nav-link d-flex align-items-center gap-2 rounded-0 position-relative mb-2 active fw-medium text-dark&quot;]</value>
-      <webElementGuid>b871025b-159e-4ba3-a805-22ea1ab45f22</webElementGuid>
+      <webElementGuid>1c3192ad-c662-4771-8785-c122eb0b293e</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='root']/div/div/aside/nav/button[8]</value>
-      <webElementGuid>a342eb98-ccb4-4efe-b26d-80b87552c689</webElementGuid>
-   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Insurances'])[2]/following::button[1]</value>
-      <webElementGuid>2b5a796e-4edb-46b5-989c-bed47101bc61</webElementGuid>
+      <webElementGuid>66725622-9776-483c-88ff-812b1072db93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Providers'])[2]/following::button[2]</value>
-      <webElementGuid>76a9869c-8730-4dc0-a7eb-5f4565b41aa2</webElementGuid>
+      <webElementGuid>d425732f-6577-43c9-b335-5f0364250e6c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,15 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Licenses &amp; Billing'])[1]/preceding::button[1]</value>
-      <webElementGuid>68ed7bf7-cf48-434c-834a-3b6626306a10</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//button[8]</value>
-      <webElementGuid>1f4de2db-86cd-4e28-b275-56be3d3036b8</webElementGuid>
+      <webElementGuid>76da6c37-c45a-40ee-833d-ff3784a4bd06</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +85,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Users' or . = 'Users')]</value>
-      <webElementGuid>b6d9fb68-939b-4942-8249-75a0494f4a43</webElementGuid>
+      <webElementGuid>fd6655f0-382b-4986-a063-c93fc86f2833</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

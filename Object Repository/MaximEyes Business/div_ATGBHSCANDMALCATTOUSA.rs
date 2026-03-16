@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_ATGBHSCANDMALCATTOUSA</name>
+   <tag></tag>
+   <elementGuidId>f7207d1d-54dd-4dd1-aa26-6b260e1dd11a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='Main']/div[3]/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.row > div.wid</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#Main div >> internal:has-text=&quot;ATG BHS CAN DMA LCA TTO USA&quot;i >> nth=3</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e34e3874-b293-4f43-a814-56ba38ec786a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wid</value>
+      <webElementGuid>79e3b3e4-ed99-4ead-a490-5d37a6afc508</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                        ATG
+BHS
+CAN
+DMA
+LCA
+TTO
+USA
+
+                    </value>
+      <webElementGuid>4ccc8b42-55e5-4485-893b-9c536f83beb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Main&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;span3&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;wid&quot;]</value>
+      <webElementGuid>bbf137fe-53b6-4d9f-b8eb-6511dceb4ba5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Main']/div[3]/div[2]/div/div</value>
+      <webElementGuid>82637cf6-376e-4e8b-ab20-90665f3d3bfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Country'])[1]/following::div[1]</value>
+      <webElementGuid>5c20f3e3-42e5-44ae-bc5c-9ea6a8a76f06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Zip Code'])[1]/following::div[7]</value>
+      <webElementGuid>5fc115b1-abc2-4a0e-8d1a-220bafb2ffb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/preceding::div[1]</value>
+      <webElementGuid>9b5eb3a2-512b-4f10-9df4-62b7d6815931</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ext.'])[1]/preceding::div[2]</value>
+      <webElementGuid>4b64ae84-3899-4dd8-983d-80790d4400ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/div</value>
+      <webElementGuid>5a9642b1-95e5-46ef-928e-22b54ee77362</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '
+                        ATG
+BHS
+CAN
+DMA
+LCA
+TTO
+USA
+
+                    ' or . = '
+                        ATG
+BHS
+CAN
+DMA
+LCA
+TTO
+USA
+
+                    ')]</value>
+      <webElementGuid>87446a41-31c5-4383-9cd1-4c9a0cbcc14d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

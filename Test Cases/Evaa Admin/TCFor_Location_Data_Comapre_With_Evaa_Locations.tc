@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCFor_Location_Data_Comapre_With_Evaa_Locations</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f2321519-139d-45d5-9aba-bed3bd326ff1</testCaseGuid>
+</TestCaseEntity>

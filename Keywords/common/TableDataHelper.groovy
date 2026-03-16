@@ -22,7 +22,7 @@ import com.kms.katalon.core.webui.common.WebUiCommonHelper
 import com.kms.katalon.core.util.KeywordUtil
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.By
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.testobject.ConditionType
 
 
@@ -71,42 +71,108 @@ public class TableDataHelper {
         )
     }
 
-    // ==========================
-    // READ-ONLY VALIDATION
-    // ==========================
-    def verifyReadOnlyPage() {
-
-        KeywordUtil.logInfo("🔎 Verifying read-only business fields")
-
-        TestObject fieldsObj = new TestObject().addProperty(
-            "xpath",
-            ConditionType.EQUALS,
-            "//input[not(@type='checkbox') and not(@type='file')] | //textarea | //select"
-        )
-
-        List<WebElement> fields =
-            WebUiCommonHelper.findWebElements(fieldsObj, 5)
-
-        fields.each { el ->
-
-            String ref =
-                el.getAttribute("name") ?:
-                el.getAttribute("id") ?:
-                "unknown-field"
-
-            // Skip known non-data controls
-            if (ref.toLowerCase().contains("search") ||
-                ref.toLowerCase().contains("filter")) {
-                return
-            }
-
-            if (el.isEnabled()) {
-                addSoftFailure("Editable field found: ${ref}")
-            }
-        }
-
-        KeywordUtil.logInfo("✅ Read-only validation finished")
-    }
+//    // ==========================
+//    // READ-ONLY VALIDATION
+//    // ==========================
+//    def verifyReadOnlyPage() {
+//
+//        KeywordUtil.logInfo("🔎 Verifying read-only business fields")
+//
+//        TestObject fieldsObj = new TestObject().addProperty(
+//            "xpath",
+//            ConditionType.EQUALS,
+//            "//input[not(@type='checkbox') and not(@type='file')] | //textarea | //select"
+//        )
+//
+//        List<WebElement> fields =
+//            WebUiCommonHelper.findWebElements(fieldsObj, 5)
+//
+//        fields.each { el ->
+//
+//            String ref =
+//                el.getAttribute("name") ?:
+//                el.getAttribute("id") ?:
+//                "unknown-field"
+//
+//            // Skip known non-data controls
+//            if (ref.toLowerCase().contains("search") ||
+//                ref.toLowerCase().contains("filter")) {
+//                return
+//            }
+//
+//            if (el.isEnabled()) {
+//                addSoftFailure("Editable field found: ${ref}")
+//            }
+//        }
+//
+//        KeywordUtil.logInfo("✅ Read-only validation finished")
+//    }
+	
+	// ==========================
+	// READ-ONLY VALIDATION
+	// ==========================
+	def verifyReadOnlyPage() {
+	
+		KeywordUtil.logInfo("🔎 Verifying read-only business fields")
+	
+		TestObject fieldsObj = new TestObject().addProperty(
+			"xpath",
+			ConditionType.EQUALS,
+			"//input[not(@type='checkbox') and not(@type='file')] | //textarea | //select"
+		)
+	
+		List<WebElement> fields =
+			WebUiCommonHelper.findWebElements(fieldsObj, 5)
+	
+		fields.each { el ->
+	
+			String ref = getFieldName(el)
+	
+			// Skip known non-data controls
+			if (ref.toLowerCase().contains("search") ||
+				ref.toLowerCase().contains("filter")) {
+				return
+			}
+	
+			if (el.isEnabled()) {
+				addSoftFailure("❌ Editable field found: ${ref}")
+			}
+		}
+	
+		KeywordUtil.logInfo("✅ Read-only validation finished")
+	}
+	
+	String getFieldName(WebElement el) {
+		
+			String name = el.getAttribute("name")
+			if(name) return name
+		
+			String id = el.getAttribute("id")
+			if(id) {
+				try {
+					WebElement label =
+						DriverFactory.getWebDriver()
+						.findElement(By.xpath("//label[@for='${id}']"))
+		
+					if(label.getText()) return label.getText()
+				} catch(Exception e){}
+			}
+		
+			String placeholder = el.getAttribute("placeholder")
+			if(placeholder) return placeholder
+		
+			String aria = el.getAttribute("aria-label")
+			if(aria) return aria
+		
+			try {
+				WebElement label =
+					el.findElement(By.xpath("./ancestor::div[1]//label"))
+		
+				if(label.getText()) return label.getText()
+			} catch(Exception e){}
+		
+			return el.getTagName()
+		}
 
    // ==========================
 // READ & STORE TABLE DATA
@@ -271,144 +337,16 @@ def readAndStoreProviders(String key, TestObject tableObj) {
             WebUI.delay(1)
 
             // Optional discard popup
-            TestObject discardYes =
-                findTestObject(
-                    'Object Repository/Evaa Locations/Page_Unified Admin/Discard Changes Yes Button'
-                )
-
-            if (WebUI.verifyElementPresent(
-                discardYes, 2, FailureHandling.OPTIONAL)) {
-                WebUI.click(discardYes)
-                WebUI.delay(1)
-            }
-        }
-    }
-	
-	// ==========================
-// READ MAXIMEYES USERS WITH PAGINATION
-// ==========================
-@Keyword
-def readMaximeyesUsers(String key, TestObject tableObj, TestObject nextBtnObj) {
-
-    List<Map> users = []
-    String lastFirstRow = ""
-
-    while (true) {
-
-        WebElement table =
-            WebUiCommonHelper.findWebElement(tableObj, 20)
-
-        int firstNameCol = getColumnIndexByHeader(table, "First Name")
-        int lastNameCol  = getColumnIndexByHeader(table, "Last Name")
-        int loginCol     = getColumnIndexByHeader(table, "Login")
-
-        List<WebElement> rows =
-            table.findElements(By.xpath(".//tbody/tr"))
-
-        if (rows.isEmpty()) break
-
-        // Detect page change
-        String currentFirstRow =
-            rows[0].findElements(By.tagName("td"))[loginCol]
-                .getText().trim()
-
-        if (currentFirstRow == lastFirstRow) {
-            break
-        }
-
-        lastFirstRow = currentFirstRow
-
-        rows.each { row ->
-
-            def cells = row.findElements(By.tagName("td"))
-
-            if (cells.size() > loginCol) {
-
-                def first = cells[firstNameCol].getText().trim()
-                def last  = cells[lastNameCol].getText().trim()
-                def login = cells[loginCol].getText().trim()
-
-                if (first && last && login) {
-
-                    users.add([
-                        login : login.toLowerCase(),
-                        name  : (first + " " + last).toLowerCase()
-                    ])
-                }
-            }
-        }
-
-        // Try clicking next
-        if (!WebUI.verifyElementClickable(nextBtnObj, 3, FailureHandling.OPTIONAL)) {
-            break
-        }
-
-        WebUI.click(nextBtnObj)
-        WebUI.delay(2)
-    }
-
-    users = users.unique()
-
-    store[key] = users
-
-    KeywordUtil.logInfo("📥 STORED MAXIMEYES USERS: ${users.size()}")
-}
-
-// ==========================
-// COMPARE USERS (NO VIEW)
-// ==========================
-@Keyword
-def readEvaaUsers(String key, TestObject tableObj) {
-
-    WebElement table =
-        WebUiCommonHelper.findWebElement(tableObj, 20)
-
-    int nameCol  = getColumnIndexByHeader(table, "Name")
-    int emailCol = getColumnIndexByHeader(table, "Email")
-
-    List<Map> users = []
-
-    List<WebElement> rows =
-        table.findElements(By.xpath(".//tbody/tr"))
-
-    rows.each { row ->
-
-        def cells = row.findElements(By.tagName("td"))
-
-        if (cells.size() > emailCol) {
-
-            def name  = cells[nameCol].getText().trim()
-            def login = cells[emailCol].getText().trim()
-
-            if (name && login) {
-
-                users.add([
-                    login : login.toLowerCase(),
-                    name  : name.toLowerCase()
-                ])
-            }
-        }
-    }
-
-    store[key] = users.unique()
-
-    KeywordUtil.logInfo("📥 STORED EVAA USERS: ${users.size()}")
-}
-
-int getColumnIndexByHeader(WebElement table, String headerName) {
-	
-		List<WebElement> headers =
-			table.findElements(By.xpath(".//thead//th"))
-	
-		for (int i = 0; i < headers.size(); i++) {
-	
-			if (headers[i].getText().trim()
-					.equalsIgnoreCase(headerName)) {
-	
-				return i
+			
+			TestObject discardYes = findTestObject('Object Repository/Evaa Locations/Page_Unified Admin/Discard Changes Yes Button')
+			
+			List<WebElement> elements = WebUiCommonHelper.findWebElements(discardYes, 1)
+			
+			if(elements.size() > 0) {
+				WebUI.click(discardYes)
 			}
-		}
+        }
+    }
 	
-		throw new Exception("Header not found: " + headerName)
-	}
+
 }

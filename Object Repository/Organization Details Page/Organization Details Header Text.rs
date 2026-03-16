@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization Information'])[1]/preceding::h1[1]</value>
+         <value>//*/text()[normalize-space(.)='Organization Details']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>2777bb43-9a4a-44aa-a791-1bb4260c2501</webElementGuid>
+      <webElementGuid>ced2b22d-0879-4966-9781-d752311ef6fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Organization Details</value>
-      <webElementGuid>20aacce8-6c7c-41cb-a6c8-4ae1fa6cded0</webElementGuid>
+      <webElementGuid>ceadc864-4a46-47c9-b156-5a28d49ad22d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,31 +45,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;business-info-page&quot;]/main[@class=&quot;ui-wrap&quot;]/div[@class=&quot;ui-title&quot;]/h1[1]</value>
-      <webElementGuid>a5e66d1c-36ed-475e-92ee-57c462ce4b91</webElementGuid>
+      <webElementGuid>e8533e77-d0a9-4c54-bc83-e4b2e54833bc</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization Information'])[1]/preceding::h1[1]</value>
-      <webElementGuid>e72bafeb-7c01-4a19-9e09-49e13ab1114e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter your organization details to create your account'])[1]/preceding::h1[1]</value>
-      <webElementGuid>2caf5252-31a7-4640-9735-f9c87c3fa727</webElementGuid>
-   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Organization Details']/parent::*</value>
-      <webElementGuid>da66dd6f-33eb-4c3f-806f-762d6c515164</webElementGuid>
+      <webElementGuid>02aa98c1-e841-44bf-9726-5e9bf4ca3b6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +61,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>632f796f-a53b-40d8-a211-740da3e659b9</webElementGuid>
+      <webElementGuid>19e802dd-62de-46f7-ba5a-e338cbde0d2b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +69,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Organization Details' or . = 'Organization Details')]</value>
-      <webElementGuid>7c9f5bee-5635-4012-9d02-bd42784c2fab</webElementGuid>
+      <webElementGuid>9419cb29-1711-4aed-92ac-b2f68237698c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

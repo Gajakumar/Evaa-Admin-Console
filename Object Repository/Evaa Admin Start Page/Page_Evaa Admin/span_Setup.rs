@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Setup</name>
+   <tag></tag>
+   <elementGuidId>2fc47816-d11a-4fcd-8c30-dbe264bc1c4a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.sidebar-link span.d-flex span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' sidebar-link ')]//span[@class and contains(concat(' ', normalize-space(@class), ' '), ' d-flex ')]//span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Setup&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8aacc012-d689-4399-b0f4-359993cb22f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Setup</value>
+      <webElementGuid>74f202e3-5fda-4fff-a858-8b4b9076a639</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-8901841ad45a42e4ce6d29b55fe6bc00</value>
+      <webElementGuid>98811c08-05ad-4b54-a098-acd605df766b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' sidebar-link ')]//span[@class and contains(concat(' ', normalize-space(@class), ' '), ' d-flex ')]//span</value>
+      <webElementGuid>f6bb5a4e-693f-4410-afa2-5797342c53d7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' sidebar-link ')]//span[@class and contains(concat(' ', normalize-space(@class), ' '), ' d-flex ')]//span</value>
+      <webElementGuid>77c8fe77-5434-43a5-ac00-824864451c73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Setup' or . = 'Setup')]</value>
+      <webElementGuid>02cc7350-25be-4cc0-b2e0-4efbdc131a13</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

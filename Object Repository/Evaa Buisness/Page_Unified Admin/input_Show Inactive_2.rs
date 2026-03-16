@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Show Inactive_2</name>
+   <tag></tag>
+   <elementGuidId>c6274d48-11a2-45b3-a7a6-a1885ed74718</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#showInactiveProvidersSwitch</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'showInactiveProvidersSwitch']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Show Inactive&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>50a0f419-99d5-446a-99ee-7f90aa7c96ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-check-input custom-toggle-input</value>
+      <webElementGuid>8ef7f985-875a-494f-b27d-f82b6afa9e08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>09fa998e-9aea-4d59-9076-79ccba6e3675</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>showInactiveProvidersSwitch</value>
+      <webElementGuid>10ba5fab-f463-4d98-b768-bd517176c16f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-0d6b546f07bb633afb6ef9faf2ebf32d</value>
+      <webElementGuid>2ea1b1f9-08b0-40b1-8ced-3ee2b8437152</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'showInactiveProvidersSwitch']</value>
+      <webElementGuid>ecad082c-82f4-4bf1-b94d-a0420dc1d965</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'showInactiveProvidersSwitch']</value>
+      <webElementGuid>50f0efe1-ee0f-4a32-a2d9-397c1bfe200d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'checkbox' and @id = 'showInactiveProvidersSwitch']</value>
+      <webElementGuid>652bbf45-0d32-4c79-a687-aa55ad31e61e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

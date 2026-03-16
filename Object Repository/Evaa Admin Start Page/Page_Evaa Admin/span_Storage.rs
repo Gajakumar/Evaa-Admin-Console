@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Storage</name>
+   <tag></tag>
+   <elementGuidId>99937e1d-385d-4950-85f7-5bf2d42d0558</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[href=&quot;\/scribe\/storage&quot;] span.d-flex span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@href = '/scribe/storage']//span[@class and contains(concat(' ', normalize-space(@class), ' '), ' d-flex ')]//span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Storage&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e3f3d4ad-06ed-4e50-97f8-c9c76b4b4772</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Storage</value>
+      <webElementGuid>b6db6eee-08e8-4263-9b0e-0a6bd049d8e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-076e3921f7ae538ea436f459b9ce83ca</value>
+      <webElementGuid>57648b4f-7ebf-44a2-b644-4adecc19302a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@href = '/scribe/storage']//span[@class and contains(concat(' ', normalize-space(@class), ' '), ' d-flex ')]//span</value>
+      <webElementGuid>8476e988-371e-4a31-a9bb-eddd2db6e014</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@href = '/scribe/storage']//span[@class and contains(concat(' ', normalize-space(@class), ' '), ' d-flex ')]//span</value>
+      <webElementGuid>eae87e16-2afc-4803-9060-e28eba6476af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Storage' or . = 'Storage')]</value>
+      <webElementGuid>bf6eef27-b8ec-4329-8510-94592f588c10</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

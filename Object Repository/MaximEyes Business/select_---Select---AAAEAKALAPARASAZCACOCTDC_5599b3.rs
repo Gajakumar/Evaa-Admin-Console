@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_---Select---AAAEAKALAPARASAZCACOCTDC_5599b3</name>
+   <tag></tag>
+   <elementGuidId>9e35f7e7-7ddd-480e-9463-db034fab3de9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='PL_Main_StateId_c84d6056']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#PL_Main_StateId_c84d6056</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#PL_Main_StateId_c84d6056</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>c6d375ce-4fad-437b-a0c3-13ab962002c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>PL_Main_StateId_c84d6056</value>
+      <webElementGuid>1cbef8a1-60e9-4b50-923a-19a7d855fbee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Addresses[0].StateID</value>
+      <webElementGuid>587f1573-e77b-49a1-9e51-3e7a6b7e65cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>---Select---
+AA
+AE
+AK
+AL
+AP
+AR
+AS
+AZ
+CA
+CO
+CT
+DC
+DE
+FL
+FM
+GA
+GU
+HI
+IA
+ID
+IL
+IN
+KS
+KY
+LA
+MA
+MD
+ME
+MH
+MI
+MN
+MO
+MP
+MS
+MT
+NC
+ND
+NE
+NH
+NJ
+NM
+NV
+NY
+OH
+OK
+OR
+PA
+PR
+PW
+RI
+SC
+SD
+TN
+TX
+UT
+VA
+VI
+VT
+WA
+WI
+WV
+WY
+</value>
+      <webElementGuid>0e9676c0-7fde-420e-ac47-785bf03ac353</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;PL_Main_StateId_c84d6056&quot;)</value>
+      <webElementGuid>1f930844-9131-4551-a7ef-4d1b7637fba1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='PL_Main_StateId_c84d6056']</value>
+      <webElementGuid>7fb9e5ef-aa37-4b41-8910-53ee4b560d65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='stateID5_Main']/select</value>
+      <webElementGuid>98b1bb3f-6dac-4842-b4d9-ddbc6df28816</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='City, State'])[1]/following::select[1]</value>
+      <webElementGuid>361e9e74-3b32-4259-8240-b025305c1f48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Address (Line 2)'])[1]/following::select[1]</value>
+      <webElementGuid>7de1f366-dce1-465a-9ec3-270a92952045</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Zip Code'])[1]/preceding::select[1]</value>
+      <webElementGuid>13b561f8-5ff3-4c62-9581-11afdeae1191</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Country'])[1]/preceding::select[1]</value>
+      <webElementGuid>60d5c91b-c31e-45ed-860b-94c2fd646a66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div[2]/select</value>
+      <webElementGuid>00b2160c-8b61-40d6-96c0-01dacec0038f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'PL_Main_StateId_c84d6056' and @name = 'Addresses[0].StateID' and (text() = '---Select---
+AA
+AE
+AK
+AL
+AP
+AR
+AS
+AZ
+CA
+CO
+CT
+DC
+DE
+FL
+FM
+GA
+GU
+HI
+IA
+ID
+IL
+IN
+KS
+KY
+LA
+MA
+MD
+ME
+MH
+MI
+MN
+MO
+MP
+MS
+MT
+NC
+ND
+NE
+NH
+NJ
+NM
+NV
+NY
+OH
+OK
+OR
+PA
+PR
+PW
+RI
+SC
+SD
+TN
+TX
+UT
+VA
+VI
+VT
+WA
+WI
+WV
+WY
+' or . = '---Select---
+AA
+AE
+AK
+AL
+AP
+AR
+AS
+AZ
+CA
+CO
+CT
+DC
+DE
+FL
+FM
+GA
+GU
+HI
+IA
+ID
+IL
+IN
+KS
+KY
+LA
+MA
+MD
+ME
+MH
+MI
+MN
+MO
+MP
+MS
+MT
+NC
+ND
+NE
+NH
+NJ
+NM
+NV
+NY
+OH
+OK
+OR
+PA
+PR
+PW
+RI
+SC
+SD
+TN
+TX
+UT
+VA
+VI
+VT
+WA
+WI
+WV
+WY
+')]</value>
+      <webElementGuid>3ccc31f5-8eb3-4885-839c-395ee1fe3f13</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

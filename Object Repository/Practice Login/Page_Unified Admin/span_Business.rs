@@ -6,12 +6,11 @@
    <elementGuidId>1de788d5-4d50-46b1-be55-c576a3b67059</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization/Business'])[2]/following::span[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/aside/nav/button[4]/span[2]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>9a8bba79-58f6-49f6-94f9-a62944af61c1</webElementGuid>
+      <webElementGuid>d57de57f-7ee6-4b49-842d-b03f7e341fde</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-dark fw-medium</value>
-      <webElementGuid>a2bd869b-3fed-4b94-a67e-a8534715ecc8</webElementGuid>
+      <webElementGuid>01c9a333-2cea-482a-ba42-4f3eb945965d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Business</value>
-      <webElementGuid>8c92561d-5a9d-4a9e-9e9d-749763cd0549</webElementGuid>
+      <webElementGuid>5433fd3e-d082-46d6-a22c-c05c3607027f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,23 +52,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;min-vh-100 d-flex flex-column&quot;]/div[@class=&quot;d-flex flex-grow-1&quot;]/aside[1]/nav[@class=&quot;nav nav-pills flex-column p-2&quot;]/button[@class=&quot;nav-link d-flex align-items-center gap-2 rounded-0 position-relative mb-2 text-muted&quot;]/span[@class=&quot;text-dark fw-medium&quot;]</value>
-      <webElementGuid>f3e3a3af-94e9-4d71-b187-67e8df919fc1</webElementGuid>
+      <webElementGuid>74d5c525-8428-48c7-b6cf-4dd66785acbc</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='root']/div/div/aside/nav/button[4]/span[2]</value>
-      <webElementGuid>e0e7a803-900b-4f3c-9fcc-e0dd8d2a399c</webElementGuid>
-   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization/Business'])[2]/following::span[2]</value>
-      <webElementGuid>a7a6b071-e695-44fb-a9d3-9bacff267af5</webElementGuid>
+      <webElementGuid>9afba20e-091b-4db3-9ddf-a0338b12a031</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Overview'])[1]/following::span[4]</value>
-      <webElementGuid>b4d0437e-4b4e-4073-8241-ac41df47fe94</webElementGuid>
+      <webElementGuid>863947d3-2317-4179-a7d2-877a217259fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Locations'])[2]/preceding::span[2]</value>
-      <webElementGuid>2163e0f9-9dff-4455-8013-7cd0a7550265</webElementGuid>
+      <webElementGuid>17262672-1b73-4aae-8ca9-4aba0643f63d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Providers'])[2]/preceding::span[4]</value>
-      <webElementGuid>1464a570-f94a-4b49-8f49-f2ce66216933</webElementGuid>
+      <webElementGuid>3c986749-f67d-4a2a-8888-689e7173cde4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +92,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[4]/span[2]</value>
-      <webElementGuid>d9f4e5ed-6d3b-412c-b662-91c027df0882</webElementGuid>
+      <webElementGuid>e214030e-d713-450b-97b4-905ec713bba5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +100,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Business' or . = 'Business')]</value>
-      <webElementGuid>bfeda255-c0ea-4e21-9a91-36cac55a8446</webElementGuid>
+      <webElementGuid>f621deb9-901d-4399-8e4f-6fa089e6c507</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -23,13 +23,19 @@ import com.kms.katalon.core.testobject.TestObject
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.By
 import common.TableDataHelper
+import common.TDHelper
+import common.TdInactiveUsers
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import common.TableDataHelper
+import common.TableDataHelper
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import common.TableDataHelper
-import common.TableDataHelper
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import verification.CrossSystemVerifier
 
 TableDataHelper helper = new TableDataHelper()
+TDHelper helperA = new TDHelper()
+TdInactiveUsers helperB = new TdInactiveUsers()
+CrossSystemVerifier verify = new CrossSystemVerifier()
 
 // ======================
 // MAXIMEYES LOGIN
@@ -40,16 +46,6 @@ WebUI.callTestCase(
     FailureHandling.STOP_ON_FAILURE
 )
 
-
-//WebUI.navigateToUrl("https://thomasmoorevm.maximeyes.com/")
-//
-//WebUI.setText(findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/UserName'), "ChelseaN")
-//
-//WebUI.setText(findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/Password'), "Test@123")
-//
-//WebUI.click(
-//	findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/Login Button')
-//)
 
 WebUI.click(findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/Office Admin Button'))
 WebUI.click(findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/a_Business Administration'))
@@ -69,6 +65,96 @@ helper.readAndStore(
     0
 )
 
+
+WebUI.click(
+	findTestObject(
+		'Object Repository/MaximEyes Business/Buisness name',
+		['businessName':'Frequency Online']
+	)
+)
+
+Map fields = [
+	
+	"Business Name":[
+	findTestObject('Object Repository/MaximEyes Business/input_Business Name_txtBusinessName'),
+	findTestObject('Object Repository/Evaa Business Records/input__businessName')
+	],
+	
+	"Website":[
+	findTestObject('Object Repository/MaximEyes Business/input_Website_txtWebsite'),
+	findTestObject('Object Repository/Evaa Business Records/input_Website_website')
+	],
+	
+	"Address Line 1":[
+	findTestObject('Object Repository/MaximEyes Business/input_Address_PL_Main_Line1_c84d6056'),
+	findTestObject('Object Repository/Evaa Business Records/input__addressLineOne')
+	],
+	
+	"City":[
+	findTestObject('Object Repository/MaximEyes Business/input_City, State_PL_Main_CityName_c84d6056'),
+	findTestObject('Object Repository/Evaa Business Records/input__city')
+	],
+	
+	"Zip Code":[
+	findTestObject('Object Repository/MaximEyes Business/input_Zip Code_PR_Info_Address_Main_ZipCode_aa58c9'),
+	findTestObject('Object Repository/Evaa Business Records/input_Zip Code_zip')
+	],
+	
+	"Phone":[
+	findTestObject('Object Repository/MaximEyes Business/input_Phone_PL_Main_Phone_c84d6056'),
+	findTestObject('Object Repository/Evaa Business Records/input__phoneNumber')
+	],
+	
+	"DBA":[
+		findTestObject('Object Repository/MaximEyes Business/input_Business Name DBA_txtBusinessNameDBA'),
+		findTestObject('Object Repository/Evaa Business Records/input__phoneNumber')
+		],
+		
+	"Website":[
+		findTestObject('Object Repository/MaximEyes Business/input_Website_txtWebsite'),
+		findTestObject('Object Repository/Evaa Business Records/input_Website_website')
+			],
+		
+	"Federal Tax ID":[
+		findTestObject('Object Repository/MaximEyes Business/input_Federal Tax ID_txtTaxId'),
+		findTestObject('Object Repository/Evaa Business Records/input_Federal Tax Identification Number for_9843b8')
+		],
+		
+	"Address (Line 2)":[
+		findTestObject('Object Repository/MaximEyes Business/input_Address (Line 2)_PL_Main_Line2_c84d6056'),
+		findTestObject('Object Repository/Evaa Business Records/input_Address Line 2_addressLineTwo')
+		],
+		
+	"Country":[
+		findTestObject('Object Repository/MaximEyes Business/country'),
+		findTestObject('Object Repository/Evaa Business Records/button_Select Country')
+			],
+			
+	"Ext":[
+		findTestObject('Object Repository/MaximEyes Business/input_Ext_PL_Main_PhoneExtension_c84d6056'),
+		findTestObject('Object Repository/Evaa Business Records/input_Extension_extension')
+			],
+	
+	]
+	
+	verify.captureFields(fields)
+	
+	CustomKeywords.'verification.CrossSystemVerifier.captureMaximEyesLocations'(
+		findTestObject('Object Repository/MaximEyes Business/Location Table Rows')
+	)
+	
+WebUI.click(findTestObject('Object Repository/MaximEyes Business/button__dialog-close-button btn-close 18d6f'))
+
+WebUI.click(findTestObject('Maximeye.com/Page_MaximEyes/Page_MaximEyes/Page_MaximEyes/span_Show Inactive'))
+
+helper.readAndStore(
+	"inactive business",
+	findTestObject('Object Repository/Maximeyes Evaa Login/Page_Unified Admin/Buisness Table'),
+	0
+)
+
+
+
 // ======================
 // READ LOCATIONS
 // ======================
@@ -80,49 +166,65 @@ helper.readAndStore(
     0
 )
 
+WebUI.click(findTestObject('Maximeye.com/Page_MaximEyes/Page_MaximEyes/Page_MaximEyes/span_Show Inactive_1'))
+
+helper.readAndStore(
+	"inactive locations",
+	findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/Location Table'),
+	0
+)
 // ======================
 // READ PROVIDERS
 // ======================
 WebUI.click(findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/a_Providers'))
 
-//helper.readAndStore(
-//    "providers",
-//    findTestObject('Object Repository/Maximeyes Evaa Login/Page_Unified Admin/Provider Table'),
-//    0
-//)
+helper.readAndStore(
+    "providers",
+    findTestObject('Object Repository/Maximeyes Evaa Login/Page_Unified Admin/Provider Table'),
+    0
+)
 
-helper.readAndStoreProviders("providers", findTestObject('Object Repository/Maximeyes Evaa Login/Page_Unified Admin/Provider Table'))
+WebUI.click(findTestObject('Maximeye.com/Page_MaximEyes/Page_MaximEyes/Page_MaximEyes/input_SHOW_INACTIVE_Providers'))
+
+helper.readAndStore(
+	"inactive providers",
+	findTestObject('Object Repository/Maximeyes Evaa Login/Page_Unified Admin/Provider Table'),
+	0
+)
+
+//helper.readAndStoreProviders("providers", findTestObject('Object Repository/Maximeyes Evaa Login/Page_Unified Admin/Provider Table'))
 
 // ======================
 // READ USERS
 // ======================
-//WebUI.click(findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes/Users and Permissions'))
-
-//helper.storeUsersWithPagination(findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes/User table'),
-//    findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes/Pagignation Next Btn'))
+WebUI.click(findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes/Users and Permissions'))
 
 
-//// Store Maximeyes users
-//helper.readAndStoreMaxUsers(
-//	"Users",
-//	findTestObject("Object Repository/Maximeyes Evaa Login/Page_MaximEyes/User table"),
-//	2, // First Name column
-//	3, // Last Name column
-//	1,  // Login column
-//	findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes/Pagignation Next Btn')
-//)
+helperA.readAndStoreMaxUsers(
+    "Users",
+    findTestObject("Object Repository/Maximeyes Evaa Login/Page_MaximEyes/User table"),
+    1, // First Name
+    2, // Last Name
+    0, // Login
+    findTestObject("Object Repository/Maximeyes Evaa Login/Page_MaximEyes/Pagignation Next Btn")
+)
 
-//// MAXIMEYES PAGE (Pagination)
-//helper.readMaximeyesUsers(
-//	"MaxUsers",
-//	findTestObject("Object Repository/Maximeyes Evaa Login/Page_MaximEyes/User table"),
-//	findTestObject("Object Repository/Maximeyes Evaa Login/Page_MaximEyes/Pagignation Next Btn")
-//)
+WebUI.click(findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes/Users and Permissions'))
 
-// ======================
-// LOGOUT MAXIMEYES
-// ======================
-//WebUI.click(findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/a_Logout'))
+WebUI.delay(2)
+WebUI.click(findTestObject('Maximeye.com/Page_MaximEyes/Page_MaximEyes/span_Show Inactive Users'))
+WebUI.delay(2)
+
+helperB.readAndStoreMaxInactiveUsers(
+	"MAX_INACTIVE",
+	findTestObject("Object Repository/Maximeyes Evaa Login/Page_MaximEyes/User table"),
+	1,
+	2,
+	0,
+	6,  // Active column
+	findTestObject("Object Repository/Maximeyes Evaa Login/Page_MaximEyes/Pagignation Next Btn")
+)
+
 
 // ======================
 // EVAA LOGIN
@@ -151,30 +253,22 @@ WebUI.setText(
     'qa10evaa'
 )
 
-//WebUI.setText(
-//	findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes Identity/input_Sign In With MaximEyes_Username'),
-//	'ChelseaN'
-//)
-//
-//WebUI.setText(
-//	findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes Identity/input_Sign In With MaximEyes_Password'),
-//	'Test@123'
-//)
-//
-//WebUI.setText(
-//	findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes Identity/input_https_MaximEyeURL'),
-//	'thomasmoorevm'
-//)
+
 
 WebUI.click(
     findTestObject('Object Repository/Maximeyes Evaa Login/Page_MaximEyes Identity/button_Login')
 )
 
-//// ======================
-//// LOCATIONS – COMPARE + VIEW (EDITABLE → NO READ-ONLY CHECK)
-//// ======================
-//
-//
+WebUI.executeJavaScript(
+	"document.body.style.zoom='80%'",
+	null
+)
+
+
+// ======================
+// LOCATIONS – COMPARE + VIEW (EDITABLE → NO READ-ONLY CHECK)
+// ======================
+
 TestObject settingBtn = findTestObject("Object Repository/Maximeyes Evaa Login/Page_Unified Admin/button_Refer a Colleague_btn px-2 d-flex ga_038e76")
 
 WebUI.waitForElementClickable(settingBtn, 5)
@@ -188,6 +282,17 @@ helper.compareAndClickView(
     ".//button[normalize-space()='View']",
     false
 )
+
+WebUI.click(findTestObject('Evaa Buisness/Page_Unified Admin/input_Show Inactive_1'))
+
+helper.compareAndClickView(
+	"inactive locations",
+	findTestObject('Object Repository/Evaa Locations/Location Table Evaa'),
+	0,
+	".//button[normalize-space()='View']",
+	false
+)
+
 
 // ======================
 // BUSINESS – COMPARE + VIEW (READ-ONLY)
@@ -207,6 +312,35 @@ helper.compareAndClickView(
     true
 )
 
+WebUI.click(
+	findTestObject(
+		'Object Repository/Evaa Business Records/LocName View Btn',
+		['locationName':'Frequency Online']
+	)
+)
+
+verify.verifyFields(fields)
+
+// 
+CustomKeywords.'verification.CrossSystemVerifier.captureEvaaLocations'(
+	findTestObject('Object Repository/Evaa Business Records/Location Table')
+)
+
+// Compare
+CustomKeywords.'verification.CrossSystemVerifier.compareLocations'()
+
+WebUI.click(findTestObject('Object Repository/Evaa Buisness/button_Cancel'))
+
+WebUI.click(findTestObject('Evaa Buisness/Page_Unified Admin/input_Show Inactive'))
+
+helper.compareAndClickView(
+	"inactive business",
+	findTestObject('Object Repository/Evaa Buisness/Buisness Table Evaa'),
+	0,
+	".//button[normalize-space()='View']",
+	true
+)
+
 // ======================
 // PROVIDERS – COMPARE + VIEW (READ-ONLY)
 // ======================
@@ -221,37 +355,36 @@ helper.compareAndClickView(
     true
 )
 
+WebUI.click(findTestObject('Evaa Buisness/Page_Unified Admin/input_Show Inactive_2'))
+
+helper.compareAndClickView(
+	"inactive providers",
+	findTestObject('Object Repository/Evaa Providers/Providers Table Evaa'),
+	0,
+	".//button[normalize-space()='View']",
+	true
+)
+
+// ======================
+// USER – COMPARE 
+// ======================
+WebUI.click(findTestObject('Object Repository/Users/Page_Unified Admin/button_Users'))
+WebUI.delay(3)
 
 
-//// ======================
-//// USER – COMPARE 
-//// ======================
-//WebUI.click(findTestObject('Object Repository/Users/Page_Unified Admin/button_Users'))
-//WebUI.delay(3)
+Map usersEvaa = helperA.getEvaaUsers(findTestObject("Object Repository/Users/Page_Unified Admin/User Table Evaa"))
 
+println(usersEvaa)
 
+helperA.compareUsers("Users", usersEvaa)
 
-//helper.compareUsers(findTestObject('Object Repository/Users/Page_Unified Admin/User Table Evaa'))
+WebUI.click(findTestObject('Users/Page_Unified Admin/Page_Unified Admin/input_toggleShowInactive'))
 
-//// Compare with EVAA
-//helper.compareUsers(
-//	"Users",
-//	findTestObject("Object Repository/Users/Page_Unified Admin/User Table Evaa"),
-//	1, // Name column in EVAA
-//	2  // Email column in EVAA
-//)
+Map evaaInactive = helperB.getEvaaInactiveUsers(
+	findTestObject("Object Repository/Users/Page_Unified Admin/User Table Evaa")
+)
 
-//// EVAA PAGE (Single Page)
-//helper.readEvaaUsers(
-//	"EvaaUsers",
-//	findTestObject("Object Repository/Users/Page_Unified Admin/User Table Evaa")
-//)
-//
-//// Compare
-//helper.compareUsers(
-//	TableDataHelper.store["MaxUsers"],
-//	TableDataHelper.store["EvaaUsers"]
-//)
+helperB.compareInctiveUsers("MAX_INACTIVE", evaaInactive)
 
 CustomKeywords.'common.TableDataHelper.assertAll'()
 

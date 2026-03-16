@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/main/div/div[3]/div/form/div/div[5]/div[2]/div/div/button/span</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[6]/following::span[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>02be128b-87bd-4067-9205-cd8d7bd52420</webElementGuid>
+      <webElementGuid>8d39d065-f152-4650-a17e-39c34b693ee2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Alaska</value>
-      <webElementGuid>3876c7a7-084b-4612-abcd-2a08c2b2cf2c</webElementGuid>
+      <webElementGuid>e7ef1926-7288-4350-8bfb-317810c379da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,23 +45,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;min-vh-100 d-flex flex-column&quot;]/div[@class=&quot;d-flex flex-grow-1&quot;]/main[@class=&quot;flex-grow-1 p-4 overflow-auto&quot;]/div[@class=&quot;container-fluid p-0&quot;]/div[@class=&quot;card mb-4&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;mb-3&quot;]/div[5]/div[2]/div[1]/div[1]/button[@class=&quot;form-control p-2 d-flex justify-content-between align-items-center&quot;]/span[1]</value>
-      <webElementGuid>4e3476e0-de02-4903-bb5e-564e44f6c009</webElementGuid>
+      <webElementGuid>94752615-a3e2-45f6-8e82-3fc5d4e94fdb</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='root']/div/div/main/div/div[3]/div/form/div/div[5]/div[2]/div/div/button/span</value>
-      <webElementGuid>4c33ffe2-921e-490c-93ab-0a7bfc677aa9</webElementGuid>
-   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[6]/following::span[1]</value>
-      <webElementGuid>306edb95-318b-47c5-a609-e580a475d6e0</webElementGuid>
+      <webElementGuid>985e68f3-df4e-408d-bf50-9bfc13d8c164</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/preceding::span[2]</value>
-      <webElementGuid>43b97fd5-6b90-4a1f-9e15-29197c4b7a85</webElementGuid>
+      <webElementGuid>934196d9-e849-4534-92ec-8319c8373d44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Alaska']/parent::*</value>
-      <webElementGuid>95d48fc1-f3ab-4347-83cb-ca2663ee8488</webElementGuid>
+      <webElementGuid>108f03da-a62d-4979-998b-372b9ffed5f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +77,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/button/span</value>
-      <webElementGuid>c77cf0dc-d08c-47e6-8085-9290cc723838</webElementGuid>
+      <webElementGuid>42cdfa41-7b5a-4417-accf-641c725f5cad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +85,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Alaska' or . = 'Alaska')]</value>
-      <webElementGuid>e7151bb3-67a7-4a0c-bae1-d030851bc2b2</webElementGuid>
+      <webElementGuid>e5e97272-bf4f-4806-aaff-d187da05dd97</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

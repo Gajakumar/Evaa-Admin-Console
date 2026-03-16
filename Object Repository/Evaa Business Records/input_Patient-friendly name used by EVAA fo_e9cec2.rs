@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Patient-friendly name used by EVAA fo_e9cec2</name>
+   <tag></tag>
+   <elementGuidId>a5fa7ddd-081d-473b-acc8-bf6d4bc8ce8f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='dbaName']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;dbaName&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Enter DBA name&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>b81b815f-a4df-49c1-94f5-0b2f84d3a22a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control p-2</value>
+      <webElementGuid>96618537-be40-43e6-b1f4-553f5dd51fa4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>dbaName</value>
+      <webElementGuid>ca6aada6-b131-4a80-ad43-a4dd16f36ae9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Enter DBA name</value>
+      <webElementGuid>e50bf035-8dc2-49ee-a7fd-03920eb8d21f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;vh-100 d-flex flex-column overflow-hidden&quot;]/div[@class=&quot;d-flex flex-grow-1&quot;]/main[@class=&quot;flex-grow-1 p-4 overflow-auto&quot;]/div[@class=&quot;container-fluid p-0&quot;]/div[@class=&quot;card p-4&quot;]/div[2]/div[@class=&quot;modal show d-block&quot;]/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/form[@class=&quot;modal-body pt-2 p-4&quot;]/fieldset[1]/div[1]/div[4]/div[2]/input[@class=&quot;form-control p-2&quot;]</value>
+      <webElementGuid>1612f7a0-72d7-4f41-8e7e-cb64460658b7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='dbaName']</value>
+      <webElementGuid>6f0b4b4e-cee2-4779-8278-c65593ab2b02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div[2]/div[2]/div[3]/div/div/form/fieldset/div/div[4]/div[2]/input</value>
+      <webElementGuid>16f8e562-d959-4018-87f3-7cce76a3c9e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[2]/input</value>
+      <webElementGuid>7b344cd8-95eb-4a2e-bf4b-5c3228140a47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'dbaName' and @placeholder = 'Enter DBA name']</value>
+      <webElementGuid>5e1e64dc-54e1-4661-b8f7-19c07962a1a2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

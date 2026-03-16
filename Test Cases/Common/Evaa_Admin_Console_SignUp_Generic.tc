@@ -6,4 +6,30 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>7256c0b4-7781-47e0-8a7c-cf1a34c1daff</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>716a87e8-afc1-4a45-b6ee-d495e6324522</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ad9ecb48-8284-4624-995b-e9017e4ae6bb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Meet EVAA AI'</defaultValue>
+      <description></description>
+      <id>716a87e8-afc1-4a45-b6ee-d495e6324522</id>
+      <masked>false</masked>
+      <name>EvaaHeader</name>
+   </variable>
+   <variable>
+      <defaultValue>'Welcome to EVAA AI'</defaultValue>
+      <description></description>
+      <id>ad9ecb48-8284-4624-995b-e9017e4ae6bb</id>
+      <masked>false</masked>
+      <name>EvaaWelcomeText</name>
+   </variable>
 </TestCaseEntity>

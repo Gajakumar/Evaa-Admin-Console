@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Evaa_Admin_Console_SignUp_Uprise</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cb859227-923e-4cfc-977f-258da71fc670</testCaseGuid>
+</TestCaseEntity>

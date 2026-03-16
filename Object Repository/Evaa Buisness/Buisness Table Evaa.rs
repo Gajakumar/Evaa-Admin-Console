@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;root&quot;]/div/div/main/div/div[3]/div[4]/table</value>
+         <value>//table[.//th[normalize-space()='Business Name']]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

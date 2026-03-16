@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;root&quot;]/div/div/main/div/div[3]/div/div[4]/table</value>
+         <value>//table[contains(@class,'table') and contains(@class,'table-hover')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
