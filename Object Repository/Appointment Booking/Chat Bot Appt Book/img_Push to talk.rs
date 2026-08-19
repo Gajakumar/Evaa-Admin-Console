@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Push to talk</name>
+   <tag></tag>
+   <elementGuidId>f0592be6-6bae-4a94-a5ac-05749779af7e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='chat-widget-push-to-talk']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[alt=&quot;Push\ to\ talk&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Push to talk&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>bc9c4f81-cf90-432e-8044-14b732e1a703</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://prodaichatbotstorage.blob.core.windows.net/aichatbot/AvatarIcons/70441da0-54e0-41da-a3f4-78b8252b95a7.png</value>
+      <webElementGuid>87e001f3-d4a8-40fd-b477-0334c4f01257</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Push to talk</value>
+      <webElementGuid>ae4a19a2-1f17-4100-b7b2-b6d9e5b5d184</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-afeb0a1789bd19105833ef52de42b73f</value>
+      <webElementGuid>823fe43a-9376-4eca-ad30-f480e4c19df2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@alt = 'Push to talk']</value>
+      <webElementGuid>99ac5097-5639-4cdb-be23-0d660c9248be</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='chat-widget-push-to-talk']</value>
+      <webElementGuid>17e2dc4d-031b-44e6-b531-6d2667bb7c92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://prodaichatbotstorage.blob.core.windows.net/aichatbot/AvatarIcons/70441da0-54e0-41da-a3f4-78b8252b95a7.png' and @alt = 'Push to talk']</value>
+      <webElementGuid>5007fde2-02ad-479a-973f-9cb32f9150b6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

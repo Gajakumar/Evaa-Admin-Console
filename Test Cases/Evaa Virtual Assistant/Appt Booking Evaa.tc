@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Appt Booking Evaa</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>af95fa60-406e-4fc0-91f6-a499af10bbc1</testCaseGuid>
+</TestCaseEntity>

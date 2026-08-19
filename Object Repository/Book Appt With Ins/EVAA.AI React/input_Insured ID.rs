@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Insured ID</name>
+   <tag></tag>
+   <elementGuidId>76b6e490-f85a-4d3a-9fbf-2358bfd9b503</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#insuranceID</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'insuranceID']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Insured ID&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>e63cbb95-202d-4fcb-a98c-24166d0118a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>insuranceID</value>
+      <webElementGuid>334657d9-27ee-42e4-8a5b-aaba15cb0e00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wizard-input</value>
+      <webElementGuid>31b0172e-e8db-4d57-8925-0d331b8257d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Insured ID</value>
+      <webElementGuid>83e02b2e-c60e-42fd-acf8-397e71e179a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>12345678</value>
+      <webElementGuid>bd4e5ffe-8346-474b-8c98-de17ede15298</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-b9ef6a09019f002dc6e2db6669315f9e</value>
+      <webElementGuid>d24ccf54-72e4-463f-ab6d-7ef9cc7f6cb5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'insuranceID']</value>
+      <webElementGuid>d58f43b4-1bbb-4ba8-8659-b7932fdaf8ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Book Appt With Ins/EVAA.AI React/iframe_evaas-iframeId</value>
+      <webElementGuid>26732ea0-f59c-4870-b089-e9a2f04c98ca</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'insuranceID']</value>
+      <webElementGuid>06f621bb-9e63-43bf-b3c3-310988a67de3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'insuranceID' and @placeholder = 'Insured ID']</value>
+      <webElementGuid>3163fea7-8022-45a2-995f-aca96c6432c6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

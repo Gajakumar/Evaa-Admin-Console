@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Reason</name>
+   <tag></tag>
+   <elementGuidId>c0596988-050c-4f4e-949e-045f31f7a613</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'reason']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#reason</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Reason*&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>31ce90c7-5f72-4c8c-ad60-93bb0e92884a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>reason</value>
+      <webElementGuid>5d2963cc-097d-4ae3-9035-f492f684b44f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wizard-select</value>
+      <webElementGuid>3074fae7-96ff-4ffb-9636-bf961e19103f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select reasonAbhijit TestCAT EVALContact Lens DispensingConverted : 15COVID DeferredCOVID PRIORITYCOVID ROUTINEDark AdaptometryDilated PODisability ExamDisability ExamEstablished ExamEstablished Patient DilatedExisting Patient ExamF/U PER DR. NO DILATION NEEDEDFollow UpFULL NO REFRACTIONGAS PERM FULL EXAMGlasses Trouble ShootHeidelberg Retinal TomographyInactive PatientKatalon ReasonLab OutLunchNew Patient DilatedNew Patient ExamOnline SchedulingOnline Scheduling1OptosPreappointPretester Outqa5TESTQWERTYRecallReminderRohitASALES REPSOFT CLS FULL EXAMTeleHealthTeleHealthTEST ONLINEtest1234True TearVision TherapyWAITLISTReason</value>
+      <webElementGuid>152dee59-cefa-4c86-ba86-a3eda9c17816</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-1bb1d14616e94fe4dc04ac393e8c5349</value>
+      <webElementGuid>793c7dc6-70eb-416a-9598-1bc35389e16b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'reason']</value>
+      <webElementGuid>5a828a99-a3c6-4646-84f5-7cae43f42d52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Appointment Booking/Chat Bot Appt Book/iframe_evaas-iframeId</value>
+      <webElementGuid>52cf77aa-d1de-4d1e-abc1-9a0daba3009d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'reason']</value>
+      <webElementGuid>a98b5e87-19e1-4769-afe8-faf73460a92c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'reason' and (text() = 'Select reasonAbhijit TestCAT EVALContact Lens DispensingConverted : 15COVID DeferredCOVID PRIORITYCOVID ROUTINEDark AdaptometryDilated PODisability ExamDisability ExamEstablished ExamEstablished Patient DilatedExisting Patient ExamF/U PER DR. NO DILATION NEEDEDFollow UpFULL NO REFRACTIONGAS PERM FULL EXAMGlasses Trouble ShootHeidelberg Retinal TomographyInactive PatientKatalon ReasonLab OutLunchNew Patient DilatedNew Patient ExamOnline SchedulingOnline Scheduling1OptosPreappointPretester Outqa5TESTQWERTYRecallReminderRohitASALES REPSOFT CLS FULL EXAMTeleHealthTeleHealthTEST ONLINEtest1234True TearVision TherapyWAITLISTReason' or . = 'Select reasonAbhijit TestCAT EVALContact Lens DispensingConverted : 15COVID DeferredCOVID PRIORITYCOVID ROUTINEDark AdaptometryDilated PODisability ExamDisability ExamEstablished ExamEstablished Patient DilatedExisting Patient ExamF/U PER DR. NO DILATION NEEDEDFollow UpFULL NO REFRACTIONGAS PERM FULL EXAMGlasses Trouble ShootHeidelberg Retinal TomographyInactive PatientKatalon ReasonLab OutLunchNew Patient DilatedNew Patient ExamOnline SchedulingOnline Scheduling1OptosPreappointPretester Outqa5TESTQWERTYRecallReminderRohitASALES REPSOFT CLS FULL EXAMTeleHealthTeleHealthTEST ONLINEtest1234True TearVision TherapyWAITLISTReason')]</value>
+      <webElementGuid>7aa2242b-32fb-458f-bc1e-9050509ceefe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

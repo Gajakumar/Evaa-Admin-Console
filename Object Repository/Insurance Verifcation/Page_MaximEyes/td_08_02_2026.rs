@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_08_02_2026</name>
+   <tag></tag>
+   <elementGuidId>6501546e-cf8a-46f5-87ce-5f5475ba07cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-patient_relationship_to_insured = 'Self']//td[@class and contains(concat(' ', normalize-space(@class), ' '), ' align-center ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-patient_relationship_to_insured=&quot;Select&quot;] td.align-center</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;08/02/2026 PATIENT HAS ADDED Aetna AND IT DOES NOT HAVE AN INSURANCE CARD BUT PROVIDED \&quot;INSURED DETAILS ARE AS FOLLOWS PATIENT RELATIONSHIP TO INSURED: Select, INSURED ID: 12345678, INSURED FIRST NAME: QA, INSURED MIDDLE NAME: , INSURED LAST NAME: Katalon, INSURED SUFFIX: , INSURED DOB: 01/04/1995,INSURED GENDER: \&quot; AND INSURANCE CARD HAS BEEN ATTACHED.&quot;i] >> internal:role=cell >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>faf2aed9-597c-4c0d-a83b-c7eae2910b78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>align-center</value>
+      <webElementGuid>da847293-7f1e-44ab-9361-3f9561f37844</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>08/02/2026</value>
+      <webElementGuid>b8ea20ee-ca45-419e-b8c8-81b1845cd328</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-c2bb8f5ffd4e006e1b8d5a62f9bf9338</value>
+      <webElementGuid>1520b5d0-e372-4cd1-be42-3bf698c28d9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-patient_relationship_to_insured = 'Select']//td[@class and contains(concat(' ', normalize-space(@class), ' '), ' align-center ')]</value>
+      <webElementGuid>625bb59c-7589-4569-986e-29e6b81c18bc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-patient_relationship_to_insured = 'Self']//td[@class and contains(concat(' ', normalize-space(@class), ' '), ' align-center ')]</value>
+      <webElementGuid>4e9050d5-7dd0-4027-aa92-6c37fc2e3dc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '08/02/2026' or . = '08/02/2026')]</value>
+      <webElementGuid>99fe7a2d-6614-4d75-b4b8-408bb10cf194</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

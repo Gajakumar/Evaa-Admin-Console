@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_08_02_2026_1</name>
+   <tag></tag>
+   <elementGuidId>69bd19a7-91d8-4986-a56e-529275021bd1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fixedGridTR ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' align-center ') and (name() = 'td') and (position() = 4)]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.fixedGridTR:nth-child(1) td.align-center:nth-child(4)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;08/02/2026&quot;i] >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>b0e454f5-79cf-4571-b802-77bf4c652489</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>align-center</value>
+      <webElementGuid>48d7add4-3660-4633-8507-a7dbb74be12a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>08/02/2026</value>
+      <webElementGuid>2d25cf6b-67fb-495e-a9b3-c5965ae31b70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-634912c7ae979a7e06d221d8d903c403</value>
+      <webElementGuid>a52e33ce-b322-4735-8deb-73a31079381f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fixedGridTR ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' align-center ') and (name() = 'td') and (position() = 4)]</value>
+      <webElementGuid>18bcf92f-047f-460c-9c77-77a353c3e397</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fixedGridTR ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' align-center ') and (name() = 'td') and (position() = 4)]</value>
+      <webElementGuid>92e20e96-3576-4271-ba82-d1d82d9716f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '08/02/2026' or . = '08/02/2026')]</value>
+      <webElementGuid>96fc03d6-d357-42ba-8292-7285e6f2c85f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

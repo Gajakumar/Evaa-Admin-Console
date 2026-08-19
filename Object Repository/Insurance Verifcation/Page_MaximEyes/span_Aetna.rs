@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Aetna</name>
+   <tag></tag>
+   <elementGuidId>31131ecd-3c23-4451-ac9d-62363efcc61b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dx-datagrid-table ') and contains(concat(' ', normalize-space(@class), ' '), ' dx-datagrid-table-fixed ') and contains(concat(' ', normalize-space(@class), ' '), ' dx-pointer-events-none ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dx-data-row ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dx-datagrid-search-text ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.dx-datagrid-table.dx-datagrid-table-fixed.dx-pointer-events-none .dx-data-row:nth-child(1) .dx-datagrid-search-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;Aetna&quot;s] >> span</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1a34c7b4-c29c-4dbb-9888-3af01b402802</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dx-datagrid-search-text</value>
+      <webElementGuid>e9cb4cae-b42c-45ec-b967-83544bfae95a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Aetna</value>
+      <webElementGuid>4235197d-f38e-4b0d-8e4c-07b2bca6e2d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-58707fc77d70497631ea3d3553e3ae93</value>
+      <webElementGuid>d5403d57-ad46-482e-80d1-e279c5c4e19f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dx-datagrid-table ') and contains(concat(' ', normalize-space(@class), ' '), ' dx-datagrid-table-fixed ') and contains(concat(' ', normalize-space(@class), ' '), ' dx-pointer-events-none ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dx-data-row ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dx-datagrid-search-text ')]</value>
+      <webElementGuid>7292d343-c9c8-44e4-93e9-c5ee8f3e98f5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dx-datagrid-table ') and contains(concat(' ', normalize-space(@class), ' '), ' dx-datagrid-table-fixed ') and contains(concat(' ', normalize-space(@class), ' '), ' dx-pointer-events-none ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dx-data-row ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dx-datagrid-search-text ')]</value>
+      <webElementGuid>4c4ecc95-1d81-45dd-8350-d0aaba36cf4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Aetna' or . = 'Aetna')]</value>
+      <webElementGuid>a82be812-3643-4edd-b877-f2d9b5e98191</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

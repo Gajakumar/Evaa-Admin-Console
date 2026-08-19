@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Close</name>
+   <tag></tag>
+   <elementGuidId>f6a11b26-7041-41b3-8a0c-6fa998807396</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-reloadmodalurl = 'LoadAddEditAppointmentPopup/Schedule']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' popup_heading ') and contains(concat(' ', normalize-space(@class), ' '), ' caption ')]//button[@title = 'Close']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-reloadmodalurl=&quot;LoadAddEditAppointmentPopup\/Schedule&quot;] .popup_heading.caption button[title=&quot;Close&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>01800bec-f015-4a2b-a174-7df27190b9bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dialog-close-button btn-close 1eca2</value>
+      <webElementGuid>864df9c9-398f-4810-9fa6-5914c0516daa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Close</value>
+      <webElementGuid>ee43e848-784a-4837-ba31-3741a24a330b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-c36f157263640997bd90bc1c9a272efe</value>
+      <webElementGuid>6a656ce7-20dd-41f3-966f-a7f878e19f45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-reloadmodalurl = 'LoadAddEditAppointmentPopup/Schedule']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' popup_heading ') and contains(concat(' ', normalize-space(@class), ' '), ' caption ')]//button[@title = 'Close']</value>
+      <webElementGuid>98982c48-f3a9-41da-8c31-0f512bf79c71</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-reloadmodalurl = 'LoadAddEditAppointmentPopup/Schedule']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' popup_heading ') and contains(concat(' ', normalize-space(@class), ' '), ' caption ')]//button[@title = 'Close']</value>
+      <webElementGuid>d183dc4f-e968-4f4c-a1bb-67476f233149</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@title = 'Close']</value>
+      <webElementGuid>c768710e-a89c-47a3-bf90-d117e1be5abf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

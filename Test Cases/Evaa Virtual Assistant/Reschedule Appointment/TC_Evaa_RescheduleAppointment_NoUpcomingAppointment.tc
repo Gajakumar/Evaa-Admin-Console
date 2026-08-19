@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Evaa_RescheduleAppointment_NoUpcomingAppointment</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d73b5626-42a9-49cf-996b-699061cdb51e</testCaseGuid>
+</TestCaseEntity>

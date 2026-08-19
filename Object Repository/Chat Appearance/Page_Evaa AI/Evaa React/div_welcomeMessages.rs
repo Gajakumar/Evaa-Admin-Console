@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_welcomeMessages</name>
+   <tag></tag>
+   <elementGuidId>9058e143-635b-4e5d-bb88-1ae96ac83aeb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'welcomeMessages']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#welcomeMessages</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Hello i am your katalon AssitantX&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>84419c48-eab2-433d-854a-e25e213d6798</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>welcomeMessages</value>
+      <webElementGuid>84b9217b-ac2c-40c1-b728-b02208b54207</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>auto</value>
+      <webElementGuid>803be669-c1dd-4e47-b60d-2ffef960b22d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hello i am your katalon AssitantX</value>
+      <webElementGuid>f1ccbc4b-dc00-4d71-a2a8-afe5e72751f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-a826f433010945783d1cf4d9c1c72a12</value>
+      <webElementGuid>b74d2722-15b4-4734-b24b-d01cd81bad35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'welcomeMessages']</value>
+      <webElementGuid>99e8a334-46cc-4eb0-aa9d-96727d2de66c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'welcomeMessages']</value>
+      <webElementGuid>370437db-d89d-4227-8db9-6bec3ae04f92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'welcomeMessages' and (text() = 'Hello i am your katalon AssitantX' or . = 'Hello i am your katalon AssitantX')]</value>
+      <webElementGuid>e36d1dd9-326b-45b4-aad3-6ca2fddd1e5b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

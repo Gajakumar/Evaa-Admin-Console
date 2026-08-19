@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Location</name>
+   <tag></tag>
+   <elementGuidId>cdc2aa10-e77f-4002-b3ce-bf309c2efb4a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'location']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#location</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Location*&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>5e582cb6-12d3-46e1-b854-4c11169ae91f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>location</value>
+      <webElementGuid>f2c1cf27-3cba-4308-a222-df6e5808efea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wizard-select</value>
+      <webElementGuid>3f97f653-076d-4197-88b2-1752068bf00b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select locationAbhijitTestPune RohitAMaximEyes Family Eye Care WestMaximEyes Family Eye Care DowntownOnline Scheduling1Katalon Location</value>
+      <webElementGuid>45e839a3-4368-4903-aa0b-6c921c524df9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-ab3899da214740ff4b113b50b2a38871</value>
+      <webElementGuid>b3f92d6a-e760-4478-a24a-98d3c917c7db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'location']</value>
+      <webElementGuid>108c1b9f-4b6b-43a7-943f-ff7ccca522c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Appointment Booking/Chat Bot Appt Book/iframe_evaas-iframeId</value>
+      <webElementGuid>8f9f3cd7-5678-4053-8590-517956d8a458</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'location']</value>
+      <webElementGuid>c16d3b61-d30a-4d4c-9824-d38a97e4a49d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'location' and (text() = 'Select locationAbhijitTestPune RohitAMaximEyes Family Eye Care WestMaximEyes Family Eye Care DowntownOnline Scheduling1Katalon Location' or . = 'Select locationAbhijitTestPune RohitAMaximEyes Family Eye Care WestMaximEyes Family Eye Care DowntownOnline Scheduling1Katalon Location')]</value>
+      <webElementGuid>803c2def-50eb-45f0-8cfb-37fb6fde2053</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

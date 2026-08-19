@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_EXIT</name>
+   <tag></tag>
+   <elementGuidId>5f4cb140-99a8-45b5-87c6-0f5e1067d3e1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.wizard-btn.wizard-btn--next</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' wizard-btn ') and contains(concat(' ', normalize-space(@class), ' '), ' wizard-btn--next ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;EXIT&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c3a0f50e-7db1-4be0-a2e4-be82d8ddec56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>67424051-edd5-4807-9e0a-268de79a5e52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wizard-btn wizard-btn--next</value>
+      <webElementGuid>101f1aba-d20e-4324-bdbc-5ee009193e11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>EXIT</value>
+      <webElementGuid>710ed0b7-7bac-4e3a-84c6-9233cc606083</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-ea9dd9139fc117db2020da8e02220d75</value>
+      <webElementGuid>e9c33d39-8ed6-4fc0-a375-158f8b9fb5c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' wizard-btn ') and contains(concat(' ', normalize-space(@class), ' '), ' wizard-btn--next ')]</value>
+      <webElementGuid>26f59685-2daa-46ee-a530-c7c6e451cd8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Appointment Booking/No Slots/Page_Home - EyeMax EyeCare  Optometrists  Comprehensive Eye Care - EVAA.AI React/iframe_evaas-iframeId</value>
+      <webElementGuid>8d4766ef-3574-442c-8429-5e1bc0dcb421</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' wizard-btn ') and contains(concat(' ', normalize-space(@class), ' '), ' wizard-btn--next ')]</value>
+      <webElementGuid>b1a28ebd-7c0d-4ffc-a854-24ef4db1a6ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'EXIT' or . = 'EXIT')]</value>
+      <webElementGuid>680375ad-3cae-4ae6-8a55-473f20b63969</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

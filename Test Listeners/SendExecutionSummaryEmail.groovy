@@ -169,6 +169,67 @@ class SendExecutionSummaryEmail {
         step = "Page Load"
         reason = "Page took too long to load."
     }
+	
+
+/////////
+	if(message == null || message.trim().isEmpty()){
+		return [step: step, reason: reason]
+	}
+
+	println("Failure Message:")
+	println(message)
+
+	// -----------------------------
+	// ✅ SOFT ASSERTION HANDLING
+	// -----------------------------
+	if(message.contains("SOFT ASSERT FAILURES")){
+
+		step = "Data Validation"
+
+		def cleaned = message
+				.replaceAll("❌ SOFT ASSERT FAILURES \\(\\d+\\):", "")
+				.trim()
+
+		reason = "Data mismatch found:\n" + cleaned
+
+		return [step: step, reason: reason]
+	}
+
+	// -----------------------------
+	// Extract object name
+	// -----------------------------
+	if(objMatch.find()){
+		element = objMatch.group(1).tokenize('/').last()
+	}
+
+	// -----------------------------
+	// CLICK
+	// -----------------------------
+	if(message.toLowerCase().contains("click")){
+		step = "Click Element"
+		reason = element ?
+				"Unable to click element '${element}'. It may be hidden or overlapped."
+				: "Unable to click the target element."
+	}
+
+	// -----------------------------
+	// ELEMENT NOT FOUND
+	// -----------------------------
+	else if(message.contains("WebElementNotFoundException")){
+		step = "Locate Element"
+		reason = element ?
+				"Element '${element}' was not found on the page."
+				: "Required page element was not found."
+	}
+
+	// -----------------------------
+	// TIMEOUT
+	// -----------------------------
+	else if(message.contains("TimeoutException")){
+		step = "Page Load"
+		reason = "Page took too long to load."
+	}
+
 
     return [step: step, reason: reason]
 }

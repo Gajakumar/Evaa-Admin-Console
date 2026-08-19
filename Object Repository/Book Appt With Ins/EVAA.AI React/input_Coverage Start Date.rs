@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Coverage Start Date</name>
+   <tag></tag>
+   <elementGuidId>9569304c-1528-42b8-a5e7-31294a31cbde</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#coverageStart</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'coverageStart']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Coverage Start Date&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>1eba8d78-62b8-46b1-81fd-7dcbece2c99a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>coverageStart</value>
+      <webElementGuid>f64b87f5-0849-4068-bb4c-1b0128fd62d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wizard-input</value>
+      <webElementGuid>abf6f646-73c7-4dc2-85fb-edfe4d151505</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>date</value>
+      <webElementGuid>59038a32-e56e-4dbb-801c-d2568ec05217</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-91ebd358e63e8b1aad3ef62fd84d7d48</value>
+      <webElementGuid>4f7baa0d-3d0f-4459-8836-b6036b4dc09a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'coverageStart']</value>
+      <webElementGuid>52ee288e-b14a-424c-a6a4-c3d4586eaae9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Book Appt With Ins/EVAA.AI React/iframe_evaas-iframeId</value>
+      <webElementGuid>c3ba053a-a375-4b01-8ca2-da8c05daa09c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'coverageStart']</value>
+      <webElementGuid>027227cf-b1e1-4339-b582-31d88d0a86e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'coverageStart' and @type = 'date']</value>
+      <webElementGuid>fcaa13d1-6968-424c-9310-c159f215c25c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

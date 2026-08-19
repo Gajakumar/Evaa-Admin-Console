@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Provider</name>
+   <tag></tag>
+   <elementGuidId>ed297dc6-08d5-4837-af5d-36f2503c2fa5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#provider</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'provider']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Provider*&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>62153522-fab6-4392-a4d0-a69721973954</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>provider</value>
+      <webElementGuid>2aac602a-5d18-47c8-bc1a-e1f938a5024e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wizard-select</value>
+      <webElementGuid>502ab974-89f2-4667-b438-de1d8cde4b0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select provider</value>
+      <webElementGuid>203aa16d-165d-4713-addd-6723fef230b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-b6a039050d66c6d0676e24ac3db667af</value>
+      <webElementGuid>9199af9a-8a9d-42d4-9bd6-23f42ced6138</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'provider']</value>
+      <webElementGuid>6431b2b5-8e4a-49aa-b228-8b3c48b4f782</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Appointment Booking/Reschedule Appt/No Slots/iframe_evaas-iframeId</value>
+      <webElementGuid>03691b02-ff92-4120-b312-d22176dc7d01</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'provider']</value>
+      <webElementGuid>1eba60a8-33a4-48e8-8ab4-721bd3e3d243</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'provider' and (text() = 'Select provider' or . = 'Select provider')]</value>
+      <webElementGuid>65919d73-896b-461d-bfd6-efad6f5ed2e1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

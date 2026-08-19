@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Evaa_AppointmentBooking_Cancel_Before_Submission_Releases_Slot</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8fbb2f26-d987-426b-aa9f-c904d9360ffb</testCaseGuid>
+</TestCaseEntity>

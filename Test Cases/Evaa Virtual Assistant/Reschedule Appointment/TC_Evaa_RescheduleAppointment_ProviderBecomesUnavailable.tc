@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Evaa_RescheduleAppointment_ProviderBecomesUnavailable</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>152ba559-017e-45ba-aeb2-86d04758d15e</testCaseGuid>
+</TestCaseEntity>

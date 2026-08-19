@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_NEXT</name>
+   <tag></tag>
+   <elementGuidId>af414667-4ca2-493f-8f67-bf1dee6fd92a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' wizard-btn ') and contains(concat(' ', normalize-space(@class), ' '), ' wizard-btn--next ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.wizard-btn.wizard-btn--next</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;NEXT&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b6ca91e3-3f8f-40cd-830f-7a556ce21053</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>bc30b3a9-f1b5-4a9f-967c-4019ddbbb1bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wizard-btn wizard-btn--next</value>
+      <webElementGuid>3ef118e1-4041-46a8-a66a-cdc20d763677</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>NEXT</value>
+      <webElementGuid>d0373b9e-b5b1-4227-9fb3-0ad4ca0318a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-ea9dd9139fc117db2020da8e02220d75</value>
+      <webElementGuid>7a4f8fe0-5c41-4fe9-8a5b-47e696cbc710</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' wizard-btn ') and contains(concat(' ', normalize-space(@class), ' '), ' wizard-btn--next ')]</value>
+      <webElementGuid>3839cc35-1816-4f16-adb7-4cdbc087188f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Appointment Booking/Chat Bot Appt Book/iframe_evaas-iframeId</value>
+      <webElementGuid>2eadec92-d6f2-4111-be8e-5551e1cbc075</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' wizard-btn ') and contains(concat(' ', normalize-space(@class), ' '), ' wizard-btn--next ')]</value>
+      <webElementGuid>69103f8e-a79f-4407-bd34-2d4f148cb434</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'NEXT' or . = 'NEXT')]</value>
+      <webElementGuid>c9f65780-233c-4098-9e9b-f9e802d92726</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

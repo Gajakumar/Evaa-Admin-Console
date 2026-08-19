@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Hello i am your katalon Assitant</name>
+   <tag></tag>
+   <elementGuidId>2a511fb5-3de3-4a3c-b981-721c09608b17</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Hello i am your katalon Assitant&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>250fa634-2c0b-4ad4-a63a-4f99a7196b5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-2 last:mb-0</value>
+      <webElementGuid>2933b6c2-8a7e-409b-9df7-7de655063ce9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hello i am your katalon Assitant</value>
+      <webElementGuid>cf34ae72-0d71-40d6-ae70-8312f4875e2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-29dd4c9a2e3a679bcd53551c14a6f6db</value>
+      <webElementGuid>72d049be-c035-46b4-8af3-c8cdb71a31e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>65919f55-21f3-496c-901c-090c2eeb8927</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Chat Appearance/Evaa React/iframe_evaas-iframeId</value>
+      <webElementGuid>e1f9ba8b-b539-4c30-bdc0-4cbc11eb7a13</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>6d9ddbfe-f0f9-40fd-8a1c-fa266455ea13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Hello i am your katalon Assitant' or . = 'Hello i am your katalon Assitant')]</value>
+      <webElementGuid>eb701a97-5967-42bf-86bf-c4a7231bd5c0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Hello, Im EVAA, - I can help book appointment</name>
+   <tag></tag>
+   <elementGuidId>0c5b3e71-81a5-466b-b128-8ebae572d74f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Hello, I'm EVAA, --- I can help book appointments, check your order status, or a&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>ba424022-7d13-4558-a2b4-0f012dc0ddc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-2 last:mb-0</value>
+      <webElementGuid>db2e32a1-e5be-44ee-bb54-fd9e7c1ad12e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hello, I'm EVAA, --- I can help book appointments, check your order status, or answer many questions about the practice!</value>
+      <webElementGuid>78dd02a0-4bd4-4da6-8676-0f04b8ac6778</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-29dd4c9a2e3a679bcd53551c14a6f6db</value>
+      <webElementGuid>b4040493-77e6-45b3-acc6-757436bb2936</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>4920e5d1-4f07-4640-a655-01be3f9a27d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Chat Appearance/Page_Evaa AI/Chat Appearance/iframe_evaas-iframeId</value>
+      <webElementGuid>10a38f41-e3df-4713-b6c5-e9e775334856</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>0029b57f-cf0f-42ba-9c4b-a6076ae88b37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = concat(&quot;Hello, I&quot; , &quot;'&quot; , &quot;m EVAA, --- I can help book appointments, check your order status, or answer many questions about the practice!&quot;) or . = concat(&quot;Hello, I&quot; , &quot;'&quot; , &quot;m EVAA, --- I can help book appointments, check your order status, or answer many questions about the practice!&quot;))]</value>
+      <webElementGuid>f7bbd364-527e-465e-b0d9-e504e765d6d9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

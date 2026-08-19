@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_No</name>
+   <tag></tag>
+   <elementGuidId>7b30f1ed-a8c6-4029-a168-7d56d4ca8ca9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.evaa-bot-message-row:nth-child(8) .evaa-chat-action-btn:nth-child(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' evaa-bot-message-row ') and (position() = 8)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' evaa-chat-action-btn ') and (position() = 2)]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;No&quot;i] >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>eca8fe09-cad5-4dfc-b87e-e025712c111c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8c616245-c7ff-48c6-8047-34df9de586e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>evaa-chat-action-btn</value>
+      <webElementGuid>e49e60fb-2c65-4591-83c1-63af10fd1620</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>No</value>
+      <webElementGuid>0726e2a7-8d1b-4a29-aca8-1ac2bd3075b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-c943edb72b51cb49b09c92ae6341ed2b</value>
+      <webElementGuid>8236aad6-0045-42be-a292-c0410f3cebb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' evaa-bot-message-row ') and (position() = 8)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' evaa-chat-action-btn ') and (position() = 2)]</value>
+      <webElementGuid>2c63af66-1f17-4aec-934a-287d93cb45ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Book Appt With Ins/EVAA.AI React/iframe_evaas-iframeId</value>
+      <webElementGuid>6c64a0ec-766c-49cc-9d9a-8f98247e09a7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' evaa-bot-message-row ') and (position() = 8)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' evaa-chat-action-btn ') and (position() = 2)]</value>
+      <webElementGuid>58faa3f0-69d4-4611-9c34-91340b1c8b53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'No' or . = 'No')]</value>
+      <webElementGuid>2b16aa0d-c74f-40c5-b089-4aa3b4b1d446</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_welcomeMessages</name>
+   <tag></tag>
+   <elementGuidId>01298a78-da40-4d6c-93be-a5fd946aa555</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'welcomeMessages']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#welcomeMessages</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Hello, I'm EVAA, --- I can help book appointments, check your order status, or a&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5976282e-01b7-4a7c-be4f-d362920a9871</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>welcomeMessages</value>
+      <webElementGuid>d9d73f48-beb4-4b79-b3e2-04e4c391f512</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>auto</value>
+      <webElementGuid>5b883e92-2d6f-4616-814b-1058cab52fa0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hello, I'm EVAA, --- I can help book appointments, check your order status, or answer many questions about the practice!X</value>
+      <webElementGuid>fd9e505e-0085-4d93-a0c6-01117d1a1870</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-a826f433010945783d1cf4d9c1c72a12</value>
+      <webElementGuid>5856fb6c-d855-4056-8c93-62471eb4792a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'welcomeMessages']</value>
+      <webElementGuid>8603990e-c4dd-4f26-89ea-0b5ce880547d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'welcomeMessages']</value>
+      <webElementGuid>8ccb1f20-b8a5-472d-8020-b26e78558a17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'welcomeMessages' and (text() = concat(&quot;Hello, I&quot; , &quot;'&quot; , &quot;m EVAA, --- I can help book appointments, check your order status, or answer many questions about the practice!X&quot;) or . = concat(&quot;Hello, I&quot; , &quot;'&quot; , &quot;m EVAA, --- I can help book appointments, check your order status, or answer many questions about the practice!X&quot;))]</value>
+      <webElementGuid>65d0c481-2654-4fc8-870a-a6a6cc0aa609</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

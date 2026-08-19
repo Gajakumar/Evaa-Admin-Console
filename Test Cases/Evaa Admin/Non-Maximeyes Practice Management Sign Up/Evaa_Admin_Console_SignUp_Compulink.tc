@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Evaa_Admin_Console_SignUp_Compulink</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>979437dd-10a8-416e-a68a-4c925a1289d3</testCaseGuid>
-</TestCaseEntity>

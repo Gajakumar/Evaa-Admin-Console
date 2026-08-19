@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Reason</name>
+   <tag></tag>
+   <elementGuidId>2ad78928-5d0f-43e4-a8e1-a69c4e9ce01a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#reason</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'reason']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Reason*&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>a24cc43f-4b2c-4e3e-8468-7bade253e07f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>reason</value>
+      <webElementGuid>6f6b74b9-679d-4d6c-9964-dd05d3da5d45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wizard-select</value>
+      <webElementGuid>3d65ac69-7dc6-4906-ad07-4ad6faabf27c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select reason</value>
+      <webElementGuid>b3ced599-793f-41fc-81de-c7a5c64bc887</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-1bb1d14616e94fe4dc04ac393e8c5349</value>
+      <webElementGuid>5ec90f8a-ca98-455c-9e8f-15209d0912d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'reason']</value>
+      <webElementGuid>081c170a-b44e-49ee-bec1-53c1c26b5f9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Appointment Booking/Reschedule Appt/No Slots/iframe_evaas-iframeId</value>
+      <webElementGuid>b2d7c92d-cdeb-4686-8d6a-0fa636f498a0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'reason']</value>
+      <webElementGuid>532138fc-ed14-41ea-9bfa-2f091701b953</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'reason' and (text() = 'Select reason' or . = 'Select reason')]</value>
+      <webElementGuid>301f8203-12f4-4173-a12f-49958e22d85e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

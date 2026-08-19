@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_ddlPatientRelationshipToInsured</name>
+   <tag></tag>
+   <elementGuidId>67167f8a-ac7c-4063-9c8a-2f78431fc9ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'ddlPatientRelationshipToInsured']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ddlPatientRelationshipToInsured</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#ddlPatientRelationshipToInsured</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>86996ba7-ec2f-4b80-8945-7ed20c2f670f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-actualname</name>
+      <type>Main</type>
+      <value>PatientRelationshipToInsured</value>
+      <webElementGuid>72c00f35-538d-4f86-832a-70bb54633462</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-askey</name>
+      <type>Main</type>
+      <value>~PatientInsurance.PlanDetailsListItem</value>
+      <webElementGuid>86a0e3b2-54cc-4ef8-894f-9a307525b535</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-color</name>
+      <type>Main</type>
+      <value>rgb(224, 244, 153)</value>
+      <webElementGuid>72f21700-dcb3-4b44-ba50-030a52aa6026</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-elementname</name>
+      <type>Main</type>
+      <value>Insurance</value>
+      <webElementGuid>10da7b3f-2147-4166-84dc-2ea22dcec893</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-enctabcomplexontrol</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>2e2603a6-3568-4d75-b7f5-ed9c01643a04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-oldvalue</name>
+      <type>Main</type>
+      <value>Select</value>
+      <webElementGuid>2e888283-d977-41a0-9680-365ee8e07ea7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ddlPatientRelationshipToInsured</value>
+      <webElementGuid>ecc3e296-4510-4d18-97db-b219c1a1d25d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>InsurancePlanDetails.InsurancePlanDetails.PatientRelationshipToInsured</value>
+      <webElementGuid>6027e35c-6bc9-45a5-a6c2-e051ab38736e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>valid</value>
+      <webElementGuid>3741a744-451a-4f82-8cfb-c05c84779a31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>df6acd41-ac66-4efb-96e7-beb834c1995c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>---Select---
+Self
+Spouse
+Child
+Other
+</value>
+      <webElementGuid>35ced994-870a-4763-8d9f-baa190720de1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-e81b5fe89de3603079678804b1cc6372</value>
+      <webElementGuid>92649d67-f045-48f8-8ac6-15278fa8edcc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'ddlPatientRelationshipToInsured']</value>
+      <webElementGuid>620c0f24-821d-4d4a-a4b0-3d9011a57e96</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'ddlPatientRelationshipToInsured']</value>
+      <webElementGuid>fb855400-dc44-457d-bcb8-63cb36054747</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'ddlPatientRelationshipToInsured' and @name = 'InsurancePlanDetails.InsurancePlanDetails.PatientRelationshipToInsured' and (text() = '---Select---
+Self
+Spouse
+Child
+Other
+' or . = '---Select---
+Self
+Spouse
+Child
+Other
+')]</value>
+      <webElementGuid>24b1fd37-7548-42f2-ad2d-42c7b4dc2b95</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

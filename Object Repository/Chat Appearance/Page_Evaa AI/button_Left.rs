@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Left</name>
+   <tag></tag>
+   <elementGuidId>119e2460-1c7a-4c1a-b2b6-1bc461383f82</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[(name() = 'div') and (position() = 7)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' whitespace-nowrap ') and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' [&amp;_svg]:pointer-events-none ') and contains(concat(' ', normalize-space(@class), ' '), ' inline-flex ') and contains(concat(' ', normalize-space(@class), ' '), ' transition-all ') and contains(concat(' ', normalize-space(@class), ' '), ' outline-none ') and contains(concat(' ', normalize-space(@class), ' '), ' border ') and (@data-slot = 'button')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-child(7) .rounded-md.whitespace-nowrap.text-sm.\[\&amp;_svg\]\:pointer-events-none.inline-flex.transition-all.outline-none.border[data-slot=&quot;button&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Left&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c06a2447-2f42-4808-b22d-364990529c5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-slot</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>37885a1c-890c-498b-b455-12c95d1870f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*=&quot;size-&quot;])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:ring-[3px] focus-visible:ring-[#b80e74]/40 border border-[rgba(48,13,33,0.15)] text-[#300d21] hover:bg-[#f6f6f1] h-8 rounded-md gap-1.5 px-3 has-[>svg]:px-2.5 !rounded-[13px] bg-white</value>
+      <webElementGuid>f260a8c8-0774-46cf-ae82-2f2753ee04c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b3446965-c79e-4f99-a4ea-c0ac0d2dcd33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Left</value>
+      <webElementGuid>3f1002ee-ed7d-4198-a017-bfd874f1b4ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-aff3e2708390f86cf8683b19371f4732</value>
+      <webElementGuid>8dd97fe3-8be5-4dcd-a94a-9cb4bc1f3a2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[(name() = 'div') and (position() = 7)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' whitespace-nowrap ') and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' [&amp;_svg]:pointer-events-none ') and contains(concat(' ', normalize-space(@class), ' '), ' inline-flex ') and contains(concat(' ', normalize-space(@class), ' '), ' transition-all ') and contains(concat(' ', normalize-space(@class), ' '), ' outline-none ') and contains(concat(' ', normalize-space(@class), ' '), ' border ') and (@data-slot = 'button')]</value>
+      <webElementGuid>7ae28750-4435-4b48-b237-76c7371d32f3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[(name() = 'div') and (position() = 7)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' whitespace-nowrap ') and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' [&amp;_svg]:pointer-events-none ') and contains(concat(' ', normalize-space(@class), ' '), ' inline-flex ') and contains(concat(' ', normalize-space(@class), ' '), ' transition-all ') and contains(concat(' ', normalize-space(@class), ' '), ' outline-none ') and contains(concat(' ', normalize-space(@class), ' '), ' border ') and (@data-slot = 'button')]</value>
+      <webElementGuid>e63d5de5-cfbc-40e8-99eb-8bb5aa27c374</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Left' or . = 'Left')]</value>
+      <webElementGuid>69817586-916d-4406-8b3d-20094682e7d8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

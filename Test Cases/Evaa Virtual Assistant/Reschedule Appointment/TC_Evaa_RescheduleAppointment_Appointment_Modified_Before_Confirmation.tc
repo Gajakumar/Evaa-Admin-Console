@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Evaa_RescheduleAppointment_Appointment_Modified_Before_Confirmation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e21243f8-58df-41d2-9c55-1c5582112935</testCaseGuid>
+</TestCaseEntity>

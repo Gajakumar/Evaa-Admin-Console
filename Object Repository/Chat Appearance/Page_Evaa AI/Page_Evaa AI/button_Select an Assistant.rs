@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Select an Assistant</name>
+   <tag></tag>
+   <elementGuidId>e1a3e1c5-0bbf-4267-8ae5-398c0ad42807</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ') and contains(concat(' ', normalize-space(@class), ' '), ' btn-light ') and contains(concat(' ', normalize-space(@class), ' '), ' dropdown-toggle ') and (@title = '')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.btn.btn-light.dropdown-toggle[title=&quot;&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Select an Assistant&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>91a68bec-eafc-4c76-8660-1f0fc528a181</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-light dropdown-toggle d-flex align-items-center gap-2</value>
+      <webElementGuid>07541c1b-87f5-4f54-9b80-733951daf953</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f040cdc8-7d31-4b45-b3ed-a2a01d8ca26c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-toggle</name>
+      <type>Main</type>
+      <value>dropdown</value>
+      <webElementGuid>558fe5dd-8d8c-434f-90ad-78d50fe1b276</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>a19a4c8d-b076-4653-93e6-6c103f3d8cc7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select an Assistant</value>
+      <webElementGuid>3cfce1c7-f54c-4d10-b235-8570a6a241f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-2cba94e8c7c692b08eebffbca15fc1eb</value>
+      <webElementGuid>959d9e86-7c7f-4882-a6c3-590b513cd556</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ') and contains(concat(' ', normalize-space(@class), ' '), ' btn-light ') and contains(concat(' ', normalize-space(@class), ' '), ' dropdown-toggle ') and (@title = '')]</value>
+      <webElementGuid>c6185851-1eab-4d76-b230-3a15bffea307</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ') and contains(concat(' ', normalize-space(@class), ' '), ' btn-light ') and contains(concat(' ', normalize-space(@class), ' '), ' dropdown-toggle ') and (@title = '')]</value>
+      <webElementGuid>82ae6b93-df6f-483c-8590-611afb01e33b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Select an Assistant' or . = 'Select an Assistant')]</value>
+      <webElementGuid>91cc9dc1-829f-4d6a-8e4a-f31a508827cb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

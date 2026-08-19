@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Location</name>
+   <tag></tag>
+   <elementGuidId>04a1375e-3e88-435b-98f3-3d08f941f3ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#location</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'location']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Location*&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>24ca0516-3c49-4db5-9282-2e847713383d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>location</value>
+      <webElementGuid>366157f4-7961-4dbf-baeb-44113e641581</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wizard-select</value>
+      <webElementGuid>2d4a2a6c-afb0-4174-9b68-ce81ef26a461</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select locationAbhijitTest1312Pune RohitA 1MaximEyes Family Eye Care WestMaximEyes Family Eye Care DowntownOnline Scheduling1ABeaverton1Katalon Locationtesting location11QA5 Online Scheduling Location</value>
+      <webElementGuid>7ed3a3d3-8a0a-4c91-8a3b-f23f3ac41e83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-ab3899da214740ff4b113b50b2a38871</value>
+      <webElementGuid>e7fbfe50-f777-4b27-adf8-5e626245499b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'location']</value>
+      <webElementGuid>47d7897e-c735-41bd-aef7-c4418205cdaf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Appointment Booking/Reschedule Appt/iframe_evaas-iframeId</value>
+      <webElementGuid>4e6b6f50-c134-43a8-8247-a18c4546c03d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'location']</value>
+      <webElementGuid>9f082128-8507-416b-8074-a16c5415fed0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'location' and (text() = 'Select locationAbhijitTest1312Pune RohitA 1MaximEyes Family Eye Care WestMaximEyes Family Eye Care DowntownOnline Scheduling1ABeaverton1Katalon Locationtesting location11QA5 Online Scheduling Location' or . = 'Select locationAbhijitTest1312Pune RohitA 1MaximEyes Family Eye Care WestMaximEyes Family Eye Care DowntownOnline Scheduling1ABeaverton1Katalon Locationtesting location11QA5 Online Scheduling Location')]</value>
+      <webElementGuid>8849da36-e6a7-40ea-aa64-2573fb84466b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

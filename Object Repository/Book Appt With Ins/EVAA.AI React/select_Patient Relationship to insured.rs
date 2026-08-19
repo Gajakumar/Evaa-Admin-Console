@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Patient Relationship to insured</name>
+   <tag></tag>
+   <elementGuidId>c54a52df-b1b6-454a-bbd4-0334c63cdc28</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#insurancePRN</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'insurancePRN']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Patient Relationship to insured&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>df0201be-0b92-4b12-b9e9-2c30b5441db1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>insurancePRN</value>
+      <webElementGuid>a2d7d477-88d5-4625-8037-56c2f92113da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wizard-select</value>
+      <webElementGuid>6387ac51-edd4-40fc-87cf-8f350f019f7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SelectSelfSpouseChildOther</value>
+      <webElementGuid>9a9a50e8-f134-45c5-a9f5-42ab4268aca6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-1b3c3f75b9d6e286ba4736ac1a47df0d</value>
+      <webElementGuid>d70bb32f-e9cb-4cce-8954-ef4f1e564c23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'insurancePRN']</value>
+      <webElementGuid>ba53c9b8-e05e-4709-bc6c-ca14381983b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Book Appt With Ins/EVAA.AI React/iframe_evaas-iframeId</value>
+      <webElementGuid>1dc81e76-5a43-49d5-bc3f-53ced306643c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'insurancePRN']</value>
+      <webElementGuid>fd9ebdaa-657a-47df-bc68-19cc0a2c9a1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'insurancePRN' and (text() = 'SelectSelfSpouseChildOther' or . = 'SelectSelfSpouseChildOther')]</value>
+      <webElementGuid>ed6dad8b-4a84-4a43-bfa0-ea07e62f8b5c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

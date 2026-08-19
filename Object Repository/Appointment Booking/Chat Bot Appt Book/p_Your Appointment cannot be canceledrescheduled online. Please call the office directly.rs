@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Your Appointment cannot be canceledrescheduled online. Please call the office directly</name>
+   <tag></tag>
+   <elementGuidId>475a126f-d283-4212-a084-d5c59015d020</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.wizard-error</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Your Appointment cannot be canceled/rescheduled online. Please call the office d&quot;i >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>415ca1ff-0ed8-4736-ab44-782f623bfc5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wizard-error</value>
+      <webElementGuid>7a244bd5-1c39-45de-8e48-a862439b8f94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Your Appointment cannot be canceled/rescheduled online. Please call the office directly</value>
+      <webElementGuid>6c33444b-c4d2-4b71-b08c-ad87fa4bd7a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;evaa-chat relative flex h-full flex-col overflow-hidden&quot;]/div[@class=&quot;relative flex min-h-0 flex-1 flex-col overflow-hidden&quot;]/div[@class=&quot;wizard-overlay&quot;]/div[@class=&quot;wizard-panel&quot;]/p[@class=&quot;wizard-error&quot;]</value>
+      <webElementGuid>b85e1226-f14c-4612-9d6d-2ae0857d1fa0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Appointment Booking/Chat Bot Appt Book/iframe_LinkedIn_evaas-iframeId (6)</value>
+      <webElementGuid>1b87982b-a939-4869-9459-2d5c8e38fca3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/p</value>
+      <webElementGuid>f44aae57-f23a-473a-b0ae-2cee50ffa4a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Insurance Details'])[1]/following::p[1]</value>
+      <webElementGuid>63b28c3b-5d94-46ca-858f-6cf3793361f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Evaa Virtual Assistant'])[2]/following::p[1]</value>
+      <webElementGuid>ac7f2621-b20a-4236-955f-1a6f99b1e220</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Self Pay/No Insurance Available'])[1]/preceding::p[2]</value>
+      <webElementGuid>bb008ffe-3c0d-4911-a7b4-226a832bf24f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Insurance Name'])[1]/preceding::p[2]</value>
+      <webElementGuid>830b6026-0fd7-42f2-9abc-64cba8dfae41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Your Appointment cannot be canceled/rescheduled online. Please call the office directly']/parent::*</value>
+      <webElementGuid>d0f0cac3-82cd-4866-8f70-d15cb304ef34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>16259320-7f97-4ce0-a4fb-afdedf1f9e38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Your Appointment cannot be canceled/rescheduled online. Please call the office directly' or . = 'Your Appointment cannot be canceled/rescheduled online. Please call the office directly')]</value>
+      <webElementGuid>ac3bdd83-abfa-4b26-bbe3-c4fe467b6384</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Chat Bot Appointment Booking</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e83d5453-051d-4d9f-9052-3d9238bfdcac</testCaseGuid>
+</TestCaseEntity>

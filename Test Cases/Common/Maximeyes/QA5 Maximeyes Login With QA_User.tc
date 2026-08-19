@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>QA5 Maximeyes Login With QA_User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7dfaa7c6-c641-4feb-839c-eafed7a8c95e</testCaseGuid>
+</TestCaseEntity>

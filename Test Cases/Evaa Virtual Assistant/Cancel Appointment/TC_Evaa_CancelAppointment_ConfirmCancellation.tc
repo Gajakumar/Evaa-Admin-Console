@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Evaa_CancelAppointment_ConfirmCancellation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>06b9f171-2bb2-4543-8428-0b036714c642</testCaseGuid>
+</TestCaseEntity>

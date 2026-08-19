@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCFor_Successful_Insurance_Appointment_Booking</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2dc50e9e-74fb-4e45-ba36-b0f9783a5795</testCaseGuid>
+</TestCaseEntity>

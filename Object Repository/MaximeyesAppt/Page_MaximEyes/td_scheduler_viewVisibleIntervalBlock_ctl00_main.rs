@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_scheduler_viewVisibleIntervalBlock_ctl00_main</name>
+   <tag></tag>
+   <elementGuidId>80365fc7-f283-41ab-8cad-61857e91fe10</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dxsc-viewVblIvlSys ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.dxsc-viewVblIvlSys</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;July 22, 2026&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>85e5e863-ae32-4b80-b028-ca3b6c98a338</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>scheduler_viewVisibleIntervalBlock_ctl00_mainCell</value>
+      <webElementGuid>3aa9742f-6286-44e5-9e77-e15a043e1dc9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dxsc-viewVblIvlSys dxscViewVisibleInterval_Metropolis</value>
+      <webElementGuid>f9b26281-fe0d-467e-9aad-2fb9f7b67d69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>July 22, 2026</value>
+      <webElementGuid>e5ad974d-c24f-4fb2-a07f-1ac3335ac941</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-3b52a2f747bc2924eec8af6d3652e67f</value>
+      <webElementGuid>f42dc508-b7f8-4181-8351-e5a55f54fdaa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dxsc-viewVblIvlSys ')]</value>
+      <webElementGuid>7e901f4c-ca58-419e-a261-4d2cc71ba8cf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dxsc-viewVblIvlSys ')]</value>
+      <webElementGuid>a70cc68c-a9b3-4ccd-9c2e-2b39d1d6693c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[@id = 'scheduler_viewVisibleIntervalBlock_ctl00_mainCell' and (text() = 'July 22, 2026' or . = 'July 22, 2026')]</value>
+      <webElementGuid>ee8159a6-edf1-468f-804b-bbe1869c016e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

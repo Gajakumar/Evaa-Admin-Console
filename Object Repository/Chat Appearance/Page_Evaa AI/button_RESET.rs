@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_RESET</name>
+   <tag></tag>
+   <elementGuidId>62253db3-03b0-4734-87a9-782e89191462</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class and contains(concat(' ', normalize-space(@class), ' '), ' w-full ')]/div[@class and contains(concat(' ', normalize-space(@class), ' '), ' flex ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' whitespace-nowrap ') and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' [&amp;_svg]:pointer-events-none ') and contains(concat(' ', normalize-space(@class), ' '), ' inline-flex ') and contains(concat(' ', normalize-space(@class), ' '), ' transition-all ') and contains(concat(' ', normalize-space(@class), ' '), ' outline-none ') and contains(concat(' ', normalize-space(@class), ' '), ' border ') and (@data-slot = 'button')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.w-full > div.flex .rounded-md.whitespace-nowrap.text-sm.\[\&amp;_svg\]\:pointer-events-none.inline-flex.transition-all.outline-none.border[data-slot=&quot;button&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;RESET&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>34d81656-559d-4712-9e0c-6eed5c40202b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-slot</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7c567688-fcf7-4671-ba65-b9624454b208</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*=&quot;size-&quot;])]:size-4 [&amp;_svg]:shrink-0 outline-none focus-visible:ring-[3px] focus-visible:ring-[#b80e74]/40 border border-[rgba(48,13,33,0.15)] bg-white text-[#300d21] h-9 px-4 py-2 has-[>svg]:px-3 flex-1 !rounded-[13px] hover:bg-opacity-10</value>
+      <webElementGuid>622cb593-bc66-42ce-971e-51fb42aedf75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2d5593d4-a4da-4f20-ac83-319cfaa0a3f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>RESET</value>
+      <webElementGuid>b6bd392e-d489-4869-a706-43dc6e155961</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-6491afdd22acc9cac8eb914f05723aa3</value>
+      <webElementGuid>fe25ba27-186a-4493-b33c-08369353f4f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class and contains(concat(' ', normalize-space(@class), ' '), ' w-full ')]/div[@class and contains(concat(' ', normalize-space(@class), ' '), ' flex ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' whitespace-nowrap ') and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' [&amp;_svg]:pointer-events-none ') and contains(concat(' ', normalize-space(@class), ' '), ' inline-flex ') and contains(concat(' ', normalize-space(@class), ' '), ' transition-all ') and contains(concat(' ', normalize-space(@class), ' '), ' outline-none ') and contains(concat(' ', normalize-space(@class), ' '), ' border ') and (@data-slot = 'button')]</value>
+      <webElementGuid>d69f0442-fca4-48ef-ac59-1bbf5de195cb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@class and contains(concat(' ', normalize-space(@class), ' '), ' w-full ')]/div[@class and contains(concat(' ', normalize-space(@class), ' '), ' flex ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' whitespace-nowrap ') and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' [&amp;_svg]:pointer-events-none ') and contains(concat(' ', normalize-space(@class), ' '), ' inline-flex ') and contains(concat(' ', normalize-space(@class), ' '), ' transition-all ') and contains(concat(' ', normalize-space(@class), ' '), ' outline-none ') and contains(concat(' ', normalize-space(@class), ' '), ' border ') and (@data-slot = 'button')]</value>
+      <webElementGuid>ae985a95-86ee-4215-92ed-cb452069c01e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'RESET' or . = 'RESET')]</value>
+      <webElementGuid>6a4924ad-b762-4e58-81a5-1bdd842356af</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

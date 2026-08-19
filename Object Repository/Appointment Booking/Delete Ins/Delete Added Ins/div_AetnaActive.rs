@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_AetnaActive</name>
+   <tag></tag>
+   <elementGuidId>b3cdcc0a-8816-4a0b-a3f8-2ee24c6ba163</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' wizard-insurance-card ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.wizard-insurance-card</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;AetnaActive&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>493d05d1-82c7-4c59-ad86-92d3a6ebf3c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wizard-insurance-card</value>
+      <webElementGuid>db28840f-a589-4c00-967a-d672b88605de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AetnaActive</value>
+      <webElementGuid>a5b2a466-598d-42c0-88cd-b90cd531f78b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-62b184cf4f4645ff6380b5b3f90babed</value>
+      <webElementGuid>5728b670-2d96-4d63-83eb-28f3b99f44b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' wizard-insurance-card ')]</value>
+      <webElementGuid>d3a67ff3-e2e0-472f-bb0c-ce85ecdcc409</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Appointment Booking/Delete Ins/Delete Added Ins/iframe_evaas-iframeId</value>
+      <webElementGuid>999d578a-5297-433e-a7df-9c35be5aae9d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' wizard-insurance-card ')]</value>
+      <webElementGuid>f70ed504-376c-493c-8e52-0fb36a664123</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'AetnaActive' or . = 'AetnaActive')]</value>
+      <webElementGuid>a55e10e7-b051-472a-8a66-393d933f3ff5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

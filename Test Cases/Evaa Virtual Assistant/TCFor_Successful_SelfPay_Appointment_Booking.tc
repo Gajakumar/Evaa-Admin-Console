@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCFor_Successful_SelfPay_Appointment_Booking</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>31dba1ff-e2ec-4881-a022-f4d2d1eac4be</testCaseGuid>
+</TestCaseEntity>

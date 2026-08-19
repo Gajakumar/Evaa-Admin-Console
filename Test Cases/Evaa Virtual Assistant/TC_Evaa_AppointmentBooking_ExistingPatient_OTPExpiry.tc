@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Evaa_AppointmentBooking_ExistingPatient_OTPExpiry</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>14528d52-73b6-446d-bddb-8ad46e9de0f2</testCaseGuid>
+</TestCaseEntity>

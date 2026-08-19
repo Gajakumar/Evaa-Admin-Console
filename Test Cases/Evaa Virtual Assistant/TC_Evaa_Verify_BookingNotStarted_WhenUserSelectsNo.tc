@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Evaa_Verify_BookingNotStarted_WhenUserSelectsNo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>155e3460-7c3e-46e9-8ddb-9f24de25991f</testCaseGuid>
+</TestCaseEntity>
