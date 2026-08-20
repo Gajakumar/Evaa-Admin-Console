@@ -40,13 +40,6 @@
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>1a27a1bd-5c61-4dcf-abfa-35710f983ea7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Evaa Virtual Assistant/Reschedule Appointment/TC_Evaa_RescheduleAppointment_Disabled_Validation</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>94273ba1-b64e-4b28-9c36-fd529502e4e8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -65,13 +58,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Evaa Virtual Assistant/Reschedule Appointment/TC_Evaa_RescheduleAppointment_NoUpcomingAppointment</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0ac5794a-e163-4910-b431-f21523b9efca</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Evaa Virtual Assistant/Reschedule Appointment/TC_Evaa_RescheduleAppointment_ProviderBecomesUnavailable</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -114,6 +100,13 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Evaa Virtual Assistant/TC_Evaa_AppointmentBooking_Cancel_Before_Submission_Releases_Slot</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1a27a1bd-5c61-4dcf-abfa-35710f983ea7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Evaa Virtual Assistant/Reschedule Appointment/TC_Evaa_RescheduleAppointment_Disabled_Validation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

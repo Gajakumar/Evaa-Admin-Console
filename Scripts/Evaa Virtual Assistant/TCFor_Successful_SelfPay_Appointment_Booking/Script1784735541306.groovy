@@ -47,8 +47,8 @@ int MEDIUM_TIMEOUT = 5
 int PAGE_TIMEOUT   = 15
 
 // Patient details
-String firstName   = 'QA'
-String lastName    = 'Katalon'
+String firstName   = 'Jennifer'
+String lastName    = 'Lewis'
 String patientAge  = '31yo'
 String dob         = '01/04/1995'
 String phoneNumber = '111-111-1111'

@@ -37,8 +37,8 @@ int LONG_TIMEOUT   = 15
 int PAGE_TIMEOUT   = 30
 
 // --- Patient details ---
-String firstName   = 'QA'
-String lastName    = 'Katalon'
+String firstName   = 'Daisy'
+String lastName    = 'Brown'
 String patientAge  = '31yo'
 String dob         = '01/04/1995'
 String phoneNumber = '111-111-1111'

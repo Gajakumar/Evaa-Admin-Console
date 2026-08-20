@@ -121,6 +121,7 @@ def enterOtp(String code) {
 		WebUI.sendKeys(findTestObject("Appointment Booking/Chat Bot Appt Book/input_otp-${i}"), digit)
 	}
 	WebUI.click(findTestObject('Appointment Booking/Chat Bot Appt Book/button_NEXT'))
+	CustomKeywords.'common.ChatBotBookingFlow.waitForLoadingIconToDisappear'()
 	KeywordUtil.logInfo("OTP '${code}' entered and submitted")
 }
 
@@ -133,15 +134,19 @@ def selectLocationProviderReason(String loc, String prov, String rsn) {
 	KeywordUtil.logInfo("Selecting Location='${loc}', Provider='${prov}', Reason='${rsn}'")
 
 	WebUI.selectOptionByLabel(findTestObject('Appointment Booking/Chat Bot Appt Book/select_Location'), loc, false)
+	CustomKeywords.'common.ChatBotBookingFlow.waitForLoadingIconToDisappear'(3)
 	KeywordUtil.logInfo('Location selected successfully')
 
 	WebUI.selectOptionByLabel(findTestObject('Appointment Booking/Chat Bot Appt Book/select_Provider'), prov, false)
+	CustomKeywords.'common.ChatBotBookingFlow.waitForLoadingIconToDisappear'(3)
 	KeywordUtil.logInfo('Provider selected successfully')
 
 	WebUI.selectOptionByLabel(findTestObject('Appointment Booking/Chat Bot Appt Book/select_Reason'), rsn, false)
+	CustomKeywords.'common.ChatBotBookingFlow.waitForLoadingIconToDisappear'(3)
 	KeywordUtil.logInfo('Reason selected successfully')
 
 	WebUI.click(findTestObject('Appointment Booking/Chat Bot Appt Book/button_NEXT'))
+	CustomKeywords.'common.ChatBotBookingFlow.waitForLoadingIconToDisappear'()
 	KeywordUtil.logInfo('Location/Provider/Reason submitted, moved to date selection')
 }
 

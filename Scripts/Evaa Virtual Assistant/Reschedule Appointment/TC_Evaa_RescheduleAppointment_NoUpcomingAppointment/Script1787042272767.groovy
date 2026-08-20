@@ -427,7 +427,7 @@ WebUI.waitForElementVisible(
 )
 
 enterOtp()
-
+CustomKeywords.'common.ChatBotBookingFlow.waitForLoadingIconToDisappear'()
 
 // ----------------------------------------------------------------------------
 // STEP 7: Verify No Upcoming Appointments
@@ -480,7 +480,7 @@ KeywordUtil.logInfo(
 )
 
 enterOtp()
-
+CustomKeywords.'common.ChatBotBookingFlow.waitForLoadingIconToDisappear'()
 
 // ----------------------------------------------------------------------------
 // STEP 10: Verify No Upcoming Appointments Again
