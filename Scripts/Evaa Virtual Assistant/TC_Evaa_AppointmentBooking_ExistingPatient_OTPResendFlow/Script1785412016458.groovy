@@ -299,280 +299,270 @@ WebUI.setText(findTestObject('Appointment Booking/Chat Bot Appt Book/textarea_De
 WebUI.click(findTestObject('Appointment Booking/Chat Bot Appt Book/button_NEXT'))
 KeywordUtil.logInfo('STEP 10: Reason for visit submitted')
 
-// ============================================================================
-// PART 2: INSURANCE CARD UPLOAD & DETAILS
-// ============================================================================
 
-//Delete Insurance if already available
+
 //TestObject deleteInsuranceBtn = findTestObject('Appointment Booking/Delete Ins/Delete Added Ins/button_Delete insurance')
 //
-//if (WebUI.verifyElementVisible(deleteInsuranceBtn, FailureHandling.OPTIONAL)) {
-//	WebUI.waitForElementClickable(deleteInsuranceBtn, 5)
-//	WebUI.click(deleteInsuranceBtn)
+//int deletedCount = 0
+//
+//if (!WebUI.verifyElementVisible(deleteInsuranceBtn, FailureHandling.OPTIONAL)) {
+//    WebUI.comment("No insurance found. Skipping delete step.")
+//} else {
+//    while (WebUI.verifyElementVisible(deleteInsuranceBtn, FailureHandling.OPTIONAL)) {
+//        WebUI.waitForElementClickable(deleteInsuranceBtn, 5)
+//        WebUI.click(deleteInsuranceBtn)
+//
+//        boolean removed = WebUI.waitForElementNotPresent(deleteInsuranceBtn, 5, FailureHandling.OPTIONAL)
+//
+//        if (!removed) {
+//            WebUI.comment("Delete click did not remove the element - stopping to avoid infinite loop.")
+//            break
+//        }
+//
+//        deletedCount++
+//    }
+//
+//    WebUI.comment("Deleted ${deletedCount} insurance record(s).")
 //}
-
-TestObject deleteInsuranceBtn = findTestObject('Appointment Booking/Delete Ins/Delete Added Ins/button_Delete insurance')
-
-int deletedCount = 0
-
-if (!WebUI.verifyElementVisible(deleteInsuranceBtn, FailureHandling.OPTIONAL)) {
-    WebUI.comment("No insurance found. Skipping delete step.")
-} else {
-    while (WebUI.verifyElementVisible(deleteInsuranceBtn, FailureHandling.OPTIONAL)) {
-        WebUI.waitForElementClickable(deleteInsuranceBtn, 5)
-        WebUI.click(deleteInsuranceBtn)
-
-        boolean removed = WebUI.waitForElementNotPresent(deleteInsuranceBtn, 5, FailureHandling.OPTIONAL)
-
-        if (!removed) {
-            WebUI.comment("Delete click did not remove the element - stopping to avoid infinite loop.")
-            break
-        }
-
-        deletedCount++
-    }
-
-    WebUI.comment("Deleted ${deletedCount} insurance record(s).")
-}
-
-
-// STEP 11: Verify insurance card upload screen elements
-KeywordUtil.logInfo('STEP 11: Verifying insurance card upload screen elements')
-WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/p_Insurance Card Photo'), insuranceCardPhotoText, SHORT_TIMEOUT)
-WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/label_Insurance Name'), insuranceNameLabelText, 0)
-WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/p_Front Side'), frontSideLabelText, 0)
-WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/p_Upload or take a photo of the front of your in'), uploadFrontHintText, 0)
-WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/p_Back Side'), backSideLabelText, 0)
-WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/p_Upload or take a photo of the back of your ins'), uploadBackHintText, 0)
-WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/p_Note_ Please add clear image of card. Image si'), insuranceNoteText, 0)
-KeywordUtil.logInfo('STEP 11: Insurance card upload screen elements verified successfully')
-
-// STEP 12: Enter insurance name
-KeywordUtil.logInfo("STEP 12: Entering Insurance Name - '${insuranceName}'")
-WebUI.setText(findTestObject('Book Appt With Ins/EVAA.AI React/input_Enter Insurance Name'), insuranceName)
-KeywordUtil.logInfo('STEP 12: Insurance Name entered successfully')
-
-// STEP 13: Upload insurance card images (front & back)
-KeywordUtil.logInfo('STEP 13: Uploading insurance card images (front & back)')
-String projectDir = RunConfiguration.getProjectDir()
-File baseDir = new File(projectDir, 'Include/TestFiles')
-
-def uploadFileTestCloud(TestObject uploadObj, File baseDir, String fileName) {
-	assert uploadObj != null : '❌ Upload input TestObject is NULL'
-
-	File fileToUpload = new File(baseDir, fileName)
-	assert fileToUpload.exists() && fileToUpload.isFile() :
-			"❌ Upload file not found: ${fileToUpload.absolutePath}"
-
-	KeywordUtil.logInfo("☁ TestCloud uploading: ${fileToUpload.absolutePath}")
-
-	CustomKeywords.'com.katalon.testcloud.FileExecutor.uploadFileToWeb'(
-		uploadObj,
-		fileToUpload.absolutePath
-	)
-}
-
-// Upload both card images in one pass instead of two near-duplicate calls
-[
-	1: frontCardFileName,
-	2: backCardFileName
-].each { int inputIndex, String fileName ->
-	TestObject uploadInput = findTestObject('Appointment Booking/Chat Bot Appt Book/Upload Input', ['index': inputIndex])
-	uploadFileTestCloud(uploadInput, baseDir, fileName)
-	KeywordUtil.logInfo("STEP 13: Uploaded file '${fileName}' successfully")
-}
-
-WebUI.click(findTestObject('Book Appt With Ins/EVAA.AI React/button_NEXT'))
-KeywordUtil.logInfo('STEP 13: Insurance card images submitted')
-
-// STEP 14: Verify insurance card scan confirmation
-KeywordUtil.logInfo('STEP 14: Verifying insurance card was scanned successfully')
-TestObject continueBtn = findTestObject('Book Appt With Ins/EVAA.AI React/button_Continue')
-WebUI.waitForElementVisible(continueBtn, PAGE_TIMEOUT)
-
-WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/h3_Insurance card scanned'), cardScannedTitleText, MEDIUM_TIMEOUT)
-WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/p_We filled in your insurance details from the c'), cardScannedBodyText, 0)
-KeywordUtil.logInfo('STEP 14: Insurance card scan confirmation verified')
-
-WebUI.click(continueBtn)
-KeywordUtil.logInfo('STEP 14: Continued to review insurance details')
-
-// STEP 15: Verify OCR-filled insurance details, then select Gender
-KeywordUtil.logInfo('STEP 15: Verifying insurance details auto-filled from the scanned card')
-
-WebUI.verifyElementAttributeValue(findTestObject('Book Appt With Ins/EVAA.AI React/input_Insurance Name'), 'defaultValue', insuranceName, MEDIUM_TIMEOUT)
-WebUI.verifyElementAttributeValue(findTestObject('Book Appt With Ins/EVAA.AI React/input_Insured ID'), 'defaultValue', insuredId, MEDIUM_TIMEOUT)
-WebUI.verifyElementAttributeValue(findTestObject('Book Appt With Ins/EVAA.AI React/input_First Name'), 'defaultValue', firstName, MEDIUM_TIMEOUT)
-WebUI.verifyElementAttributeValue(findTestObject('Book Appt With Ins/EVAA.AI React/input_Last Name'), 'defaultValue', lastName, MEDIUM_TIMEOUT)
-WebUI.verifyElementAttributeValue(findTestObject('Book Appt With Ins/EVAA.AI React/input_mm_dd_yyyy'), 'defaultValue', dob, MEDIUM_TIMEOUT)
-KeywordUtil.logInfo('STEP 15: Insurance details verified against expected patient data')
-
-KeywordUtil.logInfo("STEP 15a: Selecting Gender - '${gender}'")
-WebUI.selectOptionByValue(findTestObject('Book Appt With Ins/EVAA.AI React/select_Gender'), gender, false)
-WebUI.verifyElementAttributeValue(findTestObject('Book Appt With Ins/EVAA.AI React/select_Gender'), 'value', gender, MEDIUM_TIMEOUT)
-KeywordUtil.logInfo('STEP 15a: Gender selected and verified successfully')
-
-WebUI.click(findTestObject('Book Appt With Ins/EVAA.AI React/button_NEXT'))
-KeywordUtil.logInfo('STEP 15: Proceeding to insurance coverage details')
-
-// STEP 16: Enter insurance coverage details
-KeywordUtil.logInfo("STEP 16: Selecting Patient Relationship to insured - '${patientRelationship}'")
-WebUI.selectOptionByValue(findTestObject('Book Appt With Ins/EVAA.AI React/select_Patient Relationship to insured'), patientRelationship, false)
-KeywordUtil.logInfo('STEP 16: Patient Relationship selected successfully')
-
-KeywordUtil.logInfo("STEP 16a: Entering Insurance Group Name - '${insuranceGroupName}'")
-WebUI.setText(findTestObject('Book Appt With Ins/EVAA.AI React/input_Enter'), insuranceGroupName)
-
-KeywordUtil.logInfo("STEP 16b: Entering Insurance Employer Name - '${insuranceEmployerName}'")
-WebUI.setText(findTestObject('Book Appt With Ins/EVAA.AI React/input_Enter_1'), insuranceEmployerName)
-KeywordUtil.logInfo('STEP 16: Insurance group/employer details entered successfully')
-
-// STEP 17: Enter Coverage Start & End Dates (Today -> Today + 15 days)
-KeywordUtil.logInfo("STEP 17: Entering Coverage Start Date (${coverageStartMonth}/${coverageStartDay}/${coverageStartYear})")
-TestObject coverageStartDate = findTestObject('Book Appt With Ins/EVAA.AI React/input_Coverage Start Date')
-WebUI.click(coverageStartDate)
-WebUI.sendKeys(coverageStartDate, coverageStartMonth)
-WebUI.sendKeys(coverageStartDate, coverageStartDay)
-WebUI.sendKeys(coverageStartDate, coverageStartYear)
-WebUI.sendKeys(coverageStartDate, Keys.chord(Keys.ESCAPE))
-KeywordUtil.logInfo('STEP 17: Coverage Start Date entered successfully')
-
-KeywordUtil.logInfo("STEP 17a: Entering Coverage End Date (${coverageEndMonth}/${coverageEndDay}/${coverageEndYear})")
-TestObject coverageEndDate = findTestObject('Book Appt With Ins/EVAA.AI React/input_Coverage End Date')
-WebUI.click(coverageEndDate)
-WebUI.sendKeys(coverageEndDate, coverageEndMonth)
-WebUI.sendKeys(coverageEndDate, coverageEndDay)
-WebUI.sendKeys(coverageEndDate, coverageEndYear)
-WebUI.sendKeys(coverageEndDate, Keys.chord(Keys.ESCAPE))
-KeywordUtil.logInfo('STEP 17a: Coverage End Date entered successfully')
-
-WebUI.click(findTestObject('Book Appt With Ins/EVAA.AI React/button_NEXT'))
-KeywordUtil.logInfo('STEP 17: Insurance coverage details submitted')
-
-// STEP 18: Verify insurance details saved successfully
-KeywordUtil.logInfo('STEP 18: Verifying insurance details were saved successfully')
-WebUI.waitForElementVisible(continueBtn, PAGE_TIMEOUT)
-WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/h3_Insurance card scanned'), insuranceSavedTitleText, MEDIUM_TIMEOUT)
-WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/button_View _ Add Insurances'), viewAddInsurancesText, MEDIUM_TIMEOUT)
-KeywordUtil.logInfo('STEP 18: Insurance details save confirmed')
-
-WebUI.click(continueBtn)
-KeywordUtil.logInfo('STEP 18: Continued to appointment confirmation screen')
-
-// ============================================================================
-// PART 3: CONFIRMATION & CLOSEOUT
-// ============================================================================
-
-// STEP 19: Verify appointment confirmation screen details
-KeywordUtil.logInfo('STEP 19: Verifying appointment confirmation screen details')
-TestObject ptNameLabel = findTestObject('Appointment Booking/Chat Bot Appt Book/p_Name_ QA Katalon')
-WebUI.waitForElementVisible(ptNameLabel, PAGE_TIMEOUT)
-
-WebUI.assertElementText(ptNameLabel, expectedName, SHORT_TIMEOUT)
-WebUI.assertElementText(findTestObject('Appointment Booking/Chat Bot Appt Book/p_Location_ MaximEyes Family Eye Care West'), expectedLocation, SHORT_TIMEOUT)
-WebUI.assertElementText(findTestObject('Appointment Booking/Chat Bot Appt Book/p_Provider_ Katalon Provider (OD)'), expectedProvider, SHORT_TIMEOUT)
-WebUI.assertElementText(findTestObject('Appointment Booking/Chat Bot Appt Book/p_Reason_ Katalon Reason'), expectedReason, SHORT_TIMEOUT)
-WebUI.assertElementText(findTestObject('Appointment Booking/Chat Bot Appt Book/p_Date_ 07_22_2026', ['date': tomorrowFullDate]), expectedDate, SHORT_TIMEOUT)
-WebUI.assertElementText(findTestObject('Appointment Booking/Chat Bot Appt Book/p_Time_ 10_30 AM', ['time': apptTime]), expectedTime, SHORT_TIMEOUT)
-WebUI.assertElementText(findTestObject('Appointment Booking/Chat Bot Appt Book/p_Your appointment has been booked'), expectedConfirmationMsg, SHORT_TIMEOUT)
-KeywordUtil.logInfo('STEP 19: Appointment confirmation details verified successfully')
-
-// STEP 20: Decline further assistance
-KeywordUtil.logInfo('STEP 20: Verifying "anything else" prompt and declining further assistance')
-WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/p_Is there anything else I can help with'), anythingElseHelpText, MEDIUM_TIMEOUT)
-
-TestObject noButton = findTestObject('Book Appt With Ins/EVAA.AI React/button_No')
-WebUI.waitForElementVisible(noButton, PAGE_TIMEOUT)
-WebUI.click(noButton)
-KeywordUtil.logInfo('STEP 20: Declined further assistance')
-
-// STEP 21: Skip feedback survey
-KeywordUtil.logInfo('STEP 21: Verifying Feedback screen is displayed and skipping it')
-WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/h2_Share Your Feedback'), shareFeedbackTitleText, MEDIUM_TIMEOUT)
-WebUI.click(findTestObject('Book Appt With Ins/EVAA.AI React/button_Skip'))
-KeywordUtil.logInfo('STEP 21: Feedback survey skipped')
-
-// STEP 22: Verify chat session ended and can be restarted
-KeywordUtil.logInfo('STEP 22: Verifying "Restart Chat" option is available at end of flow')
-WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/button_Restart Chat'), restartChatText, MEDIUM_TIMEOUT)
-KeywordUtil.logInfo('STEP 22: Test flow completed successfully - "Restart Chat" is available')
-
-//Delete Booked Appointment from MaximEyes
-
-// STEP 1: Login to MaximEyes
-KeywordUtil.logInfo('Step 1: Logging into MaximEyes')
-WebUI.navigateToUrl(GlobalVariable.MaxUrlQA5)
-WebUI.setText(findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/UserName'), GlobalVariable.QA5Username)
-WebUI.setText(findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/Password'), GlobalVariable.QA5Password)
-WebUI.click(findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/Login Button'))
-
-TestObject otpField = findTestObject('SSO/Page_MaximEyes/input_CODE')
-
-// Wait for OTP field to appear (max 10 seconds)
-if (WebUI.waitForElementVisible(otpField, 10, FailureHandling.OPTIONAL)) {
-
-	String otp = CustomKeywords.'utils.GmailOTPReader.getVerificationCode'(
-		GlobalVariable.MyEmail_Id,
-		GlobalVariable.Email_Key
-	)
-
-	println("OTP = " + otp)
-
-	WebUI.setText(otpField, otp)
-	WebUI.click(findTestObject('SSO/Page_MaximEyes/input_btnEmailVerify'))
-	
-	WebUI.assertElementVisible(findTestObject('SSO/Page_MaximEyes/ul_Patient'), 10)
-
-} else {
-	println("OTP field is not visible. Skipping OTP fetch and entry.")
-}
-
-// STEP 2: Search for the patient booked in Part 1
-KeywordUtil.logInfo("Step 2: Searching for patient '${firstName} ${lastName}'")
-WebUI.click(findTestObject('MaximeyesAppt/Page_MaximEyes/a_imgFindPatient'))
-WebUI.setText(findTestObject('MaximeyesAppt/Page_MaximEyes/input_First Name_Preferred'), firstName)
-WebUI.setText(findTestObject('MaximeyesAppt/Page_MaximEyes/input_Last Name'), lastName)
-WebUI.click(findTestObject('MaximeyesAppt/Page_MaximEyes/input_btnSearchPatient'))
-
-
-// STEP 3: Navigate to the Schedule module
-KeywordUtil.logInfo('Step 4: Navigating to Schedule module')
-WebUI.click(findTestObject('MaximeyesAppt/Page_MaximEyes/a_dropdown-toggle menu-large recentmodule'))
-WebUI.click(findTestObject('MaximeyesAppt/Page_MaximEyes/a_Schedule'))
-
-
-//=========================
-// Open Appointment Actions Dropdown
-//=========================
-KeywordUtil.logInfo("Step 1: Clicking Appointment Actions dropdown.")
-
-def appointmentDropdown = findTestObject('Maximeyes Evaa Login/Page_MaximEyes/span_mif-dropdown fg-skyblue')
-
-WebUI.waitForElementClickable(appointmentDropdown, 10)
-WebUI.click(appointmentDropdown)
-
-KeywordUtil.logInfo("Appointment Actions dropdown opened successfully.")
-
-KeywordUtil.logInfo("Step 2: Selecting 'Cancel Appt (Office Request)'.")
-
-def cancelAppointment = findTestObject('Maximeyes Evaa Login/Page_MaximEyes/div_Cancel Appt (Office Request)')
-
-WebUI.waitForElementClickable(cancelAppointment, 10)
-WebUI.click(cancelAppointment)
-
-KeywordUtil.logInfo("'Cancel Appt (Office Request)' selected successfully.")
-
-
-//=========================
-// Navigate to OA
-//=========================
-KeywordUtil.logInfo("Step 3: Clicking Settings icon OA.")
-
-def settingsIcon = findTestObject('Maximeyes Evaa Login/Page_MaximEyes/span_mif-cog font20 head-icon-shadow fg-white')
-
-WebUI.waitForElementClickable(settingsIcon, 10)
-WebUI.click(settingsIcon)
-
-KeywordUtil.logInfo("OA page opened successfully.")
-
-WebUI.comment('TEST COMPLETE: All appointment detail verifications for patient "QA Katalon" passed')
+//
+//
+//// STEP 11: Verify insurance card upload screen elements
+//KeywordUtil.logInfo('STEP 11: Verifying insurance card upload screen elements')
+//WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/p_Insurance Card Photo'), insuranceCardPhotoText, SHORT_TIMEOUT)
+//WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/label_Insurance Name'), insuranceNameLabelText, 0)
+//WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/p_Front Side'), frontSideLabelText, 0)
+//WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/p_Upload or take a photo of the front of your in'), uploadFrontHintText, 0)
+//WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/p_Back Side'), backSideLabelText, 0)
+//WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/p_Upload or take a photo of the back of your ins'), uploadBackHintText, 0)
+//WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/p_Note_ Please add clear image of card. Image si'), insuranceNoteText, 0)
+//KeywordUtil.logInfo('STEP 11: Insurance card upload screen elements verified successfully')
+//
+//// STEP 12: Enter insurance name
+//KeywordUtil.logInfo("STEP 12: Entering Insurance Name - '${insuranceName}'")
+//WebUI.setText(findTestObject('Book Appt With Ins/EVAA.AI React/input_Enter Insurance Name'), insuranceName)
+//KeywordUtil.logInfo('STEP 12: Insurance Name entered successfully')
+//
+//// STEP 13: Upload insurance card images (front & back)
+//KeywordUtil.logInfo('STEP 13: Uploading insurance card images (front & back)')
+//String projectDir = RunConfiguration.getProjectDir()
+//File baseDir = new File(projectDir, 'Include/TestFiles')
+//
+//def uploadFileTestCloud(TestObject uploadObj, File baseDir, String fileName) {
+//	assert uploadObj != null : '❌ Upload input TestObject is NULL'
+//
+//	File fileToUpload = new File(baseDir, fileName)
+//	assert fileToUpload.exists() && fileToUpload.isFile() :
+//			"❌ Upload file not found: ${fileToUpload.absolutePath}"
+//
+//	KeywordUtil.logInfo("☁ TestCloud uploading: ${fileToUpload.absolutePath}")
+//
+//	CustomKeywords.'com.katalon.testcloud.FileExecutor.uploadFileToWeb'(
+//		uploadObj,
+//		fileToUpload.absolutePath
+//	)
+//}
+//
+//// Upload both card images in one pass instead of two near-duplicate calls
+//[
+//	1: frontCardFileName,
+//	2: backCardFileName
+//].each { int inputIndex, String fileName ->
+//	TestObject uploadInput = findTestObject('Appointment Booking/Chat Bot Appt Book/Upload Input', ['index': inputIndex])
+//	uploadFileTestCloud(uploadInput, baseDir, fileName)
+//	KeywordUtil.logInfo("STEP 13: Uploaded file '${fileName}' successfully")
+//}
+//
+//WebUI.click(findTestObject('Book Appt With Ins/EVAA.AI React/button_NEXT'))
+//KeywordUtil.logInfo('STEP 13: Insurance card images submitted')
+//
+//// STEP 14: Verify insurance card scan confirmation
+//KeywordUtil.logInfo('STEP 14: Verifying insurance card was scanned successfully')
+//TestObject continueBtn = findTestObject('Book Appt With Ins/EVAA.AI React/button_Continue')
+//WebUI.waitForElementVisible(continueBtn, PAGE_TIMEOUT)
+//
+//WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/h3_Insurance card scanned'), cardScannedTitleText, MEDIUM_TIMEOUT)
+//WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/p_We filled in your insurance details from the c'), cardScannedBodyText, 0)
+//KeywordUtil.logInfo('STEP 14: Insurance card scan confirmation verified')
+//
+//WebUI.click(continueBtn)
+//KeywordUtil.logInfo('STEP 14: Continued to review insurance details')
+//
+//// STEP 15: Verify OCR-filled insurance details, then select Gender
+//KeywordUtil.logInfo('STEP 15: Verifying insurance details auto-filled from the scanned card')
+//
+//WebUI.verifyElementAttributeValue(findTestObject('Book Appt With Ins/EVAA.AI React/input_Insurance Name'), 'defaultValue', insuranceName, MEDIUM_TIMEOUT)
+//WebUI.verifyElementAttributeValue(findTestObject('Book Appt With Ins/EVAA.AI React/input_Insured ID'), 'defaultValue', insuredId, MEDIUM_TIMEOUT)
+//WebUI.verifyElementAttributeValue(findTestObject('Book Appt With Ins/EVAA.AI React/input_First Name'), 'defaultValue', firstName, MEDIUM_TIMEOUT)
+//WebUI.verifyElementAttributeValue(findTestObject('Book Appt With Ins/EVAA.AI React/input_Last Name'), 'defaultValue', lastName, MEDIUM_TIMEOUT)
+//WebUI.verifyElementAttributeValue(findTestObject('Book Appt With Ins/EVAA.AI React/input_mm_dd_yyyy'), 'defaultValue', dob, MEDIUM_TIMEOUT)
+//KeywordUtil.logInfo('STEP 15: Insurance details verified against expected patient data')
+//
+//KeywordUtil.logInfo("STEP 15a: Selecting Gender - '${gender}'")
+//WebUI.selectOptionByValue(findTestObject('Book Appt With Ins/EVAA.AI React/select_Gender'), gender, false)
+//WebUI.verifyElementAttributeValue(findTestObject('Book Appt With Ins/EVAA.AI React/select_Gender'), 'value', gender, MEDIUM_TIMEOUT)
+//KeywordUtil.logInfo('STEP 15a: Gender selected and verified successfully')
+//
+//WebUI.click(findTestObject('Book Appt With Ins/EVAA.AI React/button_NEXT'))
+//KeywordUtil.logInfo('STEP 15: Proceeding to insurance coverage details')
+//
+//// STEP 16: Enter insurance coverage details
+//KeywordUtil.logInfo("STEP 16: Selecting Patient Relationship to insured - '${patientRelationship}'")
+//WebUI.selectOptionByValue(findTestObject('Book Appt With Ins/EVAA.AI React/select_Patient Relationship to insured'), patientRelationship, false)
+//KeywordUtil.logInfo('STEP 16: Patient Relationship selected successfully')
+//
+//KeywordUtil.logInfo("STEP 16a: Entering Insurance Group Name - '${insuranceGroupName}'")
+//WebUI.setText(findTestObject('Book Appt With Ins/EVAA.AI React/input_Enter'), insuranceGroupName)
+//
+//KeywordUtil.logInfo("STEP 16b: Entering Insurance Employer Name - '${insuranceEmployerName}'")
+//WebUI.setText(findTestObject('Book Appt With Ins/EVAA.AI React/input_Enter_1'), insuranceEmployerName)
+//KeywordUtil.logInfo('STEP 16: Insurance group/employer details entered successfully')
+//
+//// STEP 17: Enter Coverage Start & End Dates (Today -> Today + 15 days)
+//KeywordUtil.logInfo("STEP 17: Entering Coverage Start Date (${coverageStartMonth}/${coverageStartDay}/${coverageStartYear})")
+//TestObject coverageStartDate = findTestObject('Book Appt With Ins/EVAA.AI React/input_Coverage Start Date')
+//WebUI.click(coverageStartDate)
+//WebUI.sendKeys(coverageStartDate, coverageStartMonth)
+//WebUI.sendKeys(coverageStartDate, coverageStartDay)
+//WebUI.sendKeys(coverageStartDate, coverageStartYear)
+//WebUI.sendKeys(coverageStartDate, Keys.chord(Keys.ESCAPE))
+//KeywordUtil.logInfo('STEP 17: Coverage Start Date entered successfully')
+//
+//KeywordUtil.logInfo("STEP 17a: Entering Coverage End Date (${coverageEndMonth}/${coverageEndDay}/${coverageEndYear})")
+//TestObject coverageEndDate = findTestObject('Book Appt With Ins/EVAA.AI React/input_Coverage End Date')
+//WebUI.click(coverageEndDate)
+//WebUI.sendKeys(coverageEndDate, coverageEndMonth)
+//WebUI.sendKeys(coverageEndDate, coverageEndDay)
+//WebUI.sendKeys(coverageEndDate, coverageEndYear)
+//WebUI.sendKeys(coverageEndDate, Keys.chord(Keys.ESCAPE))
+//KeywordUtil.logInfo('STEP 17a: Coverage End Date entered successfully')
+//
+//WebUI.click(findTestObject('Book Appt With Ins/EVAA.AI React/button_NEXT'))
+//KeywordUtil.logInfo('STEP 17: Insurance coverage details submitted')
+//
+//// STEP 18: Verify insurance details saved successfully
+//KeywordUtil.logInfo('STEP 18: Verifying insurance details were saved successfully')
+//WebUI.waitForElementVisible(continueBtn, PAGE_TIMEOUT)
+//WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/h3_Insurance card scanned'), insuranceSavedTitleText, MEDIUM_TIMEOUT)
+//WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/button_View _ Add Insurances'), viewAddInsurancesText, MEDIUM_TIMEOUT)
+//KeywordUtil.logInfo('STEP 18: Insurance details save confirmed')
+//
+//WebUI.click(continueBtn)
+//KeywordUtil.logInfo('STEP 18: Continued to appointment confirmation screen')
+//
+//// ============================================================================
+//// PART 3: CONFIRMATION & CLOSEOUT
+//// ============================================================================
+//
+//// STEP 19: Verify appointment confirmation screen details
+//KeywordUtil.logInfo('STEP 19: Verifying appointment confirmation screen details')
+//TestObject ptNameLabel = findTestObject('Appointment Booking/Chat Bot Appt Book/p_Name_ QA Katalon')
+//WebUI.waitForElementVisible(ptNameLabel, PAGE_TIMEOUT)
+//
+//WebUI.assertElementText(ptNameLabel, expectedName, SHORT_TIMEOUT)
+//WebUI.assertElementText(findTestObject('Appointment Booking/Chat Bot Appt Book/p_Location_ MaximEyes Family Eye Care West'), expectedLocation, SHORT_TIMEOUT)
+//WebUI.assertElementText(findTestObject('Appointment Booking/Chat Bot Appt Book/p_Provider_ Katalon Provider (OD)'), expectedProvider, SHORT_TIMEOUT)
+//WebUI.assertElementText(findTestObject('Appointment Booking/Chat Bot Appt Book/p_Reason_ Katalon Reason'), expectedReason, SHORT_TIMEOUT)
+//WebUI.assertElementText(findTestObject('Appointment Booking/Chat Bot Appt Book/p_Date_ 07_22_2026', ['date': tomorrowFullDate]), expectedDate, SHORT_TIMEOUT)
+//WebUI.assertElementText(findTestObject('Appointment Booking/Chat Bot Appt Book/p_Time_ 10_30 AM', ['time': apptTime]), expectedTime, SHORT_TIMEOUT)
+//WebUI.assertElementText(findTestObject('Appointment Booking/Chat Bot Appt Book/p_Your appointment has been booked'), expectedConfirmationMsg, SHORT_TIMEOUT)
+//KeywordUtil.logInfo('STEP 19: Appointment confirmation details verified successfully')
+//
+//// STEP 20: Decline further assistance
+//KeywordUtil.logInfo('STEP 20: Verifying "anything else" prompt and declining further assistance')
+//WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/p_Is there anything else I can help with'), anythingElseHelpText, MEDIUM_TIMEOUT)
+//
+//TestObject noButton = findTestObject('Book Appt With Ins/EVAA.AI React/button_No')
+//WebUI.waitForElementVisible(noButton, PAGE_TIMEOUT)
+//WebUI.click(noButton)
+//KeywordUtil.logInfo('STEP 20: Declined further assistance')
+//
+//// STEP 21: Skip feedback survey
+//KeywordUtil.logInfo('STEP 21: Verifying Feedback screen is displayed and skipping it')
+//WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/h2_Share Your Feedback'), shareFeedbackTitleText, MEDIUM_TIMEOUT)
+//WebUI.click(findTestObject('Book Appt With Ins/EVAA.AI React/button_Skip'))
+//KeywordUtil.logInfo('STEP 21: Feedback survey skipped')
+//
+//// STEP 22: Verify chat session ended and can be restarted
+//KeywordUtil.logInfo('STEP 22: Verifying "Restart Chat" option is available at end of flow')
+//WebUI.assertElementText(findTestObject('Book Appt With Ins/EVAA.AI React/button_Restart Chat'), restartChatText, MEDIUM_TIMEOUT)
+//KeywordUtil.logInfo('STEP 22: Test flow completed successfully - "Restart Chat" is available')
+//
+////Delete Booked Appointment from MaximEyes
+//
+//// STEP 1: Login to MaximEyes
+//KeywordUtil.logInfo('Step 1: Logging into MaximEyes')
+//WebUI.navigateToUrl(GlobalVariable.MaxUrlQA5)
+//WebUI.setText(findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/UserName'), GlobalVariable.QA5Username)
+//WebUI.setText(findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/Password'), GlobalVariable.QA5Password)
+//WebUI.click(findTestObject('Object Repository/Maximeye.com/Page_MaximEyes/Login Button'))
+//
+//TestObject otpField = findTestObject('SSO/Page_MaximEyes/input_CODE')
+//
+//// Wait for OTP field to appear (max 10 seconds)
+//if (WebUI.waitForElementVisible(otpField, 10, FailureHandling.OPTIONAL)) {
+//
+//	String otp = CustomKeywords.'utils.GmailOTPReader.getVerificationCode'(
+//		GlobalVariable.MyEmail_Id,
+//		GlobalVariable.Email_Key
+//	)
+//
+//	println("OTP = " + otp)
+//
+//	WebUI.setText(otpField, otp)
+//	WebUI.click(findTestObject('SSO/Page_MaximEyes/input_btnEmailVerify'))
+//	
+//	WebUI.assertElementVisible(findTestObject('SSO/Page_MaximEyes/ul_Patient'), 10)
+//
+//} else {
+//	println("OTP field is not visible. Skipping OTP fetch and entry.")
+//}
+//
+//// STEP 2: Search for the patient booked in Part 1
+//KeywordUtil.logInfo("Step 2: Searching for patient '${firstName} ${lastName}'")
+//WebUI.click(findTestObject('MaximeyesAppt/Page_MaximEyes/a_imgFindPatient'))
+//WebUI.setText(findTestObject('MaximeyesAppt/Page_MaximEyes/input_First Name_Preferred'), firstName)
+//WebUI.setText(findTestObject('MaximeyesAppt/Page_MaximEyes/input_Last Name'), lastName)
+//WebUI.click(findTestObject('MaximeyesAppt/Page_MaximEyes/input_btnSearchPatient'))
+//
+//
+//// STEP 3: Navigate to the Schedule module
+//KeywordUtil.logInfo('Step 4: Navigating to Schedule module')
+//WebUI.click(findTestObject('MaximeyesAppt/Page_MaximEyes/a_dropdown-toggle menu-large recentmodule'))
+//WebUI.click(findTestObject('MaximeyesAppt/Page_MaximEyes/a_Schedule'))
+//
+//
+////=========================
+//// Open Appointment Actions Dropdown
+////=========================
+//KeywordUtil.logInfo("Step 1: Clicking Appointment Actions dropdown.")
+//
+//def appointmentDropdown = findTestObject('Maximeyes Evaa Login/Page_MaximEyes/span_mif-dropdown fg-skyblue')
+//
+//WebUI.waitForElementClickable(appointmentDropdown, 10)
+//WebUI.click(appointmentDropdown)
+//
+//KeywordUtil.logInfo("Appointment Actions dropdown opened successfully.")
+//
+//KeywordUtil.logInfo("Step 2: Selecting 'Cancel Appt (Office Request)'.")
+//
+//def cancelAppointment = findTestObject('Maximeyes Evaa Login/Page_MaximEyes/div_Cancel Appt (Office Request)')
+//
+//WebUI.waitForElementClickable(cancelAppointment, 10)
+//WebUI.click(cancelAppointment)
+//
+//KeywordUtil.logInfo("'Cancel Appt (Office Request)' selected successfully.")
+//
+//
+////=========================
+//// Navigate to OA
+////=========================
+//KeywordUtil.logInfo("Step 3: Clicking Settings icon OA.")
+//
+//def settingsIcon = findTestObject('Maximeyes Evaa Login/Page_MaximEyes/span_mif-cog font20 head-icon-shadow fg-white')
+//
+//WebUI.waitForElementClickable(settingsIcon, 10)
+//WebUI.click(settingsIcon)
+//
+//KeywordUtil.logInfo("OA page opened successfully.")
+//
+//WebUI.comment('TEST COMPLETE: All appointment detail verifications for patient "QA Katalon" passed')
