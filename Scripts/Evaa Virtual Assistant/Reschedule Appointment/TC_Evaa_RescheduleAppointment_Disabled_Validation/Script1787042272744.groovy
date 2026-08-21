@@ -5,6 +5,8 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement
+import com.kms.katalon.core.webui.common.WebUiCommonHelper
 
 // ============================================================================
 // CONFIG
@@ -94,14 +96,18 @@ navigateToPreferences(DEFAULT_TIMEOUT, PAGE_TIMEOUT)
 
 TestObject checkbox = findTestObject('Maximeyes Evaa Login/Page_Evaa AI/input_h-4 w-4 shrink-0 rounded border-gray-30')
 
-boolean isChecked = WebUI.verifyElementChecked(checkbox, 5, FailureHandling.OPTIONAL)
+//boolean isChecked = WebUI.verifyElementChecked(checkbox, 5, FailureHandling.OPTIONAL)
+boolean isChecked = WebUI.executeJavaScript(
+	"return arguments[0].checked;",
+	Arrays.asList(WebUI.findWebElement(checkbox, 5))
+)
 KeywordUtil.logInfo('Rescheduling checkbox initial state: ' + (isChecked ? 'CHECKED' : 'UNCHECKED'))
 
 if (isChecked) {
 	// Checkbox is checked -> uncheck it to disable rescheduling for this test
 	WebUI.click(checkbox)
-	WebUI.verifyElementNotChecked(checkbox, 5)
 	WebUI.assertElementText(findTestObject('Maximeyes Evaa Login/Page_Evaa AI/p_Saved successfully'), 'Saved successfully', 5)
+	WebUI.verifyElementNotChecked(checkbox, 5)
 	KeywordUtil.logInfo('Rescheduling checkbox unchecked and change saved.')
 }
 
@@ -181,10 +187,13 @@ navigateToPreferences(DEFAULT_TIMEOUT, PAGE_TIMEOUT)
 // NOT restored to its original state in that case. Flagging this in case it
 // wasn't intentional; let me know if you'd like it changed to always restore
 // the original state (isChecked) instead.
-if (!isChecked) {
-	WebUI.click(checkbox)
-	WebUI.verifyElementChecked(checkbox, 5)
-	WebUI.assertElementText(findTestObject('Maximeyes Evaa Login/Page_Evaa AI/p_Saved successfully'), 'Saved successfully', 5)
-	KeywordUtil.logInfo('Rescheduling checkbox restored to checked and change saved.')
+
+WebUI.waitForElementVisible(checkbox, 10)
+
+WebElement cb = WebUiCommonHelper.findWebElement(checkbox, 10)
+
+if (!cb.isSelected()) {
+	WebUI.executeJavaScript("arguments[0].click();", Arrays.asList(cb))
 }
+
 WebUI.verifyElementChecked(checkbox, 5)

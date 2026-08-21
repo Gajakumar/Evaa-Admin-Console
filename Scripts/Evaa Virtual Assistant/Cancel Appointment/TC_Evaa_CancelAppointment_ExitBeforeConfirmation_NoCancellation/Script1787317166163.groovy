@@ -25,20 +25,6 @@ import java.text.SimpleDateFormat
 import java.time.LocalTime
 import java.time.format.DateTimeFormatter
 
-/*
- * ============================================================================
- * TEST SUITE: Chat Bot Appointment Booking + MaximEyes Verification
- * ----------------------------------------------------------------------------
- * Part 1 - Books an appointment through the patient-facing chat bot
- * Part 2 - Logs into MaximEyes and verifies the appointment booked in Part 1
- *
- * The repeated chat-bot journey and MaximEyes login/search/cancel steps now
- * live in Keywords/common/ChatBotBookingFlow.groovy and
- * Keywords/common/MaximEyesPatientHelper.groovy - this script only supplies
- * its own test data and the verification values specific to this scenario.
- * ============================================================================
- */
-
 // ------------
 // TEST DATA
 // ------------
@@ -86,7 +72,7 @@ String anythingElseHelpText      = 'Is there anything else I can help with?'
 String shareFeedbackTitleText    = 'Share Your Feedback'
 String restartChatText           = 'Restart Chat'
 String removeLeadingZero(String time) {
-    return time.replaceFirst(/^0/, '')
+	return time.replaceFirst(/^0/, '')
 }
 
 String apptTimeA = removeLeadingZero(apptTime)
@@ -169,77 +155,10 @@ WebUI.waitForElementVisible(tcActionButton, PAGE_TIMEOUT)
 WebUI.click(tcActionButton)
 KeywordUtil.logInfo('Step 5 passed: Action button clicked')
 
-// Step 6: Click  Cancel 
-KeywordUtil.logInfo('Step 6: Clicking the Confirm/Cancel/Reschedule action button')
-WebUI.waitForElementVisible(cancelApptBtn, PAGE_TIMEOUT)
-WebUI.click(cancelApptBtn)
-KeywordUtil.logInfo('Step 6 passed: Cancel Appt button clicked')
-
-def headlineText = 'Your appointment has been Canceled.' 
-// or headlineText = 'Your appointment has been booked'
-
-CustomKeywords.'common.ChatBotBookingFlow.verifyConfirmationScreen'(
-	ptNameLabel,
-	[                        
-		(ptNameLabel): expectedName,
-		(findTestObject('Appointment Booking/Chat Bot Appt Book/p_Location_Dynamic', ['headlineText': headlineText])): expectedLocation,
-//		(findTestObject('Appointment Booking/Chat Bot Appt Book/p_Provider_Dynamic', ['headlineText': headlineText])): expectedProvider,
-		(findTestObject('Appointment Booking/Chat Bot Appt Book/p_Reason_Dynamic', ['headlineText': headlineText])): expectedReason,
-		(findTestObject('Appointment Booking/Chat Bot Appt Book/p_Date_Dynamic', ['headlineText': headlineText, 'date': tomorrowFullDate])): expectedDate,
-		(findTestObject('Appointment Booking/Chat Bot Appt Book/p_Time_Dynamic', ['headlineText': headlineText, 'time': apptTime])): expectedTimeA,
-		(findTestObject('Appointment Booking/Chat Bot Appt Book/p_Headline_Dynamic', ['headlineText': headlineText])): headlineText,
-	],
-	PAGE_TIMEOUT,
-	SHORT_TIMEOUT
-)
-
-
-TestObject anythingElsePrompt = findTestObject(
-	'Book Appt With Ins/EVAA.AI React/p_Is there anything else I can help with'
-)
-
-WebUI.waitForElementVisible(anythingElsePrompt, SHORT_TIMEOUT)
-WebUI.verifyElementText(
-	anythingElsePrompt,
-	anythingElseHelpText
-)
-
-
-KeywordUtil.logInfo('Step 1: Navigating to application URL')
-CustomKeywords.'common.ChatBotBookingFlow.navigateToApp'()
-
-KeywordUtil.logInfo('Step 2: Launching chat bot via "Push to talk" icon')
-CustomKeywords.'common.ChatBotBookingFlow.launchChatBot'(PAGE_TIMEOUT)
-
-KeywordUtil.logInfo('Step 3: Selecting "Book Appointment"')
-CustomKeywords.'common.ChatBotBookingFlow.selectBookAppointment'(PAGE_TIMEOUT)
-
-CustomKeywords.'common.ChatBotBookingFlow.verifyMedicalDisclaimer'()
-CustomKeywords.'common.ChatBotBookingFlow.verifyBookingConfirmationPrompt'()
-
-KeywordUtil.logInfo('Step 4: Confirming booking intent')
-CustomKeywords.'common.ChatBotBookingFlow.confirmBookingIntent'(true)
-
-KeywordUtil.logInfo('Step 5: Entering patient personal details')
-CustomKeywords.'common.ChatBotBookingFlow.enterPatientDetails'(firstName, lastName, dob, phoneNumber, PAGE_TIMEOUT)
-
-KeywordUtil.logInfo('Step 6: Entering OTP for verification')
-CustomKeywords.'common.ChatBotBookingFlow.enterOtpAndSubmit'(otpCode, MEDIUM_TIMEOUT)
-CustomKeywords.'common.ChatBotBookingFlow.waitForLoadingIconToDisappear'()
-
-KeywordUtil.logInfo('Step 7: Selecting Location, Provider, and Reason')
-CustomKeywords.'common.ChatBotBookingFlow.selectLocationProviderReason'(location, provider, reason)
-CustomKeywords.'common.ChatBotBookingFlow.waitForLoadingIconToDisappear'()
-
-KeywordUtil.logInfo("Step 8: Selecting appointment date - Day '${tomorrowDay}' (${tomorrowFullDate})")
-CustomKeywords.'common.ChatBotBookingFlow.selectAppointmentDate'(tomorrowDay, tomorrowFullDate, todayDay)
-
-
-CustomKeywords.'common.ChatBotBookingFlow.verifyAppointmentTimeSlot'(
-	apptTime,
-	true
-)
-
+// STEP 6: Abandon the Cancel (Cancel -> Leave)
+KeywordUtil.logInfo('Step 6: Cancelling out of the reschedule flow')
+WebUI.click(findTestObject('Appointment Booking/Chat Bot Appt Book/Cancel Button on chat'))
+WebUI.click(findTestObject('Appointment Booking/Chat Bot Appt Book/button_Leave'))
 
 // ============================================================================
 // PART 2: MAXIMEYES - SEARCH PATIENT, VERIFY & CANCEL APPOINTMENT
@@ -251,33 +170,33 @@ CustomKeywords.'common.ChatBotBookingFlow.verifyAppointmentTimeSlot'(
 // 4. Cancels the appointment (Office Request) and opens OA settings
 // ============================================================================
 
-//KeywordUtil.logInfo('Step 1: Logging into MaximEyes')
-//CustomKeywords.'common.MaximEyesPatientHelper.loginToMaximEyes'()
-//
-//KeywordUtil.logInfo("Step 2: Searching for patient '${firstName} ${lastName}'")
-//CustomKeywords.'common.MaximEyesPatientHelper.searchPatient'(firstName, lastName)
-//
-//KeywordUtil.logInfo("Step 3: Verifying appointment slot shows '${expectedDateTimeReason}'")
-//CustomKeywords.'common.MaximEyesPatientHelper.verifyAppointmentPresentInSearchResults'(
-//	findTestObject('MaximeyesAppt/Page_MaximEyes/div_07_23_2026 _ 09_30 AM _ Katalon Reason'),
-//	expectedDateTimeReason,
-//	findTestObject('MaximeyesAppt/Page_MaximEyes/div_Katalon, Katalon Location'),
-//	expectedPatientLocation,
-//	SHORT_TIMEOUT
-//)
-//
-//KeywordUtil.logInfo('Step 4: Navigating to Schedule module')
-//CustomKeywords.'common.MaximEyesPatientHelper.navigateToSchedule'()
-//
-//KeywordUtil.logInfo("Step 5: Verifying appointment on scheduler shows '${expectedSpanText}'")
-//CustomKeywords.'common.MaximEyesPatientHelper.verifyAppointmentOnScheduler'(
-//	findTestObject('MaximeyesAppt/Page_MaximEyes/span_07_23_2026 _ Katalon Reason'),
-//	expectedSpanText,
-//	findTestObject('MaximeyesAppt/Page_MaximEyes/span_Katalon, Katalon Location'),
-//	expectedPatientLocation
-//)
-//
-//KeywordUtil.logInfo('Step 6: Cancelling the appointment (Office Request)')
-//CustomKeywords.'common.MaximEyesPatientHelper.cancelAppointmentViaOfficeRequest'()
-//
-//WebUI.comment('TEST COMPLETE: All appointment detail verifications for patient "QA Katalon" passed')
+KeywordUtil.logInfo('Step 1: Logging into MaximEyes')
+CustomKeywords.'common.MaximEyesPatientHelper.loginToMaximEyes'()
+
+KeywordUtil.logInfo("Step 2: Searching for patient '${firstName} ${lastName}'")
+CustomKeywords.'common.MaximEyesPatientHelper.searchPatient'(firstName, lastName)
+
+KeywordUtil.logInfo("Step 3: Verifying appointment slot shows '${expectedDateTimeReason}'")
+CustomKeywords.'common.MaximEyesPatientHelper.verifyAppointmentPresentInSearchResults'(
+	findTestObject('MaximeyesAppt/Page_MaximEyes/div_07_23_2026 _ 09_30 AM _ Katalon Reason'),
+	expectedDateTimeReason,
+	findTestObject('MaximeyesAppt/Page_MaximEyes/div_Katalon, Katalon Location'),
+	expectedPatientLocation,
+	SHORT_TIMEOUT
+)
+
+KeywordUtil.logInfo('Step 4: Navigating to Schedule module')
+CustomKeywords.'common.MaximEyesPatientHelper.navigateToSchedule'()
+
+KeywordUtil.logInfo("Step 5: Verifying appointment on scheduler shows '${expectedSpanText}'")
+CustomKeywords.'common.MaximEyesPatientHelper.verifyAppointmentOnScheduler'(
+	findTestObject('MaximeyesAppt/Page_MaximEyes/span_07_23_2026 _ Katalon Reason'),
+	expectedSpanText,
+	findTestObject('MaximeyesAppt/Page_MaximEyes/span_Katalon, Katalon Location'),
+	expectedPatientLocation
+)
+
+KeywordUtil.logInfo('Step 6: Cancelling the appointment (Office Request)')
+CustomKeywords.'common.MaximEyesPatientHelper.cancelAppointmentViaOfficeRequest'()
+
+WebUI.comment('TEST COMPLETE: All appointment detail verifications for patient "QA Katalon" passed')
