@@ -51,12 +51,10 @@ String reasonText = 'Katalon Appointment'
 String apptTime   = '11:30 AM'
 
 // Appointment date, calculated dynamically as Today + 1 day
-Calendar calendar = Calendar.getInstance()
-calendar.add(Calendar.DATE, 1)
-Date tomorrowDate = calendar.getTime()
+Map date = CustomKeywords.'common.ChatBotBookingFlow.getDate'(3)
 
-String tomorrowDay      = new SimpleDateFormat('d').format(tomorrowDate)
-String tomorrowFullDate = new SimpleDateFormat('MM/dd/yyyy').format(tomorrowDate)
+String tomorrowDay = date.day
+String tomorrowFullDate = date.fullDate
 
 // Expected values, all derived from the data above - never re-typed
 String expectedName            = "Name: ${firstName} ${lastName}"

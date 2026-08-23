@@ -38,7 +38,7 @@ import java.util.Date
 @Field String providerFirstName = 'Katalon'
 @Field String reason            = 'Katalon Reason'
 @Field String reasonText        = 'Katalon Appointment'
-@Field String apptTime          = '11:30 AM'
+@Field String apptTime          = '10:45 AM'
 
 // ---- Reschedule details ----
 @Field String rescheduleReasonInput = 'Reschedule Appointment'

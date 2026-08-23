@@ -24,7 +24,7 @@ import com.kms.katalon.core.util.KeywordUtil
 import java.text.SimpleDateFormat
 import com.kms.katalon.core.configuration.RunConfiguration
 import org.openqa.selenium.Keys
-import java.text.SimpleDateFormat
+
 
 // ------------
 // TEST DATA 
@@ -49,15 +49,21 @@ String provider         = 'Katalon Provider'
 String providerFirstName = 'Katalon'
 String reason            = 'Katalon Reason'
 String reasonText = 'Katalon Appointment'
-String apptTime   = '11:30 AM'
+String apptTime   = '08:30 AM'
 
 // Appointment date, calculated dynamically as Today + 1 day
 Calendar calendar = Calendar.getInstance()
 calendar.add(Calendar.DATE, 1)
 Date tomorrowDate = calendar.getTime()
 
-String tomorrowDay      = new SimpleDateFormat('d').format(tomorrowDate)
-String tomorrowFullDate = new SimpleDateFormat('MM/dd/yyyy').format(tomorrowDate)
+//String tomorrowDay      = new SimpleDateFormat('d').format(tomorrowDate)
+//String tomorrowFullDate = new SimpleDateFormat('MM/dd/yyyy').format(tomorrowDate)
+
+Map date = CustomKeywords.'common.ChatBotBookingFlow.getDate'(2)
+
+String tomorrowDay = date.day
+String tomorrowFullDate = date.fullDate
+
 
 // Expected values, all derived from the data above - never re-typed
 String expectedName            = "Name: ${firstName} ${lastName}"
@@ -289,6 +295,7 @@ WebUI.verifyEqual(actualLocationOV, expectedPatientLocation)
 KeywordUtil.logInfo('Step 4: Navigating to Schedule module')
 WebUI.click(findTestObject('MaximeyesAppt/Page_MaximEyes/a_dropdown-toggle menu-large recentmodule'))
 WebUI.click(findTestObject('MaximeyesAppt/Page_MaximEyes/a_Schedule'))
+WebUI.delay(5)
 
 
 // ---------------------------------------------------------------------------
@@ -327,7 +334,7 @@ String appointmentStatusText      = 'CONFIRMED'
 String appointmentCombinedText    = appointmentReasonText + appointmentDateTimeText + appointmentStatusText
 String alreadyConfirmedMessage    = 'This appointment is already confirmed.*'
 String rescheduleReasonInput      = 'Reschedule Appointment'
-String rescheduleApptTime         = '08:30 AM'
+String rescheduleApptTime         = '08:45 AM'
 String expectedReschTime          = "Time: ${rescheduleApptTime}"
  
 // ---- Test Object paths (Object Repository references) ----

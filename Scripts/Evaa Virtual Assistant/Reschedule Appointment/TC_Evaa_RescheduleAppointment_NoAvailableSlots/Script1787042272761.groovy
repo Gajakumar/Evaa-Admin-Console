@@ -60,7 +60,7 @@ import groovy.transform.Field
 @Field String noSlotReason      = 'Katalon No Slots'
 // ---- Reschedule details ----
 @Field String rescheduleReasonInput = 'Reschedule Appointment'
-@Field String rescheduleApptTime    = '08:30 AM'
+@Field String rescheduleApptTime    = '09:30 AM'
 
 // ---- Static / expected copy text ----
 @Field String medicalDisclaimerText = 'Online appointment booking is only for routine exam and follow up appointments and ' +
@@ -78,13 +78,18 @@ import groovy.transform.Field
 @Field String expectedRescheduleGreeting = 'Sure! Please bear with me for a second while I pull up the form to reschedule your appointment.'
 
 // ---- Appointment date, calculated dynamically as Today + 1 day ----
-Calendar calendar = Calendar.getInstance()
-calendar.add(Calendar.DATE, 1)
-Date tomorrowDate = calendar.getTime()
-
-String tomorrowDay      = new SimpleDateFormat('d').format(tomorrowDate)
-String tomorrowFullDate = new SimpleDateFormat('MM/dd/yyyy').format(tomorrowDate)
+//Calendar calendar = Calendar.getInstance()
+//calendar.add(Calendar.DATE, 1)
+//Date tomorrowDate = calendar.getTime()
+//
+//String tomorrowDay      = new SimpleDateFormat('d').format(tomorrowDate)
+//String tomorrowFullDate = new SimpleDateFormat('MM/dd/yyyy').format(tomorrowDate)
 @Field int todayDay = Calendar.getInstance().get(Calendar.DAY_OF_MONTH)
+
+Map date = CustomKeywords.'common.ChatBotBookingFlow.getDate'(2)
+
+String tomorrowDay = date.day
+String tomorrowFullDate = date.fullDate
 
 // ---- Expected values - all derived from the data above, never re-typed ----
 @Field String expectedName              = "Name: ${firstName} ${lastName}"

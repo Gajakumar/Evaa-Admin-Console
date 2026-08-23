@@ -12,7 +12,7 @@ import CustomKeywords
 import org.openqa.selenium.Keys
 import org.openqa.selenium.WebElement
 import com.kms.katalon.core.webui.common.WebUiCommonHelper
-
+import java.text.SimpleDateFormat
 
 /**
  * ChatBotBookingFlow
@@ -576,6 +576,20 @@ def verifyAppointmentTimeSlot(String apptTime, boolean shouldBeAvailable, int ti
 			"Switched back to default content."
 		)
 	}
+}
+
+@Keyword
+Map getDate(int daysToAdd) {
+
+	Calendar cal = Calendar.getInstance()
+	cal.add(Calendar.DAY_OF_MONTH, daysToAdd)
+
+	Date date = cal.getTime()
+
+	return [
+		day      : new SimpleDateFormat("d").format(date),
+		fullDate : new SimpleDateFormat("MM/dd/yyyy").format(date)
+	]
 }
 
 }

@@ -48,7 +48,7 @@ String provider         = 'Katalon Provider'
 String providerFirstName = 'Katalon'
 String reason            = 'Katalon Reason'
 String reasonText = 'Katalon Appointment'
-String apptTime   = '11:30 AM'
+String apptTime   = '08:30 AM'
 
 // Appointment date, calculated dynamically as Today + 1 day
 Calendar calendar = Calendar.getInstance()
@@ -321,7 +321,7 @@ String appointmentStatusText      = 'CONFIRMED'
 String appointmentCombinedText    = appointmentReasonText + appointmentDateTimeText + appointmentStatusText
 String alreadyConfirmedMessage    = 'This appointment is already confirmed.*'
 String rescheduleReasonInput      = 'Reschedule Appointment'
-String rescheduleApptTime         = '08:30 AM'
+String rescheduleApptTime         = '09:30 AM'
 String expectedReschTime          = "Time: ${rescheduleApptTime}"
  
 // ---- Test Object paths (Object Repository references) ----
