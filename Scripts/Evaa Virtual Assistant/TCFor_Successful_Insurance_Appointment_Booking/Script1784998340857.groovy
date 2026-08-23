@@ -74,6 +74,9 @@ String tomorrowFullDate = new SimpleDateFormat('MM/dd/yyyy').format(tomorrowDate
 Date today       = new Date()
 Date futureDate  = today + 15
 
+String todayStr = today.format("MM/dd/yyyy")
+String futureDateStr = futureDate.format("MM/dd/yyyy")
+
 String coverageStartDay   = new SimpleDateFormat('dd').format(today)
 String coverageStartMonth = new SimpleDateFormat('MM').format(today)
 String coverageStartYear  = new SimpleDateFormat('yyyy').format(today)
@@ -200,6 +203,7 @@ KeywordUtil.logInfo('STEP 7c: Reason selected successfully')
 
 KeywordUtil.logInfo('STEP 7d: Clicking "NEXT" to proceed to date selection')
 WebUI.click(findTestObject('Appointment Booking/Chat Bot Appt Book/button_NEXT'))
+CustomKeywords.'common.ChatBotBookingFlow.waitForLoadingIconToDisappear'(LONG_TIMEOUT)
 KeywordUtil.logInfo("STEP 7: Selected Location='${location}', Provider='${provider}', Reason='${reason}'")
 
 // ---------------------------------------------------------------------------
@@ -210,7 +214,7 @@ KeywordUtil.logInfo("STEP 8: Selecting appointment date - Day '${tomorrowDay}' (
 TestObject calendarIframe = findTestObject('Appointment Booking/Chat Bot Appt Book/iframe_evaas-iframeId')
 // Wait for the calendar iframe itself instead of a blind sleep - faster & more reliable
 //WebUI.waitForElementVisible(calendarIframe, LONG_TIMEOUT)
-WebUI.delay(10)
+
 
 // STEP 8a: Verify past dates are disabled
 KeywordUtil.logInfo('STEP 8a: Verifying past dates are disabled')
@@ -319,18 +323,26 @@ WebUI.click(continueBtn)
 KeywordUtil.logInfo('STEP 14: Continued to review insurance details')
 
 // STEP 15: Verify OCR-filled insurance details, then select Gender
+
+String firstNameA = 'QA'
+String lastNameA = 'Katalon'
 KeywordUtil.logInfo('STEP 15: Verifying insurance details auto-filled from the scanned card')
 
 WebUI.verifyElementAttributeValue(findTestObject('Book Appt With Ins/EVAA.AI React/input_Insurance Name'), 'defaultValue', insuranceName, MEDIUM_TIMEOUT)
 WebUI.verifyElementAttributeValue(findTestObject('Book Appt With Ins/EVAA.AI React/input_Insured ID'), 'defaultValue', insuredId, MEDIUM_TIMEOUT)
-WebUI.verifyElementAttributeValue(findTestObject('Book Appt With Ins/EVAA.AI React/input_First Name'), 'defaultValue', firstName, MEDIUM_TIMEOUT)
-WebUI.verifyElementAttributeValue(findTestObject('Book Appt With Ins/EVAA.AI React/input_Last Name'), 'defaultValue', lastName, MEDIUM_TIMEOUT)
+WebUI.verifyElementAttributeValue(findTestObject('Book Appt With Ins/EVAA.AI React/input_First Name'), 'defaultValue', firstNameA, MEDIUM_TIMEOUT)
+WebUI.verifyElementAttributeValue(findTestObject('Book Appt With Ins/EVAA.AI React/input_Last Name'), 'defaultValue', lastNameA, MEDIUM_TIMEOUT)
 WebUI.verifyElementAttributeValue(findTestObject('Book Appt With Ins/EVAA.AI React/input_mm_dd_yyyy'), 'defaultValue', dob, MEDIUM_TIMEOUT)
 KeywordUtil.logInfo('STEP 15: Insurance details verified against expected patient data')
 
 KeywordUtil.logInfo("STEP 15a: Selecting Gender - '${gender}'")
-WebUI.selectOptionByValue(findTestObject('Book Appt With Ins/EVAA.AI React/select_Gender'), gender, false)
-WebUI.verifyElementAttributeValue(findTestObject('Book Appt With Ins/EVAA.AI React/select_Gender'), 'value', gender, MEDIUM_TIMEOUT)
+WebUI.selectOptionByLabel(
+    findTestObject("Book Appt With Ins/EVAA.AI React/select_Gender"),
+    gender,
+    false
+)
+WebUI.verifyOptionSelectedByLabel(findTestObject("Book Appt With Ins/EVAA.AI React/select_Gender"), gender, false, MEDIUM_TIMEOUT)
+
 KeywordUtil.logInfo('STEP 15a: Gender selected and verified successfully')
 
 WebUI.click(findTestObject('Book Appt With Ins/EVAA.AI React/button_NEXT'))
@@ -350,19 +362,19 @@ KeywordUtil.logInfo('STEP 16: Insurance group/employer details entered successfu
 
 // STEP 17: Enter Coverage Start & End Dates (Today -> Today + 15 days)
 KeywordUtil.logInfo("STEP 17: Entering Coverage Start Date (${coverageStartMonth}/${coverageStartDay}/${coverageStartYear})")
+
+
+
 TestObject coverageStartDate = findTestObject('Book Appt With Ins/EVAA.AI React/input_Coverage Start Date')
-WebUI.click(coverageStartDate)
-WebUI.sendKeys(coverageStartDate, coverageStartMonth)
-WebUI.sendKeys(coverageStartDate, coverageStartDay)
-WebUI.sendKeys(coverageStartDate, coverageStartYear)
+
+WebUI.setText(coverageStartDate, todayStr)
+WebUI.sendKeys(coverageStartDate, Keys.chord(Keys.ESCAPE))
 KeywordUtil.logInfo('STEP 17: Coverage Start Date entered successfully')
 
 KeywordUtil.logInfo("STEP 17a: Entering Coverage End Date (${coverageEndMonth}/${coverageEndDay}/${coverageEndYear})")
 TestObject coverageEndDate = findTestObject('Book Appt With Ins/EVAA.AI React/input_Coverage End Date')
-WebUI.click(coverageEndDate)
-WebUI.sendKeys(coverageEndDate, coverageEndMonth)
-WebUI.sendKeys(coverageEndDate, coverageEndDay)
-WebUI.sendKeys(coverageEndDate, coverageEndYear)
+WebUI.setText(coverageEndDate, futureDateStr)
+WebUI.sendKeys(coverageEndDate, Keys.chord(Keys.ESCAPE))
 KeywordUtil.logInfo('STEP 17a: Coverage End Date entered successfully')
 
 WebUI.click(findTestObject('Book Appt With Ins/EVAA.AI React/button_NEXT'))

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Evaa_CancelAppointment_WithinCancellationWindow_Success</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8c333bee-d3e6-4d2d-a303-b576badc3884</testCaseGuid>
+</TestCaseEntity>

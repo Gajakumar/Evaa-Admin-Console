@@ -4,7 +4,7 @@
    <name>Evaa VA</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>gajakumara@first-insight.com;</mailRecipient>
+   <mailRecipient>gajakumara@first-insight.com;shreyac@first-insight.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>5</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -68,10 +68,24 @@
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>afbc2187-fcfa-412b-92eb-066f4d112d5d</guid>
+      <guid>becc5502-4025-49ad-9ea4-69acc567dfcc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Evaa Virtual Assistant/Reschedule Appointment/TC_Evaa_RescheduleAppointment_Disabled_Validation</testCaseId>
+      <testCaseId>Test Cases/Evaa Virtual Assistant/TC_Evaa_Verify_BookingNotStarted_WhenUserSelectsNo</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d463a6c9-92e9-4a09-b185-96e5579f6886</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Evaa Virtual Assistant/TCFor_Successful_SelfPay_Appointment_Booking</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>98d2a995-083a-46e9-b583-2d98ee77fd36</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Evaa Virtual Assistant/TCFor_Successful_Insurance_Appointment_Booking</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

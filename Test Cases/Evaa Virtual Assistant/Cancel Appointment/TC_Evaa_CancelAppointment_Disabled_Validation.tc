@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Evaa_CancelAppointment_Disabled_Validation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8cdd1ff0-b02c-4341-a462-d4d0ccbf4037</testCaseGuid>
+</TestCaseEntity>

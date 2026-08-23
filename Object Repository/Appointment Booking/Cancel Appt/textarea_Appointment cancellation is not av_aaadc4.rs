@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_Appointment cancellation is not av_aaadc4</name>
+   <tag></tag>
+   <elementGuidId>1653c6ac-906d-4da0-936b-aeba95a10353</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/main/div/div/div/div/div/div/div/div[2]/div/div/div[3]/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Appointment cancellation is not available online. Please contact the office at &lt;&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>0dfc6adf-f426-47fe-a7b6-3db98d120a64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-slot</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>9bbc9174-e0c1-452f-aff8-b76633964c7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex w-full resize-none rounded-[13px] border px-3 py-2 text-[#300d21] outline-none transition-[color,box-shadow] placeholder:text-[#9ca3af] focus:border-[#b80e74] focus:ring-[3px] focus:ring-[#b80e74]/25 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm min-h-[72px] !rounded-[13px] border-gray-300 bg-white text-sm</value>
+      <webElementGuid>1bc56ce2-3b24-4bdd-960b-3852d05de540</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Appointment cancellation is not available online. Please contact the office at &lt;number>.</value>
+      <webElementGuid>de73b9ec-7501-4d67-b379-77afc85b0d46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;d-flex min-h-0 flex-grow-1 flex-column overflow-hidden&quot;]/div[@class=&quot;d-flex min-h-0 flex-grow-1 overflow-hidden&quot;]/main[@class=&quot;flex-grow-1 min-h-0 d-flex flex-column overflow-hidden p-0&quot;]/div[@class=&quot;d-flex min-h-0 flex-grow-1 flex-column overflow-hidden&quot;]/div[@class=&quot;d-flex min-h-0 flex-grow-1 overflow-hidden&quot;]/div[@class=&quot;d-flex min-h-0 flex-grow-1 flex-column overflow-hidden p-0&quot;]/div[@class=&quot;va-setup-scroll min-h-0 flex-1 overflow-y-auto overscroll-contain p-2&quot;]/div[@class=&quot;va-dashboard-root&quot;]/div[@class=&quot;bg-[#f6f6f1]&quot;]/div[@class=&quot;grid grid-cols-1 gap-6 md:grid-cols-2&quot;]/div[@class=&quot;space-y-6&quot;]/div[@class=&quot;rounded-lg bg-white p-6 border border-gray-200&quot;]/div[@class=&quot;space-y-4&quot;]/div[3]/textarea[@class=&quot;flex w-full resize-none rounded-[13px] border px-3 py-2 text-[#300d21] outline-none transition-[color,box-shadow] placeholder:text-[#9ca3af] focus:border-[#b80e74] focus:ring-[3px] focus:ring-[#b80e74]/25 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm min-h-[72px] !rounded-[13px] border-gray-300 bg-white text-sm&quot;]</value>
+      <webElementGuid>2fbd68d4-07c3-4f8b-92eb-6a5237be84f5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/div/div/div/div/div/div[2]/div/div/div[3]/textarea</value>
+      <webElementGuid>34cbeeb8-1a82-46c2-8429-00c331350d63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Appointment Canceling'])[1]/following::textarea[1]</value>
+      <webElementGuid>14977bb5-96e1-42ab-a69c-910f903029c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Appointment rescheduling is not available online. Please contact the office at &lt;number>.'])[1]/following::textarea[1]</value>
+      <webElementGuid>15d111d6-3eed-41be-af7a-97d715ccfccb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Appointment Lookup'])[1]/preceding::textarea[1]</value>
+      <webElementGuid>bada7fbb-ecc6-4bf1-85e0-d4a0543322f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Appointment Confirmations'])[1]/preceding::textarea[1]</value>
+      <webElementGuid>a5fa73e1-6bf8-4c82-bd9d-ca5393c9eae2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Appointment cancellation is not available online. Please contact the office at &lt;number>.']/parent::*</value>
+      <webElementGuid>491bfb4e-5521-414e-8807-4e3b5fd53fbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[3]/textarea</value>
+      <webElementGuid>6e485a23-621c-4a05-a0ab-fe00dbaa7b52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[(text() = 'Appointment cancellation is not available online. Please contact the office at &lt;number>.' or . = 'Appointment cancellation is not available online. Please contact the office at &lt;number>.')]</value>
+      <webElementGuid>b18d4e14-ca97-4150-97ca-850d4247e028</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

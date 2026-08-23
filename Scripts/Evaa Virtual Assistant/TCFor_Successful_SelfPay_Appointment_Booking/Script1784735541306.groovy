@@ -60,7 +60,7 @@ String provider         = 'Katalon Provider'
 String providerFirstName = 'Katalon'
 String reason            = 'Katalon Reason'
 String reasonText = 'Katalon Appointment'
-String apptTime   = '11:30 AM'
+String apptTime   = '01:30 PM'
 
 // Appointment date, calculated dynamically as Today + 1 day
 Calendar calendar = Calendar.getInstance()
