@@ -254,13 +254,17 @@ class ChatBotBookingFlow {
 	def selectLocationProviderReason(String location, String provider, String reason) {
 		KeywordUtil.logInfo("ChatBotBookingFlow: Selecting Location='${location}', Provider='${provider}', Reason='${reason}'")
 
-		WebUI.selectOptionByLabel(findTestObject('Appointment Booking/Chat Bot Appt Book/select_Location'), location, false)
+		TestObject locationDropdown = findTestObject('Appointment Booking/Chat Bot Appt Book/select_Location')
+
+		WebUI.waitForElementClickable(locationDropdown, 10)
+		WebUI.selectOptionByLabel(locationDropdown, location, false)
 		CustomKeywords.'common.ChatBotBookingFlow.waitForLoadingIconToDisappear'(3)
 		WebUI.selectOptionByLabel(findTestObject('Appointment Booking/Chat Bot Appt Book/select_Provider'), provider, false)
 		CustomKeywords.'common.ChatBotBookingFlow.waitForLoadingIconToDisappear'(3)
 		WebUI.selectOptionByLabel(findTestObject('Appointment Booking/Chat Bot Appt Book/select_Reason'), reason, false)
 
 		WebUI.click(findTestObject('Appointment Booking/Chat Bot Appt Book/button_NEXT'))
+		CustomKeywords.'common.ChatBotBookingFlow.waitForLoadingIconToDisappear'()
 		
 	}
 

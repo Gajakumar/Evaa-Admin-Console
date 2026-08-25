@@ -88,4 +88,11 @@
       <testCaseId>Test Cases/Evaa Virtual Assistant/TCFor_Successful_Insurance_Appointment_Booking</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>9eea36ef-ef55-43fe-b620-940a226e5151</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_Evaa_BookAppointment_OTPVerification_SessionTimeout</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

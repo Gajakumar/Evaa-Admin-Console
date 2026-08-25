@@ -125,7 +125,7 @@ CustomKeywords.'common.ChatBotBookingFlow.waitForLoadingIconToDisappear'()
 
 KeywordUtil.logInfo('Step 7: Selecting Location, Provider, and Reason')
 CustomKeywords.'common.ChatBotBookingFlow.selectLocationProviderReason'(location, provider, reason)
-CustomKeywords.'common.ChatBotBookingFlow.waitForLoadingIconToDisappear'()
+
 
 KeywordUtil.logInfo("Step 8: Selecting appointment date - Day '${tomorrowDay}' (${tomorrowFullDate})")
 int todayDay = Calendar.getInstance().get(Calendar.DAY_OF_MONTH)

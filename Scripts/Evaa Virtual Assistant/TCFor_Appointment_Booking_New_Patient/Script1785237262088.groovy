@@ -194,67 +194,26 @@ otpCode.eachWithIndex { String digit, int i ->
 	WebUI.sendKeys(findTestObject("Appointment Booking/Chat Bot Appt Book/input_otp-${i}"), digit)
 }
 WebUI.click(findTestObject('Appointment Booking/Chat Bot Appt Book/button_NEXT'))
-CustomKeywords.'common.ChatBotBookingFlow.waitForLoadingIconToDisappear'()
+CustomKeywords.'common.ChatBotBookingFlow.waitForLoadingIconToDisappear'(20)
 KeywordUtil.logInfo("STEP 6: OTP '${otpCode}' entered and submitted")
 
 // ---------------------------------------------------------------------------
 // STEP 7: Select Location, Provider, and Reason for visit
 // ---------------------------------------------------------------------------
-KeywordUtil.logInfo('STEP 7: Selecting Location, Provider, and Reason')
+KeywordUtil.logInfo('Step 7: Selecting Location, Provider, and Reason')
+CustomKeywords.'common.ChatBotBookingFlow.selectLocationProviderReason'(location, provider, reason)
 
-KeywordUtil.logInfo("STEP 7a: Selecting Location '${location}'")
-WebUI.selectOptionByLabel(findTestObject('Appointment Booking/Chat Bot Appt Book/select_Location'), location, false)
-KeywordUtil.logInfo('STEP 7a: Location selected successfully')
-
-KeywordUtil.logInfo("STEP 7b: Selecting Provider '${provider}'")
-WebUI.selectOptionByLabel(findTestObject('Appointment Booking/Chat Bot Appt Book/select_Provider'), provider, false)
-KeywordUtil.logInfo('STEP 7b: Provider selected successfully')
-
-KeywordUtil.logInfo("STEP 7c: Selecting Reason '${reason}'")
-WebUI.selectOptionByLabel(findTestObject('Appointment Booking/Chat Bot Appt Book/select_Reason'), reason, false)
-KeywordUtil.logInfo('STEP 7c: Reason selected successfully')
-
-KeywordUtil.logInfo('STEP 7d: Clicking "NEXT" to proceed to date selection')
-WebUI.click(findTestObject('Appointment Booking/Chat Bot Appt Book/button_NEXT'))
-CustomKeywords.'common.ChatBotBookingFlow.waitForLoadingIconToDisappear'()
-KeywordUtil.logInfo("STEP 7: Selected Location='${location}', Provider='${provider}', Reason='${reason}'")
 
 // ---------------------------------------------------------------------------
 // STEP 8: Select appointment date (Today + 1), handling month rollover
 // ---------------------------------------------------------------------------
-KeywordUtil.logInfo("STEP 8: Selecting appointment date - Day '${tomorrowDay}' (${tomorrowFullDate})")
-
-TestObject calendarIframe = findTestObject('Appointment Booking/Chat Bot Appt Book/iframe_evaas-iframeId')
-// Wait for the calendar iframe itself instead of a blind sleep - faster & more reliable
-//WebUI.waitForElementVisible(calendarIframe, PAGE_TIMEOUT)
-WebUI.delay(10)
-
-// STEP 8a: Verify past dates are disabled
-KeywordUtil.logInfo('STEP 8a: Verifying past dates are disabled')
-CustomKeywords.'common.CalendarHelper.verifyPastDatesDisabled'(calendarIframe)
-KeywordUtil.logInfo('STEP 8a: Past dates confirmed disabled')
-
-// STEP 8b: Verify today's date and future dates are enabled
-KeywordUtil.logInfo("STEP 8b: Verifying today's date and future dates are enabled")
-CustomKeywords.'common.CalendarHelper.verifyAvailableDatesEnabled'(calendarIframe)
-KeywordUtil.logInfo('STEP 8b: Available dates confirmed enabled')
-
+KeywordUtil.logInfo("Step 8: Selecting appointment date - Day '${tomorrowDay}' (${tomorrowFullDate})")
 int todayDay = Calendar.getInstance().get(Calendar.DAY_OF_MONTH)
-if (Integer.parseInt(tomorrowDay) < todayDay) {
-	KeywordUtil.logInfo('STEP 8c: Month rollover detected - navigating to next month')
-	WebUI.click(findTestObject('Object Repository/Appointment Booking/Chat Bot Appt Book/Calender Next Month Btn'))
-	KeywordUtil.logInfo('STEP 8c: Navigated to next month')
-}
+CustomKeywords.'common.ChatBotBookingFlow.selectAppointmentDate'(tomorrowDay, tomorrowFullDate, todayDay)
 
-WebUI.click(findTestObject('Appointment Booking/Chat Bot Appt Book/button_22', ['day': tomorrowDay]))
-WebUI.click(findTestObject('Appointment Booking/Chat Bot Appt Book/button_NEXT'))
-KeywordUtil.logInfo("STEP 8: Date '${tomorrowFullDate}' submitted")
+KeywordUtil.logInfo("Step 9: Selecting appointment time - ${apptTime}")
+CustomKeywords.'common.ChatBotBookingFlow.selectAppointmentTime'(apptTime)
 
-// STEP 9: Select appointment time
-KeywordUtil.logInfo("STEP 9: Selecting appointment time - ${apptTime}")
-WebUI.click(findTestObject('Appointment Booking/Chat Bot Appt Book/button_10_30 AM', ['time': apptTime]))
-WebUI.click(findTestObject('Appointment Booking/Chat Bot Appt Book/button_NEXT'))
-KeywordUtil.logInfo("STEP 9: Time '${apptTime}' submitted")
 
 // STEP 10: Enter reason/symptoms free-text
 KeywordUtil.logInfo("STEP 10: Entering reason for visit - '${reasonText}'")
