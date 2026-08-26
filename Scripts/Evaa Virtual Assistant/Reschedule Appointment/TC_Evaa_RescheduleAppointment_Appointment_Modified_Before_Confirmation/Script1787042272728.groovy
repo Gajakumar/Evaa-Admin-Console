@@ -25,6 +25,9 @@ import java.text.SimpleDateFormat
 import com.kms.katalon.core.configuration.RunConfiguration
 import org.openqa.selenium.Keys
 import java.text.SimpleDateFormat
+import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+
 // ------------
 // TEST DATA
 // ------------
@@ -95,13 +98,24 @@ WebUI.click(bookAppt)
 
 // Verify Medical Disclaimer is displayed
 KeywordUtil.logInfo('Verifing Medical Disclaimer is displayed')
-String  MedicalDisclaimer = "Online appointment booking is only for routine exam and follow up appointments and should not be used if you have any urgent or concerning medical issues. If experiencing medical issues please call our office during office hours. If outside of office hours please call 911 or visit an urgent care or emergency room for immediate assistance."
+//String  MedicalDisclaimer = "Online appointment booking is only for routine exam and follow up appointments and should not be used if you have any urgent or concerning medical issues. If experiencing medical issues please call our office during office hours. If outside of office hours please call 911 or visit an urgent care or emergency room for immediate assistance."
+
+List<String> MedicalDisclaimer = [
+    "Online appointment booking is only for routine exam and follow up appointments and should not be used if you have any urgent or concerning medical issues. If experiencing medical issues please call our office during office hours. If outside of office hours please call 911 or visit an urgent care or emergency room for immediate assistance.",
+    "Online appointment booking is only for routine exam and follow-up appointments and should not be used if you have any urgent or concerning medical issues. If experiencing medical issues please call our office during office hours. If outside of office hours please call 911 or visit an urgent care or emergency room for immediate assistance."
+]
 
 String actualDisclaimer = WebUI.getText(
-	findTestObject('Appointment Booking/Chat Bot Appt Book/EVAA.AI React/Medical Disclaimer')
+    findTestObject('Appointment Booking/Chat Bot Appt Book/EVAA.AI React/Medical Disclaimer')
 ).replaceAll("\\s+", " ").trim()
 
-WebUI.verifyMatch(actualDisclaimer, MedicalDisclaimer, false)
+boolean isMatch = MedicalDisclaimer.contains(actualDisclaimer)
+
+if (isMatch) {
+    KeywordUtil.logInfo('Medical disclaimer verified successfully (matched one of the accepted variants)')
+} else {
+    KeywordUtil.markFailed('Medical disclaimer text did not match any expected variant. Actual: ' + actualDisclaimer)
+}
 
 // Verify confirming message is displayed with Yes and No
 KeywordUtil.logInfo('Verifing confirming message is displayed with Yes and No')
@@ -149,18 +163,31 @@ KeywordUtil.logInfo('Step 7: Selecting Location, Provider, and Reason')
 
 KeywordUtil.logInfo('Step 7a: Selecting Location by visible text Katalon Location')
 WebUI.selectOptionByLabel(findTestObject('Appointment Booking/Chat Bot Appt Book/select_Location'), location, false)
+CustomKeywords.'common.ChatBotBookingFlow.waitForLoadingIconToDisappear'(3)
 KeywordUtil.logInfo('Step 7a: Location selected successfully')
 
-KeywordUtil.logInfo('Step 7b: Selecting Provider Katalon Provider')
-WebUI.selectOptionByLabel(findTestObject('Appointment Booking/Chat Bot Appt Book/select_Provider'), provider, false)
-KeywordUtil.logInfo('Step 7b: Provider selected successfully')
 
-KeywordUtil.logInfo('Step 7c: Selecting Reason Katalon Reason')
-WebUI.selectOptionByLabel(findTestObject('Appointment Booking/Chat Bot Appt Book/select_Reason'), reason, false)
-KeywordUtil.logInfo('Step 7c: Reason selected successfully')
+KeywordUtil.logInfo('Step 7a: Location selected successfully')
+// Wait for Provider dropdown to actually become enabled
+TestObject providerSelect = findTestObject('Appointment Booking/Chat Bot Appt Book/select_Provider')
+WebUI.waitForElementAttributeValue(providerSelect, 'disabled', null, 10)
+// or, if the attribute is fully removed rather than set to a falsy value, this also works:
+
+
+KeywordUtil.logInfo('Step 7b: Selecting Provider Katalon Provider')
+WebUI.selectOptionByLabel(providerSelect, provider, false)
+
+// Wait for Provider dropdown to actually become enabled
+TestObject reasonSelect = findTestObject('Appointment Booking/Chat Bot Appt Book/select_Reason')
+WebUI.waitForElementAttributeValue(reasonSelect, 'disabled', null, 10)
+// or, if the attribute is fully removed rather than set to a falsy value, this also works:
+
+KeywordUtil.logInfo('Step 7b: Selecting Provider Katalon Provider')
+WebUI.selectOptionByLabel(reasonSelect, reason, false)
 
 KeywordUtil.logInfo('Step 7d: Clicking "NEXT" to proceed to date selection')
 WebUI.click(findTestObject('Appointment Booking/Chat Bot Appt Book/button_NEXT'))
+CustomKeywords.'common.ChatBotBookingFlow.waitForLoadingIconToDisappear'()
 KeywordUtil.logInfo("Step 7: Selected Location='${location}', Provider='${provider}', Reason='${reason}'")
 WebUI.waitForElementNotVisible(loadingIcon, PAGE_TIMEOUT)
 

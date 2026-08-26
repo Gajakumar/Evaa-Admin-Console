@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Appointment Lookup</name>
+   <tag></tag>
+   <elementGuidId>d9db3f41-a7c5-46b6-8c30-18d125c182fa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='checkbox'])[10]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Appointment Lookup$/ >> internal:role=checkbox</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>0ea45b99-afd0-470b-91f6-ae83f904d210</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>7b229677-eac9-4272-bb3c-d7899f2e64e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>h-4 w-4 shrink-0 rounded border-gray-300 accent-green-600 focus:ring-2 focus:ring-green-600/30 focus:ring-offset-0 disabled:opacity-50</value>
+      <webElementGuid>eca27bdf-19d2-407a-99cb-e79101d99868</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;d-flex min-h-0 flex-grow-1 flex-column overflow-hidden&quot;]/div[@class=&quot;d-flex min-h-0 flex-grow-1 overflow-hidden&quot;]/main[@class=&quot;flex-grow-1 min-h-0 d-flex flex-column overflow-hidden p-0&quot;]/div[@class=&quot;d-flex min-h-0 flex-grow-1 flex-column overflow-hidden&quot;]/div[@class=&quot;d-flex min-h-0 flex-grow-1 overflow-hidden&quot;]/div[@class=&quot;d-flex min-h-0 flex-grow-1 flex-column overflow-hidden p-0&quot;]/div[@class=&quot;va-setup-scroll min-h-0 flex-1 overflow-y-auto overscroll-contain p-2&quot;]/div[@class=&quot;va-dashboard-root&quot;]/div[@class=&quot;bg-[#f6f6f1]&quot;]/div[@class=&quot;grid grid-cols-1 gap-6 md:grid-cols-2&quot;]/div[@class=&quot;space-y-6&quot;]/div[@class=&quot;rounded-lg bg-white p-6 border border-gray-200&quot;]/div[@class=&quot;space-y-4&quot;]/div[@class=&quot;flex flex-wrap items-center gap-2&quot;]/input[@class=&quot;h-4 w-4 shrink-0 rounded border-gray-300 accent-green-600 focus:ring-2 focus:ring-green-600/30 focus:ring-offset-0 disabled:opacity-50&quot;]</value>
+      <webElementGuid>202cdfe0-9a37-49ce-a80e-175f7e716926</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='checkbox'])[10]</value>
+      <webElementGuid>ce04b2ba-cc8a-408f-baf7-793a35f59f72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/div/div/div/div/div/div[2]/div/div/div[4]/input</value>
+      <webElementGuid>68aca136-6703-4292-9559-086a38788830</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/input</value>
+      <webElementGuid>66862bd2-9209-4002-acaf-c4e5b3293588</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'checkbox']</value>
+      <webElementGuid>44627654-068d-436e-97c7-256f8b8bf059</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

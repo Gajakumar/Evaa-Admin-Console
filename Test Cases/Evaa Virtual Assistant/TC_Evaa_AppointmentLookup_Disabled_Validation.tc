@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Evaa_AppointmentLookup_Disabled_Validation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a2e94d74-5514-4a59-80bb-6f9a7eb5f3cb</testCaseGuid>
+</TestCaseEntity>

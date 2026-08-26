@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Evaa_BookAppointment_Insurance_ViewEdit_Preference</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>99fcc191-8eb6-4b07-98e2-df950ed8ed52</testCaseGuid>
+</TestCaseEntity>
