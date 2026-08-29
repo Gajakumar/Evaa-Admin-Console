@@ -24,6 +24,7 @@ import java.text.SimpleDateFormat
 import customkeywords.EvaaAdminPreferencesKeywords
 import customkeywords.ChatBotBookingKeywords
 import customkeywords.InsuranceCardUploadKeywords
+import appointment.AppointmentKeywords
 
 // ============================================================================
 // CONFIG
@@ -117,8 +118,9 @@ CustomKeywords.'common.ChatBotBookingFlow.launchChatBot'(PAGE_TIMEOUT)
 KeywordUtil.logInfo('Step 3: Selecting "Book Appointment"')
 CustomKeywords.'common.ChatBotBookingFlow.selectBookAppointment'(PAGE_TIMEOUT)
 
-CustomKeywords.'common.ChatBotBookingFlow.verifyMedicalDisclaimer'()
-CustomKeywords.'common.ChatBotBookingFlow.verifyBookingConfirmationPrompt'()
+//Verify Disclaimer And Confirmation Prompt
+AppointmentKeywords appointmentKeywords = new AppointmentKeywords()
+appointmentKeywords.verifyDisclaimerAndConfirmationPrompt()
 
 KeywordUtil.logInfo('Step 4: Confirming booking intent')
 CustomKeywords.'common.ChatBotBookingFlow.confirmBookingIntent'(true)

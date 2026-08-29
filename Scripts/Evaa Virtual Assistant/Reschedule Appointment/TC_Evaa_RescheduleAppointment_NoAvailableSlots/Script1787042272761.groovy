@@ -26,6 +26,7 @@ import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import groovy.transform.Field
+import appointment.AppointmentKeywords
 
 /* =============================================================================
  * TEST DATA
@@ -106,6 +107,7 @@ String expectedRescheduleDateTimeReason = "${tomorrowFullDate} | ${rescheduleApp
 @Field String expectedPatientLocation   = "${providerFirstName}, ${location}"
 String expectedSpanText                 = "${tomorrowFullDate} | ${reason}"
 @Field TestObject loadingIcon     = findTestObject('Appointment Booking/Reschedule Appt/Loading Icon')
+AppointmentKeywords appointmentKeywords = new AppointmentKeywords()
 KeywordUtil.logInfo("Test data ready | Patient: ${firstName} ${lastName} | Appt: ${tomorrowFullDate} ${apptTime}")
 
 /* =============================================================================
@@ -315,7 +317,8 @@ def verifyNoSlotsFlow() {
 	WebUI.click(exitButton)
 
 	KeywordUtil.logInfo('Verifying reschedule flow greeting message is displayed')
-	WebUI.assertElementText(rescheduleGreeting, medicalDisclaimerText, NO_WAIT)
+	AppointmentKeywords appointmentKeywords = new AppointmentKeywords()
+	appointmentKeywords.verifyMedicalDisclaimer(rescheduleGreeting)
 
 	KeywordUtil.logInfo('"No Slots" flow validated successfully')
 }
@@ -340,21 +343,9 @@ TestObject bookAppt = findTestObject('Object Repository/Appointment Booking/Chat
 WebUI.waitForElementVisible(bookAppt, PAGE_TIMEOUT)
 WebUI.click(bookAppt)
 
-// Verify the medical disclaimer is displayed
-KeywordUtil.logInfo('Step 3a: Verifying medical disclaimer is displayed')
-String actualDisclaimer = WebUI.getText(
-	findTestObject('Appointment Booking/Chat Bot Appt Book/EVAA.AI React/Medical Disclaimer')
-).replaceAll('\\s+', ' ').trim()
-WebUI.verifyMatch(actualDisclaimer, medicalDisclaimerText, false)
-KeywordUtil.logInfo('Step 3a: Medical disclaimer verified')
-
-// Verify the "Do you want to proceed..." confirmation prompt is displayed
-KeywordUtil.logInfo('Step 3b: Verifying booking confirmation prompt is displayed with Yes/No')
-String actualConfirming = WebUI.getText(
-	findTestObject('Appointment Booking/Chat Bot Appt Book/EVAA.AI React/div_Do you want to proceed with booking an appoi')
-).replaceAll('\\s+', ' ').trim()
-WebUI.verifyMatch(actualConfirming, confirmBookingPromptText, false)
-KeywordUtil.logInfo('Step 3b: Booking confirmation prompt verified')
+//Verify Disclaimer And Confirmation Prompt
+AppointmentKeywords appointmentKeywords = new AppointmentKeywords()
+appointmentKeywords.verifyDisclaimerAndConfirmationPrompt()
 
 // STEP 4: Confirm booking intent
 KeywordUtil.logInfo('Step 4: Confirming booking intent')

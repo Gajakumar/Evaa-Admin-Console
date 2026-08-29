@@ -25,6 +25,7 @@ import java.text.SimpleDateFormat
 import com.kms.katalon.core.configuration.RunConfiguration
 import org.openqa.selenium.Keys
 import java.text.SimpleDateFormat
+import appointment.AppointmentKeywords
 
 // ============================================================================
 // TEST DATA
@@ -97,8 +98,7 @@ String expectedDateTimeReason  = "${tomorrowFullDate} | ${apptTime} | ${reason}"
 String expectedPatientLocation = "${providerFirstName}, ${location}"
 
 // --- Static UI copy (kept as variables so nothing is re-typed / hardcoded inline) ---
-String medicalDisclaimerText     = "Online appointment booking is only for routine exam and follow up appointments and should not be used if you have any urgent or concerning medical issues. If experiencing medical issues please call our office during office hours. If outside of office hours please call 911 or visit an urgent care or emergency room for immediate assistance."
-String confirmBookingPromptText  = "Do you want to proceed with booking an appointment? Yes No"
+
 String insuranceCardPhotoText    = 'Insurance Card Photo'
 String insuranceNameLabelText    = 'Insurance Name'
 String frontSideLabelText        = 'Front Side'
@@ -139,21 +139,9 @@ WebUI.waitForElementVisible(bookAppt, PAGE_TIMEOUT)
 WebUI.click(bookAppt)
 KeywordUtil.logInfo('STEP 3: "Book Appointment" option selected')
 
-// STEP 3a: Verify Medical Disclaimer is displayed
-KeywordUtil.logInfo('STEP 3a: Verifying Medical Disclaimer is displayed')
-String actualDisclaimer = WebUI.getText(
-	findTestObject('Appointment Booking/Chat Bot Appt Book/EVAA.AI React/Medical Disclaimer')
-).replaceAll("\\s+", " ").trim()
-WebUI.verifyMatch(actualDisclaimer, medicalDisclaimerText, false)
-KeywordUtil.logInfo('STEP 3a: Medical Disclaimer verified successfully')
-
-// STEP 3b: Verify confirming message is displayed with Yes and No options
-KeywordUtil.logInfo('STEP 3b: Verifying booking confirmation prompt is displayed with Yes/No options')
-String actualConfirming = WebUI.getText(
-	findTestObject('Appointment Booking/Chat Bot Appt Book/EVAA.AI React/div_Do you want to proceed with booking an appoi')
-).replaceAll("\\s+", " ").trim()
-WebUI.verifyMatch(actualConfirming, confirmBookingPromptText, false)
-KeywordUtil.logInfo('STEP 3b: Booking confirmation prompt verified successfully')
+//Verify Disclaimer And Confirmation Prompt
+AppointmentKeywords appointmentKeywords = new AppointmentKeywords()
+appointmentKeywords.verifyDisclaimerAndConfirmationPrompt()
 
 // STEP 4: Confirm booking intent
 KeywordUtil.logInfo('STEP 4: Confirming booking intent by clicking "Yes"')

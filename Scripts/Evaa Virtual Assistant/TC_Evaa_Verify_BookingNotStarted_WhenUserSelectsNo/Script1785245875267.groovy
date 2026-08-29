@@ -27,6 +27,7 @@ import java.time.LocalTime
 import java.time.format.DateTimeFormatter
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import appointment.AppointmentKeywords
 
 // ------------
 // TEST DATA 
@@ -60,25 +61,9 @@ TestObject bookAppt = findTestObject('Object Repository/Appointment Booking/Chat
 WebUI.waitForElementVisible(pushToTalk, PAGE_TIMEOUT)
 WebUI.click(bookAppt)
 
-// Verify Medical Disclaimer is displayed
-KeywordUtil.logInfo('Verifing Medical Disclaimer is displayed')
-String  MedicalDisclaimer = "Online appointment booking is only for routine exam and follow up appointments and should not be used if you have any urgent or concerning medical issues. If experiencing medical issues please call our office during office hours. If outside of office hours please call 911 or visit an urgent care or emergency room for immediate assistance."
-
-String actualDisclaimer = WebUI.getText(
-	findTestObject('Appointment Booking/Chat Bot Appt Book/EVAA.AI React/Medical Disclaimer')
-).replaceAll("\\s+", " ").trim()
-
-WebUI.verifyMatch(actualDisclaimer, MedicalDisclaimer, false)
-
-// Verify confirming message is displayed with Yes and No
-KeywordUtil.logInfo('Verifing confirming message is displayed with Yes and No')
-String expectedConfirming = "Do you want to proceed with booking an appointment? Yes No"
-
-String actualConfirming = WebUI.getText(
-	findTestObject('Appointment Booking/Chat Bot Appt Book/EVAA.AI React/div_Do you want to proceed with booking an appoi')
-).replaceAll("\\s+", " ").trim()
-
-WebUI.verifyMatch(actualConfirming, expectedConfirming, false)
+//Verify Disclaimer And Confirmation Prompt
+AppointmentKeywords appointmentKeywords = new AppointmentKeywords()
+appointmentKeywords.verifyDisclaimerAndConfirmationPrompt()
 
 // STEP 4: Decline booking intent
 KeywordUtil.logInfo('Step 4: Decline booking intent')

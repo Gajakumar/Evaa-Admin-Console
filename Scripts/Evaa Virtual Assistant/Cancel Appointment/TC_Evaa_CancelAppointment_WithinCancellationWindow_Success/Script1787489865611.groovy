@@ -43,6 +43,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import java.text.SimpleDateFormat
 import java.time.LocalTime
 import java.time.format.DateTimeFormatter
+import appointment.AppointmentKeywords
 
 /*
  * ============================================================================
@@ -129,8 +130,9 @@ CustomKeywords.'common.ChatBotBookingFlow.launchChatBot'(PAGE_TIMEOUT)
 KeywordUtil.logInfo('Step 3: Selecting "Book Appointment"')
 CustomKeywords.'common.ChatBotBookingFlow.selectBookAppointment'(PAGE_TIMEOUT)
 
-CustomKeywords.'common.ChatBotBookingFlow.verifyMedicalDisclaimer'()
-CustomKeywords.'common.ChatBotBookingFlow.verifyBookingConfirmationPrompt'()
+//Verify Disclaimer And Confirmation Prompt
+AppointmentKeywords appointmentKeywords = new AppointmentKeywords()
+appointmentKeywords.verifyDisclaimerAndConfirmationPrompt()
 
 KeywordUtil.logInfo('Step 4: Confirming booking intent')
 CustomKeywords.'common.ChatBotBookingFlow.confirmBookingIntent'(true)
@@ -233,8 +235,8 @@ CustomKeywords.'common.ChatBotBookingFlow.launchChatBot'(PAGE_TIMEOUT)
 KeywordUtil.logInfo('Step 3: Selecting "Book Appointment"')
 CustomKeywords.'common.ChatBotBookingFlow.selectBookAppointment'(PAGE_TIMEOUT)
 
-CustomKeywords.'common.ChatBotBookingFlow.verifyMedicalDisclaimer'()
-CustomKeywords.'common.ChatBotBookingFlow.verifyBookingConfirmationPrompt'()
+//Verify Disclaimer And Confirmation Prompt
+appointmentKeywords.verifyDisclaimerAndConfirmationPrompt()
 
 KeywordUtil.logInfo('Step 4: Confirming booking intent')
 CustomKeywords.'common.ChatBotBookingFlow.confirmBookingIntent'(true)

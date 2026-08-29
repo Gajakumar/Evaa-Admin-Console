@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil
 import java.text.SimpleDateFormat
+import appointment.AppointmentKeywords
 
 // ------------
 // TEST DATA
