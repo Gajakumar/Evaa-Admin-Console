@@ -257,7 +257,7 @@ KeywordUtil.logInfo('STEP 10: Reason for visit submitted')
 TestObject deleteInsuranceBtn = findTestObject('Appointment Booking/Delete Ins/Delete Added Ins/button_Delete insurance')
 
 if (WebUI.verifyElementVisible(deleteInsuranceBtn, FailureHandling.OPTIONAL)) {
-	WebUI.waitForElementClickable(deleteInsuranceBtn, 5)
+	WebUI.waitForElementClickable(deleteInsuranceBtn, 10)
 	WebUI.click(deleteInsuranceBtn)
 }
 
@@ -470,6 +470,7 @@ WebUI.click(findTestObject('MaximeyesAppt/Page_MaximEyes/input_btnSearchPatient'
 KeywordUtil.logInfo('Step 4: Navigating to Schedule module')
 WebUI.click(findTestObject('MaximeyesAppt/Page_MaximEyes/a_dropdown-toggle menu-large recentmodule'))
 WebUI.click(findTestObject('MaximeyesAppt/Page_MaximEyes/a_Schedule'))
+WebUI.waitForElementNotVisible(findTestObject('Maximeye.com/Busy Indicator'), 30)
 
 
 //=========================

@@ -362,6 +362,7 @@ WebUI.click(findTestObject('MaximeyesAppt/Page_MaximEyes/input_btnSearchPatient'
 KeywordUtil.logInfo('Step 4: Navigating to Schedule module')
 WebUI.click(findTestObject('MaximeyesAppt/Page_MaximEyes/a_dropdown-toggle menu-large recentmodule'))
 WebUI.click(findTestObject('MaximeyesAppt/Page_MaximEyes/a_Schedule'))
+WebUI.waitForElementNotVisible(findTestObject('Maximeye.com/Busy Indicator'), 30)
 
 WebUI.click(findTestObject('MaximeyesAppt/Page_MaximEyes/span_07_23_2026 _ Katalon Reason'))
 
@@ -403,6 +404,7 @@ WebUI.click(findTestObject('MaximeyesAppt/Page_MaximEyes/input_btnSearchPatient'
 KeywordUtil.logInfo('Step 4: Navigating to Schedule module')
 WebUI.click(findTestObject('MaximeyesAppt/Page_MaximEyes/a_dropdown-toggle menu-large recentmodule'))
 WebUI.click(findTestObject('MaximeyesAppt/Page_MaximEyes/a_Schedule'))
+WebUI.waitForElementNotVisible(findTestObject('Maximeye.com/Busy Indicator'), 30)
 
 //=========================
 // Open Appointment Actions Dropdown

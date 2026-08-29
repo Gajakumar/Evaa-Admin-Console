@@ -269,4 +269,4 @@ chatBot.waitForPatientDetailsForm(PAGE_TIMEOUT)
 // PART 3: RESTORE RESCHEDULING SETTING (ADMIN SIDE - TEARDOWN)
 // ============================================================================
 admin.navigateToPreferences(DEFAULT_TIMEOUT, PAGE_TIMEOUT)
-admin.restoreReschedulingCheckbox(reschedulingCheckbox, originalCheckboxState)
+admin.restoreReschedulingCheckbox(cancelApptCheckbox, originalCheckboxState)

@@ -94,7 +94,7 @@ class EvaaAdminPreferencesKeywords {
 		boolean currentlyChecked = isReschedulingCheckboxChecked(checkbox)
 
 		if (currentlyChecked == shouldBeChecked) {
-			KeywordUtil.logInfo('Rescheduling checkbox already in desired state (' + shouldBeChecked + '). No action taken.')
+			KeywordUtil.logInfo('checkbox already in desired state (' + shouldBeChecked + '). No action taken.')
 			return
 		}
 
@@ -106,7 +106,7 @@ class EvaaAdminPreferencesKeywords {
 		} else {
 			WebUI.verifyElementNotChecked(checkbox, 5)
 		}
-		KeywordUtil.logInfo('Rescheduling checkbox set to ' + shouldBeChecked + ' and change saved.')
+		KeywordUtil.logInfo('checkbox set to ' + shouldBeChecked + ' and change saved.')
 	}
 
 	/**

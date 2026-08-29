@@ -213,6 +213,7 @@ def verifyAppointmentOnScheduler(String expectedSpan) {
 	KeywordUtil.logInfo('Navigating to Schedule module')
 	WebUI.click(findTestObject('MaximeyesAppt/Page_MaximEyes/a_dropdown-toggle menu-large recentmodule'))
 	WebUI.click(findTestObject('MaximeyesAppt/Page_MaximEyes/a_Schedule'))
+	WebUI.waitForElementNotVisible(findTestObject('Maximeye.com/Busy Indicator'), 30)
 
 	KeywordUtil.logInfo("Verifying appointment span text matches '${expectedSpan}'")
 	WebUI.assertElementText(

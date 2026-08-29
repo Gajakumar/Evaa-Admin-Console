@@ -308,7 +308,7 @@ WebUI.verifyEqual(actualLocationOV, expectedPatientLocation)
 KeywordUtil.logInfo('Step 4: Navigating to Schedule module')
 WebUI.click(findTestObject('MaximeyesAppt/Page_MaximEyes/a_dropdown-toggle menu-large recentmodule'))
 WebUI.click(findTestObject('MaximeyesAppt/Page_MaximEyes/a_Schedule'))
-
+WebUI.waitForElementNotVisible(findTestObject('Maximeye.com/Busy Indicator'), 30)
 
 // ---------------------------------------------------------------------------
 // STEP 8: Verify appointment details on the scheduler day/calendar view
