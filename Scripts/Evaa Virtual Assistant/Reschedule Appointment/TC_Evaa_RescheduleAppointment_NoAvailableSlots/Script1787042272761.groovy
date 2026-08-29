@@ -344,7 +344,7 @@ WebUI.waitForElementVisible(bookAppt, PAGE_TIMEOUT)
 WebUI.click(bookAppt)
 
 //Verify Disclaimer And Confirmation Prompt
-AppointmentKeywords appointmentKeywords = new AppointmentKeywords()
+
 appointmentKeywords.verifyDisclaimerAndConfirmationPrompt()
 
 // STEP 4: Confirm booking intent

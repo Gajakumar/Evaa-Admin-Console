@@ -67,9 +67,13 @@ WebUI.delay(otpExpirySeconds + bufferSeconds)
 WebUI.comment('Wait complete. OTP should now be expired.')
 
 // Verify timeout popup
+TestObject sessionTimeout = findTestObject('Appointment Booking/OTP/h3_Your session has timed out')
+
+WebUI.waitForElementVisible(sessionTimeout, 30)
+
 WebUI.verifyElementText(
-    findTestObject('Appointment Booking/OTP/h3_Your session has timed out'),
-    'Your session has timed out.'
+	sessionTimeout,
+	'Your session has timed out.'
 )
 
 WebUI.verifyElementText(

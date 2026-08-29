@@ -88,7 +88,7 @@ WebUI.navigateToUrl('https://qa5.eyeclinic.ai/')
 // STEP 2: Launch chat bot
 KeywordUtil.logInfo('Step 2: Launching chat bot via "Push to talk" icon')
 TestObject pushToTalk = findTestObject('Appointment Booking/Chat Bot Appt Book/img_Push to talk')
-WebUI.waitForElementVisible(pushToTalk, PAGE_TIMEOUT)
+WebUI.waitForElementVisible(pushToTalk, 50)
 WebUI.click(pushToTalk)
 
 // STEP 3: Select "Book Appointment"
