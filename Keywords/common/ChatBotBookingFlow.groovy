@@ -138,10 +138,14 @@ class ChatBotBookingFlow {
 	 */
 	@Keyword
 	def confirmBookingIntent(boolean proceed = true) {
-		String button = proceed ? 'Yes' : 'No'
-		KeywordUtil.logInfo("ChatBotBookingFlow: Clicking \"${button}\" on booking confirmation prompt")
-		WebUI.click(findTestObject("Appointment Booking/Chat Bot Appt Book/button_${button}"))
-	}
+    String button = proceed ? 'Yes' : 'No'
+    KeywordUtil.logInfo("ChatBotBookingFlow: Clicking \"${button}\" on booking confirmation prompt")
+
+    TestObject btnObj = findTestObject("Appointment Booking/Chat Bot Appt Book/button_${button}")
+
+    WebUI.waitForElementClickable(btnObj, 10)
+    WebUI.click(btnObj)
+}
 
 	/**
 	 * Verifies the "Is there anything else I can assist you with today?"
