@@ -59,14 +59,22 @@ CustomKeywords.'common.ChatBotBookingFlow.enterPatientDetails'(
 // PART 2: Verify OTP Session Timeout
 // ============================================================================
 
-// Wait for OTP to expire (3 minutes + 5 second buffer)
-int otpExpirySeconds = 180
-int bufferSeconds = 5
 
-WebUI.delay(otpExpirySeconds + bufferSeconds)
-WebUI.comment('Wait complete. OTP should now be expired.')
+int totalWait = 185
+int interval = 20   // safely under TestCloud's ~60-120s idle threshold
+int elapsed = 0
 
-//WebUI.switchToDefaultContent()
+while (elapsed < totalWait) {
+	int step = Math.min(interval, totalWait - elapsed)
+	WebUI.delay(step)
+	try {
+		WebUI.executeJavaScript("return document.readyState;", null) // real command, cheap, doesn't touch DOM state
+	} catch (Exception e) {
+		println "Keep-alive failed at ${elapsed}s: ${e.message}"
+		throw e
+	}
+	elapsed += step
+}
 
 // Verify timeout popup
 TestObject sessionTimeout = findTestObject('Appointment Booking/OTP/h3_Your session has timed out')
