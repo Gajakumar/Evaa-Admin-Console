@@ -4,6 +4,9 @@ import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
 import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
+import internal.GlobalVariable
+
 import com.kms.katalon.core.model.FailureHandling
 
 import javax.mail.*
@@ -276,18 +279,18 @@ class SendExecutionSummaryEmail {
                 new javax.mail.Authenticator(){
                     protected PasswordAuthentication getPasswordAuthentication(){
                         return new PasswordAuthentication(
-                                "gajakumara@first-insight.com",
-                                "qnkj qbyt goya wbhd")
+                                GlobalVariable.MyEmail_Id,
+                                GlobalVariable.Email_Key)
                     }
                 })
 
         MimeMessage message = new MimeMessage(session)
 
-        message.setFrom(new InternetAddress("gajakumara@first-insight.com"))
+        message.setFrom(new InternetAddress(GlobalVariable.MyEmail_Id))
 
         message.setRecipients(
                 Message.RecipientType.TO,
-                InternetAddress.parse("gajakumara@first-insight.com")
+                InternetAddress.parse(GlobalVariable.MyEmail_Id)
         )
 
         message.setSubject("Katalon Test Execution Result")

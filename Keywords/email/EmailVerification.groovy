@@ -7,6 +7,8 @@ import java.text.SimpleDateFormat
 import java.util.Date
 import com.kms.katalon.core.annotation.Keyword
 
+import internal.GlobalVariable
+
 class EmailVerification {
 
     // ✅ HELPER METHOD (CLASS LEVEL)
@@ -58,8 +60,8 @@ class EmailVerification {
                 new SimpleDateFormat("MMMM d, yyyy").format(new Date())
 
         String host = "imap.gmail.com"
-        String username = "gajakumara@first-insight.com"
-        String appPassword = "qnkj qbyt goya wbhd"
+        String username = GlobalVariable.MyEmail_Id
+        String appPassword = GlobalVariable.Email_Key
 
         Properties props = new Properties()
         props.put("mail.store.protocol", "imaps")
