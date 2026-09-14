@@ -397,7 +397,9 @@ WebUI.click(findTestObject('Appointment Booking/Chat Bot Appt Book/Cancel Button
 WebUI.click(findTestObject('Appointment Booking/Chat Bot Appt Book/button_Leave'))
 
 KeywordUtil.logInfo('Verifying reschedule flow greeting message is displayed')
-WebUI.assertElementText(rescheduleGreeting, medicalDisclaimerText, NO_WAIT)
+//Verify Disclaimer And Confirmation Prompt
+
+appointmentKeywords.verifyDisclaimerAndConfirmationPrompt()
 
 /* =============================================================================
  * PART 4: RE-VERIFY THE ORIGINAL APPOINTMENT WAS NOT MODIFIED
