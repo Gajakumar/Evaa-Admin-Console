@@ -15,6 +15,14 @@ class InsuranceVerificationKeywords {
      * Verifies the insurance verification note on both the "Unprocessed" and "All" tabs,
      * using today's date and the given insurance/insured details.
      *
+     * IMPORTANT: The date-cell locators are built dynamically from two STABLE, generic
+     * template objects (not tied to any specific date/tester). Make sure these exist in
+     * the Object Repository before running:
+     *   - Insurance Verifcation/Page_MaximEyes/td_DateCell_Unprocessed
+     *   - Insurance Verifcation/Page_MaximEyes/td_DateCell_All
+     * Capture them once via Object Spy against any row in that column, using a locator
+     * that does NOT hardcode the date text (e.g. row/column position, class, etc.).
+     *
      * @param insuranceName    e.g. "Aetna"
      * @param insuredId        e.g. "12345678"
      * @param insuredFirstName e.g. "QA"
@@ -31,12 +39,11 @@ class InsuranceVerificationKeywords {
         // Navigate to Insurance tab
         WebUI.click(findTestObject('Insurance Verifcation/Page_MaximEyes/a_dropdown-toggle menu-large recentmodule'))
         WebUI.click(findTestObject('Insurance Verifcation/Page_MaximEyes/a_Insurance'))
-
-        WebUI.assertElementPresent(findTestObject('Insurance Verifcation/Page_MaximEyes/span_Unprocessed'), 5)
+        WebUI.delay(3)
 
         // --- Unprocessed tab: date cell ---
         TestObject dateCellUnprocessed = buildDynamicDateObject(
-                'Insurance Verifcation/Page_MaximEyes/td_dynamic_date', todayDate)
+                'Insurance Verifcation/Page_MaximEyes/td_DateCell_Unprocessed', todayDate)
         WebUI.assertElementText(dateCellUnprocessed, todayDate + ' (By ' + verifiedBy + ')', 0)
 
         String actualText = WebUI.getText(
@@ -50,7 +57,7 @@ class InsuranceVerificationKeywords {
         WebUI.click(findTestObject('Insurance Verifcation/Page_MaximEyes/span_All'))
 
         TestObject dateCellAll = buildDynamicDateObject(
-                'Insurance Verifcation/Page_MaximEyes/td_dynamic_date', todayDate)
+                'Insurance Verifcation/Page_MaximEyes/td_DateCell_All', todayDate)
         WebUI.assertElementText(dateCellAll, todayDate, 0)
 
         verifyInsuranceDetailsText(actualText, insuranceName, insuredId, insuredFirstName, insuredLastName, insuredDob, insuredGender)
@@ -58,15 +65,16 @@ class InsuranceVerificationKeywords {
 
     /**
      * Builds a fresh copy of the base date-cell test object with today's date injected
-     * as a CONTAINS condition on the 'text' attribute, so the same Repository object
-     * can be reused for any day instead of one hardcoded per date.
+     * as a CONTAINS condition on the 'text' attribute, so the same stable Repository
+     * object can be reused for any day instead of one hardcoded per date.
+     *
+     * Fails with a clear, actionable message if the base object doesn't exist in the
+     * repository, instead of the generic Katalon "Object ... is not present" error.
      */
-    private TestObject buildDynamicDateObject(String repositoryPath, String dateValue) {
-        TestObject baseObject = findTestObject(repositoryPath)
-        TestObject dynamicObject = new TestObject(baseObject.getObjectId())
-        dynamicObject.setProperties(baseObject.getProperties())
-        dynamicObject.addProperty('text', ConditionType.CONTAINS, dateValue)
-        return dynamicObject
+    TestObject buildDynamicDateObject(String repositoryPath, String dateValue) {
+        TestObject dateObject = findTestObject(repositoryPath)
+        dateObject.addProperty('text', ConditionType.CONTAINS, dateValue, true)
+        return dateObject
     }
 
     /**

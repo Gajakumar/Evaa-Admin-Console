@@ -6,12 +6,12 @@
    <elementGuidId>6501546e-cf8a-46f5-87ce-5f5475ba07cc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@data-patient_relationship_to_insured = 'Self']//td[@class and contains(concat(' ', normalize-space(@class), ' '), ' align-center ')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>[data-patient_relationship_to_insured=&quot;Select&quot;] td.align-center</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-insurance_company_name=&quot;Aetna&quot;]//td[@class and contains(concat(' ', normalize-space(@class), ' '), ' align-center ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>faf2aed9-597c-4c0d-a83b-c7eae2910b78</webElementGuid>
+      <webElementGuid>a9c881b5-bbf5-413e-8c8c-3c3c5b421b89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>align-center</value>
-      <webElementGuid>da847293-7f1e-44ab-9361-3f9561f37844</webElementGuid>
+      <webElementGuid>9cf060a4-fc6a-4e9f-a2a3-eab4f9d5533d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>08/02/2026</value>
-      <webElementGuid>b8ea20ee-ca45-419e-b8c8-81b1845cd328</webElementGuid>
+      <webElementGuid>fb9aa4f5-b426-41c4-897d-f65cd614714c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-c2bb8f5ffd4e006e1b8d5a62f9bf9338</value>
-      <webElementGuid>1520b5d0-e372-4cd1-be42-3bf698c28d9a</webElementGuid>
+      <webElementGuid>ade36868-1615-4b68-aeca-5d351d6b280b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,15 +61,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@data-patient_relationship_to_insured = 'Select']//td[@class and contains(concat(' ', normalize-space(@class), ' '), ' align-center ')]</value>
-      <webElementGuid>625bb59c-7589-4569-986e-29e6b81c18bc</webElementGuid>
+      <webElementGuid>cc14cfb4-2a70-4ef0-ba17-b1009e34b9e0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@data-patient_relationship_to_insured = 'Self']//td[@class and contains(concat(' ', normalize-space(@class), ' '), ' align-center ')]</value>
-      <webElementGuid>4e9050d5-7dd0-4027-aa92-6c37fc2e3dc0</webElementGuid>
+      <value>//*[@data-insurance_company_name=&quot;Aetna&quot;]//td[@class and contains(concat(' ', normalize-space(@class), ' '), ' align-center ')]</value>
+      <webElementGuid>55af028b-44a9-4467-8be7-1e95f2e7a074</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +77,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = '08/02/2026' or . = '08/02/2026')]</value>
-      <webElementGuid>99fe7a2d-6614-4d75-b4b8-408bb10cf194</webElementGuid>
+      <webElementGuid>369f78c0-59f3-4163-825a-04a3e106054d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
