@@ -83,21 +83,22 @@ TestObject sessionTimeout = findTestObject('Appointment Booking/OTP/h3_Your sess
 
 WebUI.verifyElementText(
 	sessionTimeout,
-	'Your session has timed out.'
+	'This code has expired. Request a new one.'
 )
 
-WebUI.verifyElementText(
-    findTestObject('Appointment Booking/OTP/p_Please generate a new One-Time Password (OTP)'),
-    'Please generate a new One-Time Password (OTP).'
-)
-
-// Click OK on timeout dialog
-WebUI.verifyElementPresent(
-    findTestObject('Appointment Booking/OTP/button_OK'),
-    SHORT_TIMEOUT
-)
-
-WebUI.click(findTestObject('Appointment Booking/OTP/button_OK'))
+//Changes are done in application so commented below line
+//WebUI.verifyElementText(
+//    findTestObject('Appointment Booking/OTP/p_Please generate a new One-Time Password (OTP)'),
+//    'Please generate a new One-Time Password (OTP).'
+//)
+//
+//// Click OK on timeout dialog
+//WebUI.verifyElementPresent(
+//    findTestObject('Appointment Booking/OTP/button_OK'),
+//    SHORT_TIMEOUT
+//)
+//
+//WebUI.click(findTestObject('Appointment Booking/OTP/button_OK'))
 
 // Verify NEXT button is disabled
 WebUI.verifyElementHasAttribute(
