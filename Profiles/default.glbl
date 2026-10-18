@@ -61,7 +61,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Automation@1234'</initValue>
+      <initValue>'Automation@2026O'</initValue>
       <name>QA5Password</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
